@@ -1,0 +1,833 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns:mstns="http://www.tempuri.org/DataSet1.xsd" xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:Locale="fr-FR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_parc_CAPTEURS_FV">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date_verif" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="memo" type="xs:string" minOccurs="0" />
+              <xs:element name="Responsable" type="xs:string" minOccurs="0" />
+              <xs:element name="Type_verif" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Val_cpt" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_parc_CAPTEURS_stats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Chaine" type="xs:string" minOccurs="0" />
+              <xs:element name="controle" type="xs:int" minOccurs="0" />
+              <xs:element name="date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Id_capteur" type="xs:int" minOccurs="0" />
+              <xs:element name="machine" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_unites_mesure">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Unité" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_causes_atelier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_causes_clients">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_emplacement_atelier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="Occupe" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_controles_dym">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="aspect" type="xs:string" minOccurs="0" />
+              <xs:element name="C_iso" type="xs:string" minOccurs="0" />
+              <xs:element name="capteur" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_machine_x0020_opindus" type="xs:string" minOccurs="0" />
+              <xs:element name="Commentaire" type="xs:string" minOccurs="0" />
+              <xs:element name="conf_carre" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Couple_Maxi" type="xs:double" minOccurs="0" />
+              <xs:element name="Couple_mini" type="xs:double" minOccurs="0" />
+              <xs:element name="Date_controle" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ets" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Indentification" type="xs:boolean" minOccurs="0" />
+              <xs:element name="marquage" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Modele" type="xs:string" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Controle" type="xs:int" minOccurs="0" />
+              <xs:element name="Operateur" type="xs:string" minOccurs="0" />
+              <xs:element name="precision" type="xs:double" minOccurs="0" />
+              <xs:element name="R_100" type="xs:double" minOccurs="0" />
+              <xs:element name="R_20" type="xs:double" minOccurs="0" />
+              <xs:element name="R_60" type="xs:double" minOccurs="0" />
+              <xs:element name="T_iso" type="xs:string" minOccurs="0" />
+              <xs:element name="test_vide" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Val_001_100" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_001_20" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_001_60" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_002_100" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_002_20" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_002_60" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_003_100" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_003_20" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_003_60" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_004_100" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_004_20" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_004_60" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_005_100" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_005_20" type="xs:double" minOccurs="0" />
+              <xs:element name="Val_005_60" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_Reglement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_transport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_usine">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code_Groupe" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_usine" type="xs:string" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_parc_CAPTEURS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Chaine" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_clients_Coressp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cle" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="E_mail" type="xs:string" minOccurs="0" />
+              <xs:element name="Fonction" type="xs:string" minOccurs="0" />
+              <xs:element name="Ident" type="xs:int" minOccurs="0" />
+              <xs:element name="Memo" type="xs:string" minOccurs="0" />
+              <xs:element name="Nom" type="xs:string" minOccurs="0" />
+              <xs:element name="Prenom" type="xs:string" minOccurs="0" />
+              <xs:element name="Service" type="xs:string" minOccurs="0" />
+              <xs:element name="telecopie" type="xs:string" minOccurs="0" />
+              <xs:element name="Telephone" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_parc_ETS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Chaine" type="xs:string" minOccurs="0" />
+              <xs:element name="Date_x0020_Dernier_x0020_Controle" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_MES" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Marque" type="xs:string" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Serie" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_BL_Lignes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Champ1" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_Mabec" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_materiel" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_ventilation" type="xs:int" minOccurs="0" />
+              <xs:element name="Fournisseur" type="xs:string" minOccurs="0" />
+              <xs:element name="Montant" type="xs:string" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_BL" type="xs:int" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Devis" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_ligne" type="xs:double" minOccurs="0" />
+              <xs:element name="Troncon" type="xs:string" minOccurs="0" />
+              <xs:element name="Type_x0020_Materiel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_Groupes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_reparateurs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:string" />
+              <xs:element name="Nom" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_CDE_Lignes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code_x0020_piece" type="xs:int" minOccurs="0" />
+              <xs:element name="Date_x0020_livraison" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_reception1" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_reception2" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_reception3" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_Ligne" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="N_x00B0__x0020_Commande" type="xs:int" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Devis" type="xs:int" minOccurs="0" />
+              <xs:element name="Prix_x0020_achat" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_devis1" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_devis2" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_devis3" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_reception" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_ligne" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_ligne_x0020_reception" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_CDE_Lignes_reception">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code_x0020_piece" type="xs:int" minOccurs="0" />
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_Ligne" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+              <xs:element name="idReception" msdata:ReadOnly="true" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Commande" type="xs:int" minOccurs="0" />
+              <xs:element name="Quantite" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_fournisseurs_Corresp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cle" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="E_mail" type="xs:string" minOccurs="0" />
+              <xs:element name="Fonction" type="xs:string" minOccurs="0" />
+              <xs:element name="Memo" type="xs:string" minOccurs="0" />
+              <xs:element name="Nom" type="xs:string" minOccurs="0" />
+              <xs:element name="Prenom" type="xs:string" minOccurs="0" />
+              <xs:element name="Service" type="xs:string" minOccurs="0" />
+              <xs:element name="Telecopie" type="xs:string" minOccurs="0" />
+              <xs:element name="Telephone" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_pieces_detachees_a_commander_preparation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code_x0020_Fournisseur" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_Piece" type="xs:int" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Devis" type="xs:int" minOccurs="0" />
+              <xs:element name="NumLigne" msdata:ReadOnly="true" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Quantite_x0020_a_x0020_cde" type="xs:int" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Devis" type="xs:int" minOccurs="0" />
+              <xs:element name="Quantite_x0020_propose" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_CDE_entete">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code_x0020_fournisseur" type="xs:string" minOccurs="0" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              <xs:element name="Date_x0020_Commande" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_livraison" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Edite" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Montant_x0020_remise" type="xs:double" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Commande" type="xs:int" />
+              <xs:element name="Remise_x0020_fournisseur" type="xs:double" minOccurs="0" />
+              <xs:element name="Signature" type="xs:string" minOccurs="0" />
+              <xs:element name="Solde" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Total_x0020_commande" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_net_x0020_Commande" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_net_x0020_Commande_x0020_euros" type="xs:double" minOccurs="0" />
+              <xs:element name="total_x0020_pieces_x0020_commandees" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_pieces_x0020_recues" type="xs:double" minOccurs="0" />
+              <xs:element name="Valide" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_famille_piece">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_pieces_detachees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cause_x0020_Principale" type="xs:int" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_Famille" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_Fournisseur_x0020_Principal" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_Unite" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_1" type="xs:string" minOccurs="0" />
+              <xs:element name="Correspondance_x0020_Stock" type="xs:string" minOccurs="0" />
+              <xs:element name="Date_x0020_Dernier_x0020_Mouvement" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_MAJ_x0020_Tarif" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Delai_x0020_Livraison" type="xs:short" minOccurs="0" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="Identificateur" type="xs:int" />
+              <xs:element name="pre_devis" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Prix_x0020_Achat_x0020_Brut" type="xs:double" minOccurs="0" />
+              <xs:element name="Prix_x0020_Achat_x0020_Net" type="xs:double" minOccurs="0" />
+              <xs:element name="Prix_x0020_Vente" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Commande" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Disponible" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Maxi" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Minimum" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Reserve" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Stock" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_stock_x0020_theorique" type="xs:double" minOccurs="0" />
+              <xs:element name="Stock_x0020_Alerte" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_unites">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_fournisseurs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Activite" type="xs:string" minOccurs="0" />
+              <xs:element name="Adresse_x0020_1" type="xs:string" minOccurs="0" />
+              <xs:element name="Adresse_x0020_2" type="xs:string" minOccurs="0" />
+              <xs:element name="Chiffre_x0020_affaire_x0020_Annee_1" type="xs:double" minOccurs="0" />
+              <xs:element name="Chiffre_x0020_affaire_x0020_Annee_2" type="xs:double" minOccurs="0" />
+              <xs:element name="Chiffre_x0020_affaire_x0020_Annee_3" type="xs:double" minOccurs="0" />
+              <xs:element name="Chiffre_x0020_affaire_x0020_Annee_4" type="xs:double" minOccurs="0" />
+              <xs:element name="Chiffre_x0020_affaire_x0020_en_x0020_cours" type="xs:double" minOccurs="0" />
+              <xs:element name="Chiffre_x0020_affaire_x0020_PV" type="xs:double" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Code_x0020_Postal" type="xs:string" minOccurs="0" />
+              <xs:element name="Coef_x0020_PA_x0020_PV" type="xs:double" minOccurs="0" />
+              <xs:element name="Commentaire" type="xs:string" minOccurs="0" />
+              <xs:element name="Nom" type="xs:string" minOccurs="0" />
+              <xs:element name="Pays" type="xs:string" minOccurs="0" />
+              <xs:element name="Pourcentage_x0020_Remise" type="xs:double" minOccurs="0" />
+              <xs:element name="Telecopie" type="xs:string" minOccurs="0" />
+              <xs:element name="Telephone" type="xs:string" minOccurs="0" />
+              <xs:element name="Telex" type="xs:string" minOccurs="0" />
+              <xs:element name="Ville" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_type_machine_ClC">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="C_maxi" type="xs:double" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Vitesse" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_type_machine_dyn">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="C_maxi" type="xs:double" minOccurs="0" />
+              <xs:element name="C_mini" type="xs:double" minOccurs="0" />
+              <xs:element name="Classe_Iso" type="xs:string" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Precision" type="xs:double" minOccurs="0" />
+              <xs:element name="Type_Iso" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_type_machine_meu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Puissance" type="xs:double" minOccurs="0" />
+              <xs:element name="Vitesse" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_type_machine_per">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+              <xs:element name="Puissance" type="xs:double" minOccurs="0" />
+              <xs:element name="Vitesse" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Parametres">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="e_mail" type="xs:string" minOccurs="0" />
+              <xs:element name="F_adresse1" type="xs:string" minOccurs="0" />
+              <xs:element name="F_adresse2" type="xs:string" minOccurs="0" />
+              <xs:element name="F_cp" type="xs:string" minOccurs="0" />
+              <xs:element name="F_fax" type="xs:string" minOccurs="0" />
+              <xs:element name="F_tel" type="xs:string" minOccurs="0" />
+              <xs:element name="F_ville" type="xs:string" minOccurs="0" />
+              <xs:element name="L_adresse1" type="xs:string" minOccurs="0" />
+              <xs:element name="L_adresse2" type="xs:string" minOccurs="0" />
+              <xs:element name="L_cp" type="xs:string" minOccurs="0" />
+              <xs:element name="L_fax" type="xs:string" minOccurs="0" />
+              <xs:element name="L_tel" type="xs:string" minOccurs="0" />
+              <xs:element name="L_ville" type="xs:string" minOccurs="0" />
+              <xs:element name="Message_cde" type="xs:string" minOccurs="0" />
+              <xs:element name="signature" type="xs:string" minOccurs="0" />
+              <xs:element name="Societe" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_BL_entete">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code_x0020_client" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_TVA" type="xs:short" minOccurs="0" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Edite" type="xs:boolean" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_BL" type="xs:int" />
+              <xs:element name="N_x00B0__x0020_Commande_x0020_ouverte" type="xs:string" minOccurs="0" />
+              <xs:element name="OR" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_bl" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_bl_x0020_Euros" type="xs:double" minOccurs="0" />
+              <xs:element name="transfere" type="xs:boolean" minOccurs="0" />
+              <xs:element name="transfert" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="t_devis_lignes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="N_x00B0__x0020_Devis" type="xs:int" minOccurs="0" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Prix_x0020_achat_x0020_net" type="xs:double" minOccurs="0" />
+              <xs:element name="idLigne" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_type_machine_Vis">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="C_maxi" type="xs:double" minOccurs="0" />
+              <xs:element name="C_mini" type="xs:double" minOccurs="0" />
+              <xs:element name="Vitesse" type="xs:double" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_affectation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Affectation" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_causes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_clients">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Adresse_1" type="xs:string" minOccurs="0" />
+              <xs:element name="Adresse_2" type="xs:string" minOccurs="0" />
+              <xs:element name="Batiment" type="xs:string" minOccurs="0" />
+              <xs:element name="Borne_x0020_Date_x0020_Refus_x0020_reforme" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CA_Annee" type="xs:double" minOccurs="0" />
+              <xs:element name="CA_Annee_1" type="xs:double" minOccurs="0" />
+              <xs:element name="CA_Annee_2" type="xs:double" minOccurs="0" />
+              <xs:element name="CA_Annee_3" type="xs:double" minOccurs="0" />
+              <xs:element name="CA_Annee_4" type="xs:double" minOccurs="0" />
+              <xs:element name="code_GC" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_Postal" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_reglement" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_transport" type="xs:string" minOccurs="0" />
+              <xs:element name="Coef_Controle" type="xs:double" minOccurs="0" />
+              <xs:element name="Coef_DNR" type="xs:double" minOccurs="0" />
+              <xs:element name="Coef_transport" type="xs:double" minOccurs="0" />
+              <xs:element name="Commentaire" type="xs:string" minOccurs="0" />
+              <xs:element name="Delai_garantie" type="xs:short" minOccurs="0" />
+              <xs:element name="Forfait_Controle" type="xs:double" minOccurs="0" />
+              <xs:element name="Forfait_DNR" type="xs:double" minOccurs="0" />
+              <xs:element name="Forfait_transport" type="xs:double" minOccurs="0" />
+              <xs:element name="Groupe" type="xs:string" minOccurs="0" />
+              <xs:element name="Ident" type="xs:int" />
+              <xs:element name="N_x00B0__Cde_Ouverte" type="xs:string" minOccurs="0" />
+              <xs:element name="N_x00B0__Client_facture" type="xs:string" minOccurs="0" />
+              <xs:element name="Nom" type="xs:string" minOccurs="0" />
+              <xs:element name="Nombre_rep_Annee" type="xs:short" minOccurs="0" />
+              <xs:element name="Nombre_rep_Annee_1" type="xs:short" minOccurs="0" />
+              <xs:element name="Nombre_rep_Annee_2" type="xs:short" minOccurs="0" />
+              <xs:element name="Nombre_rep_Annee_3" type="xs:short" minOccurs="0" />
+              <xs:element name="Nombre_rep_Annee_4" type="xs:short" minOccurs="0" />
+              <xs:element name="Notre_Code_Fournisseur" type="xs:string" minOccurs="0" />
+              <xs:element name="Pays" type="xs:string" minOccurs="0" />
+              <xs:element name="Pourcentage_remise" type="xs:double" minOccurs="0" />
+              <xs:element name="Seuil_reparation" type="xs:double" minOccurs="0" />
+              <xs:element name="telecopie" type="xs:string" minOccurs="0" />
+              <xs:element name="Telephone" type="xs:string" minOccurs="0" />
+              <xs:element name="telex" type="xs:string" minOccurs="0" />
+              <xs:element name="Usine" type="xs:string" minOccurs="0" />
+              <xs:element name="Ville" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_devis_entete">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Accord_x0020_Client" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Calcul_x0020_Auto" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Cause_x0020_atelier" type="xs:int" minOccurs="0" />
+              <xs:element name="Cause_x0020_client" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_Client" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_Materiel" type="xs:string" minOccurs="0" />
+              <xs:element name="Commande_x0020_generee" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_Decision" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_entree_x0020_reelle" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_Generation_x0020_commande" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_Reception_x0020_pieces" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_reparation" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Detail_x0020_atelier" type="xs:string" minOccurs="0" />
+              <xs:element name="Detail_x0020_Client" type="xs:string" minOccurs="0" />
+              <xs:element name="Edite" type="xs:boolean" minOccurs="0" />
+              <xs:element name="edition_fax" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Emplacement" type="xs:string" minOccurs="0" />
+              <xs:element name="Forfait_x0020_Controle" type="xs:double" minOccurs="0" />
+              <xs:element name="Forfait_x0020_DNR" type="xs:double" minOccurs="0" />
+              <xs:element name="Forfait_x0020_transport" type="xs:double" minOccurs="0" />
+              <xs:element name="Imputation_x0020_comptable" type="xs:string" minOccurs="0" />
+              <xs:element name="Limite_x0020_Devis" type="xs:double" minOccurs="0" />
+              <xs:element name="Message_x0020_Pieds" type="xs:int" minOccurs="0" />
+              <xs:element name="n_x00B0__x0020_Bl" type="xs:int" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Commande_x0020_generee" type="xs:int" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Commande_x0020_ouverte" type="xs:string" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Devis" type="xs:int" />
+              <xs:element name="N_x00B0__x0020_Troncon" type="xs:string" minOccurs="0" />
+              <xs:element name="Niveau" type="xs:int" minOccurs="0" />
+              <xs:element name="Ordre_x0020_Travail" type="xs:string" minOccurs="0" />
+              <xs:element name="Prix_x0020_machine_x0020_neuve" type="xs:double" minOccurs="0" />
+              <xs:element name="Prix_x0020_Reference" type="xs:double" minOccurs="0" />
+              <xs:element name="Reforme" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Refus" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Reparateur_D" type="xs:string" minOccurs="0" />
+              <xs:element name="Reparateur_R" type="xs:string" minOccurs="0" />
+              <xs:element name="Repare" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Seuil_x0020_Client" type="xs:double" minOccurs="0" />
+              <xs:element name="Seuil_x0020_devis" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_devis" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_devis_x0020_euro" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_pieces" type="xs:double" minOccurs="0" />
+              <xs:element name="Type_x0020_devis" type="xs:string" minOccurs="0" />
+              <xs:element name="Valide" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_famille_machine">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="E_champ_1" type="xs:string" minOccurs="0" />
+              <xs:element name="E_champ_2" type="xs:string" minOccurs="0" />
+              <xs:element name="E_champ_3" type="xs:string" minOccurs="0" />
+              <xs:element name="E_champ_4" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="T_parc_machine">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Affectation" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_Client" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_Mabec" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_machine_x0020_client" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_machine_x0020_Opindus" type="xs:string" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              <xs:element name="creation" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Date_x0020_dernier_x0020_controle" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_dernier_x0020_intervention" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_fin_x0020_garantie" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_mise_x0020_en_x0020_service" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_reforme" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_refus" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="En_x0020_parc" type="xs:boolean" minOccurs="0" />
+              <xs:element name="En_x0020_reparation" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Maxi_x0020_machine" type="xs:double" minOccurs="0" />
+              <xs:element name="Mini_x0020_machine" type="xs:double" minOccurs="0" />
+              <xs:element name="N_fichier_FVG" type="xs:int" minOccurs="0" />
+              <xs:element name="N_x00B0__x0020_Troncon" type="xs:string" minOccurs="0" />
+              <xs:element name="No_x0020_controle" type="xs:int" minOccurs="0" />
+              <xs:element name="No_x0020_dernier_x0020_devis" type="xs:int" minOccurs="0" />
+              <xs:element name="No_x0020_dernier_x0020_devis_x0020_refus" type="xs:int" minOccurs="0" />
+              <xs:element name="No_x0020_serie" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre_x0020_semaine_x0020_entre_x0020_ctl" type="xs:int" minOccurs="0" />
+              <xs:element name="nombre_x0020_semaine_x0020_entre_x0020_inter" type="xs:int" minOccurs="0" />
+              <xs:element name="Prix_x0020_Achat" type="xs:double" minOccurs="0" />
+              <xs:element name="Prix_x0020_remplacement" type="xs:double" minOccurs="0" />
+              <xs:element name="Site" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_casse" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_controle" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_general" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_maintenance" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_MO" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_piece_x0020_manque" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_transport" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_usure" type="xs:double" minOccurs="0" />
+              <xs:element name="Type_x0020_machine" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="t_machines_histo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code_x0020_machine_x0020_opindus" type="xs:string" minOccurs="0" />
+              <xs:element name="date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="description" type="xs:string" minOccurs="0" />
+              <xs:element name="fichier" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="ind_k" type="xs:int" minOccurs="0" />
+              <xs:element name="infos_1" type="xs:string" minOccurs="0" />
+              <xs:element name="infos_1_1" type="xs:string" minOccurs="0" />
+              <xs:element name="infos_2" type="xs:string" minOccurs="0" />
+              <xs:element name="infos_3" type="xs:string" minOccurs="0" />
+              <xs:element name="infos_4" type="xs:string" minOccurs="0" />
+              <xs:element name="infos_5" type="xs:string" minOccurs="0" />
+              <xs:element name="itmax" type="xs:int" minOccurs="0" />
+              <xs:element name="itmin" type="xs:int" minOccurs="0" />
+              <xs:element name="moyenne" type="xs:float" minOccurs="0" />
+              <xs:element name="N_controle" type="xs:int" minOccurs="0" />
+              <xs:element name="pos_c" type="xs:int" minOccurs="0" />
+              <xs:element name="pos_l" type="xs:int" minOccurs="0" />
+              <xs:element name="precision" type="xs:float" minOccurs="0" />
+              <xs:element name="test_k" type="xs:int" minOccurs="0" />
+              <xs:element name="typeinterv" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_site">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="affectation" type="xs:int" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Site" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_type_machine">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_parc_CAPTEURS_stats" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_unites_mesure_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_unites_mesure" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_causes_atelier_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_causes_atelier" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_causes_clients_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_causes_clients" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_emplacement_atelier_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_emplacement_atelier" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_controles_dym_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_controles_dym" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_Reglement_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_Reglement" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_transport_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_transport" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_usine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_usine" />
+      <xs:field xpath="mstns:Code_usine" />
+    </xs:unique>
+    <xs:unique name="T_parc_CAPTEURS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_parc_CAPTEURS" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_clients_Coressp_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_clients_Coressp" />
+      <xs:field xpath="mstns:Cle" />
+    </xs:unique>
+    <xs:unique name="T_parc_ETS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_parc_ETS" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_Groupes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_Groupes" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_reparateurs_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_reparateurs" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_CDE_Lignes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_CDE_Lignes" />
+      <xs:field xpath="mstns:Id_Ligne" />
+    </xs:unique>
+    <xs:unique name="T_fournisseurs_Corresp_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_fournisseurs_Corresp" />
+      <xs:field xpath="mstns:Cle" />
+    </xs:unique>
+    <xs:unique name="T_CDE_entete_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_CDE_entete" />
+      <xs:field xpath="mstns:N_x00B0__x0020_Commande" />
+    </xs:unique>
+    <xs:unique name="T_famille_piece_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_famille_piece" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_pieces_detachees_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_pieces_detachees" />
+      <xs:field xpath="mstns:Identificateur" />
+    </xs:unique>
+    <xs:unique name="T_unites_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_unites" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_fournisseurs_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_fournisseurs" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_type_machine_ClC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_type_machine_ClC" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_type_machine_dyn_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_type_machine_dyn" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_type_machine_meu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_type_machine_meu" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_type_machine_per_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_type_machine_per" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_BL_entete_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_BL_entete" />
+      <xs:field xpath="mstns:N_x00B0__x0020_BL" />
+    </xs:unique>
+    <xs:unique name="T_type_machine_Vis_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_type_machine_Vis" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_affectation_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_affectation" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_causes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_causes" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_clients_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_clients" />
+      <xs:field xpath="mstns:Ident" />
+    </xs:unique>
+    <xs:unique name="T_devis_entete_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_devis_entete" />
+      <xs:field xpath="mstns:N_x00B0__x0020_Devis" />
+    </xs:unique>
+    <xs:unique name="T_famille_machine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_famille_machine" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="t_machines_histo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:t_machines_histo" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="T_parc_machine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_parc_machine" />
+      <xs:field xpath="mstns:Code_x0020_machine_x0020_Opindus" />
+    </xs:unique>
+    <xs:unique name="t_parc_machine_historique_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:t_machines_histo" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_site_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_site" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="T_type_machine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_type_machine" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

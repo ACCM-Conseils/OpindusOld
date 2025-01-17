@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
+        JC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIy
+        MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAXAMgDASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD36kNKaQ0ANNIaU0hpiG0hpTSGgBppDSmkNMBppDSmkNMBpppp
+        xppoEIaaacaaaYCGmmnGmmgQlNNONNNMBDTTTjTTQA00lKaSmAhpppxpppiEopDRQB0tJRRWBoNNIaKK
+        YhppDRRQA00hoopgNNIaKKYhpptFFACGmmiimAhppoooEIaaaKKYCGmmiigBDTTRRTEIaaaKKYDaKKKA
+        P//Z
+</value>
+  </data>
+  <metadata name="oleDbConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="oleDbConnection1.ConnectionString" xml:space="preserve">
+    <value>Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Registry Path=;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Database Password=;Data Source="M:\Lyon\bd.mdb";Password=;Jet OLEDB:Engine Type=5;Jet OLEDB:Global Bulk Transactions=1;Provider="Microsoft.Jet.OLEDB.4.0";Jet OLEDB:System database=;Jet OLEDB:SFP=False;Extended Properties=;Mode=Share Deny None;Jet OLEDB:New Database Password=;Jet OLEDB:Create System Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;User ID=Admin;Jet OLEDB:Encrypt Database=False</value>
+  </data>
+  <metadata name="oleDbDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>159, 17</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM T_pieces_detachees WHERE (Identificateur = ?) AND ([Cause Principale] = ? OR ? IS NULL AND [Cause Principale] IS NULL) AND (Code = ? OR ? IS NULL AND Code IS NULL) AND ([Code Famille] = ? OR ? IS NULL AND [Code Famille] IS NULL) AND ([Code Fournisseur Principal] = ? OR ? IS NULL AND [Code Fournisseur Principal] IS NULL) AND ([Code Unite] = ? OR ? IS NULL AND [Code Unite] IS NULL) AND (Code_1 = ? OR ? IS NULL AND Code_1 IS NULL) AND ([Correspondance Stock] = ? OR ? IS NULL AND [Correspondance Stock] IS NULL) AND ([Date Dernier Mouvement] = ? OR ? IS NULL AND [Date Dernier Mouvement] IS NULL) AND ([Date MAJ Tarif] = ? OR ? IS NULL AND [Date MAJ Tarif] IS NULL) AND ([Delai Livraison] = ? OR ? IS NULL AND [Delai Livraison] IS NULL) AND (Designation = ? OR ? IS NULL AND Designation IS NULL) AND ([Prix Achat Brut] = ? OR ? IS NULL AND [Prix Achat Brut] IS NULL) AND ([Prix Achat Net] = ? OR ? IS NULL AND [Prix Achat Net] IS NULL) AND ([Prix Vente] = ? OR ? IS NULL AND [Prix Vente] IS NULL) AND ([Quantite Commande] = ? OR ? IS NULL AND [Quantite Commande] IS NULL) AND ([Quantite Disponible] = ? OR ? IS NULL AND [Quantite Disponible] IS NULL) AND ([Quantite Maxi] = ? OR ? IS NULL AND [Quantite Maxi] IS NULL) AND ([Quantite Minimum] = ? OR ? IS NULL AND [Quantite Minimum] IS NULL) AND ([Quantite Reserve] = ? OR ? IS NULL AND [Quantite Reserve] IS NULL) AND ([Quantite Stock] = ? OR ? IS NULL AND [Quantite Stock] IS NULL) AND ([Quantite stock theorique] = ? OR ? IS NULL AND [Quantite stock theorique] IS NULL) AND ([Stock Alerte] = ? OR ? IS NULL AND [Stock Alerte] IS NULL) AND (pre_devis = ?)</value>
+  </data>
+  <metadata name="oleDbInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO T_pieces_detachees([Cause Principale], Code, [Code Famille], [Code Fournisseur Principal], [Code Unite], Code_1, [Correspondance Stock], [Date Dernier Mouvement], [Date MAJ Tarif], [Delai Livraison], Designation, Identificateur, pre_devis, [Prix Achat Brut], [Prix Achat Net], [Prix Vente], [Quantite Commande], [Quantite Disponible], [Quantite Maxi], [Quantite Minimum], [Quantite Reserve], [Quantite Stock], [Quantite stock theorique], [Stock Alerte]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <metadata name="oleDbSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT [Cause Principale], Code, [Code Famille], [Code Fournisseur Principal], [Code Unite], Code_1, [Correspondance Stock], [Date Dernier Mouvement], [Date MAJ Tarif], [Delai Livraison], Designation, Identificateur, pre_devis, [Prix Achat Brut], [Prix Achat Net], [Prix Vente], [Quantite Commande], [Quantite Disponible], [Quantite Maxi], [Quantite Minimum], [Quantite Reserve], [Quantite Stock], [Quantite stock theorique], [Stock Alerte] FROM T_pieces_detachees</value>
+  </data>
+  <metadata name="oleDbUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE T_pieces_detachees SET [Cause Principale] = ?, Code = ?, [Code Famille] = ?, [Code Fournisseur Principal] = ?, [Code Unite] = ?, Code_1 = ?, [Correspondance Stock] = ?, [Date Dernier Mouvement] = ?, [Date MAJ Tarif] = ?, [Delai Livraison] = ?, Designation = ?, Identificateur = ?, pre_devis = ?, [Prix Achat Brut] = ?, [Prix Achat Net] = ?, [Prix Vente] = ?, [Quantite Commande] = ?, [Quantite Disponible] = ?, [Quantite Maxi] = ?, [Quantite Minimum] = ?, [Quantite Reserve] = ?, [Quantite Stock] = ?, [Quantite stock theorique] = ?, [Stock Alerte] = ? WHERE (Identificateur = ?) AND ([Cause Principale] = ? OR ? IS NULL AND [Cause Principale] IS NULL) AND (Code = ? OR ? IS NULL AND Code IS NULL) AND ([Code Famille] = ? OR ? IS NULL AND [Code Famille] IS NULL) AND ([Code Fournisseur Principal] = ? OR ? IS NULL AND [Code Fournisseur Principal] IS NULL) AND ([Code Unite] = ? OR ? IS NULL AND [Code Unite] IS NULL) AND (Code_1 = ? OR ? IS NULL AND Code_1 IS NULL) AND ([Correspondance Stock] = ? OR ? IS NULL AND [Correspondance Stock] IS NULL) AND ([Date Dernier Mouvement] = ? OR ? IS NULL AND [Date Dernier Mouvement] IS NULL) AND ([Date MAJ Tarif] = ? OR ? IS NULL AND [Date MAJ Tarif] IS NULL) AND ([Delai Livraison] = ? OR ? IS NULL AND [Delai Livraison] IS NULL) AND (Designation = ? OR ? IS NULL AND Designation IS NULL) AND ([Prix Achat Brut] = ? OR ? IS NULL AND [Prix Achat Brut] IS NULL) AND ([Prix Achat Net] = ? OR ? IS NULL AND [Prix Achat Net] IS NULL) AND ([Prix Vente] = ? OR ? IS NULL AND [Prix Vente] IS NULL) AND ([Quantite Commande] = ? OR ? IS NULL AND [Quantite Commande] IS NULL) AND ([Quantite Disponible] = ? OR ? IS NULL AND [Quantite Disponible] IS NULL) AND ([Quantite Maxi] = ? OR ? IS NULL AND [Quantite Maxi] IS NULL) AND ([Quantite Minimum] = ? OR ? IS NULL AND [Quantite Minimum] IS NULL) AND ([Quantite Reserve] = ? OR ? IS NULL AND [Quantite Reserve] IS NULL) AND ([Quantite Stock] = ? OR ? IS NULL AND [Quantite Stock] IS NULL) AND ([Quantite stock theorique] = ? OR ? IS NULL AND [Quantite stock theorique] IS NULL) AND ([Stock Alerte] = ? OR ? IS NULL AND [Stock Alerte] IS NULL) AND (pre_devis = ?)</value>
+  </data>
+  <metadata name="dataSet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>307, 17</value>
+  </metadata>
+  <metadata name="oleDbDataAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>409, 17</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbDataAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>557, 17</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbDataAdapter4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>705, 17</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM T_fournisseurs WHERE (Code = ?) AND (Activite = ? OR ? IS NULL AND Activite IS NULL) AND ([Adresse 1] = ? OR ? IS NULL AND [Adresse 1] IS NULL) AND ([Adresse 2] = ? OR ? IS NULL AND [Adresse 2] IS NULL) AND ([Chiffre affaire Annee_1] = ? OR ? IS NULL AND [Chiffre affaire Annee_1] IS NULL) AND ([Chiffre affaire Annee_2] = ? OR ? IS NULL AND [Chiffre affaire Annee_2] IS NULL) AND ([Chiffre affaire Annee_3] = ? OR ? IS NULL AND [Chiffre affaire Annee_3] IS NULL) AND ([Chiffre affaire Annee_4] = ? OR ? IS NULL AND [Chiffre affaire Annee_4] IS NULL) AND ([Chiffre affaire PV] = ? OR ? IS NULL AND [Chiffre affaire PV] IS NULL) AND ([Chiffre affaire en cours] = ? OR ? IS NULL AND [Chiffre affaire en cours] IS NULL) AND ([Code Postal] = ? OR ? IS NULL AND [Code Postal] IS NULL) AND ([Coef PA PV] = ? OR ? IS NULL AND [Coef PA PV] IS NULL) AND (Nom = ? OR ? IS NULL AND Nom IS NULL) AND (Pays = ? OR ? IS NULL AND Pays IS NULL) AND ([Pourcentage Remise] = ? OR ? IS NULL AND [Pourcentage Remise] IS NULL) AND (Telecopie = ? OR ? IS NULL AND Telecopie IS NULL) AND (Telephone = ? OR ? IS NULL AND Telephone IS NULL) AND (Telex = ? OR ? IS NULL AND Telex IS NULL) AND (Ville = ? OR ? IS NULL AND Ville IS NULL)</value>
+  </data>
+  <metadata name="oleDbInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO T_fournisseurs(Activite, [Adresse 1], [Adresse 2], [Chiffre affaire Annee_1], [Chiffre affaire Annee_2], [Chiffre affaire Annee_3], [Chiffre affaire Annee_4], [Chiffre affaire en cours], [Chiffre affaire PV], Code, [Code Postal], [Coef PA PV], Commentaire, Nom, Pays, [Pourcentage Remise], Telecopie, Telephone, Telex, Ville) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <metadata name="oleDbSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbSelectCommand4.CommandText" xml:space="preserve">
+    <value>SELECT Activite, [Adresse 1], [Adresse 2], [Chiffre affaire Annee_1], [Chiffre affaire Annee_2], [Chiffre affaire Annee_3], [Chiffre affaire Annee_4], [Chiffre affaire en cours], [Chiffre affaire PV], Code, [Code Postal], [Coef PA PV], Commentaire, Nom, Pays, [Pourcentage Remise], Telecopie, Telephone, Telex, Ville FROM T_fournisseurs</value>
+  </data>
+  <metadata name="oleDbUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE T_fournisseurs SET Activite = ?, [Adresse 1] = ?, [Adresse 2] = ?, [Chiffre affaire Annee_1] = ?, [Chiffre affaire Annee_2] = ?, [Chiffre affaire Annee_3] = ?, [Chiffre affaire Annee_4] = ?, [Chiffre affaire en cours] = ?, [Chiffre affaire PV] = ?, Code = ?, [Code Postal] = ?, [Coef PA PV] = ?, Commentaire = ?, Nom = ?, Pays = ?, [Pourcentage Remise] = ?, Telecopie = ?, Telephone = ?, Telex = ?, Ville = ? WHERE (Code = ?) AND (Activite = ? OR ? IS NULL AND Activite IS NULL) AND ([Adresse 1] = ? OR ? IS NULL AND [Adresse 1] IS NULL) AND ([Adresse 2] = ? OR ? IS NULL AND [Adresse 2] IS NULL) AND ([Chiffre affaire Annee_1] = ? OR ? IS NULL AND [Chiffre affaire Annee_1] IS NULL) AND ([Chiffre affaire Annee_2] = ? OR ? IS NULL AND [Chiffre affaire Annee_2] IS NULL) AND ([Chiffre affaire Annee_3] = ? OR ? IS NULL AND [Chiffre affaire Annee_3] IS NULL) AND ([Chiffre affaire Annee_4] = ? OR ? IS NULL AND [Chiffre affaire Annee_4] IS NULL) AND ([Chiffre affaire PV] = ? OR ? IS NULL AND [Chiffre affaire PV] IS NULL) AND ([Chiffre affaire en cours] = ? OR ? IS NULL AND [Chiffre affaire en cours] IS NULL) AND ([Code Postal] = ? OR ? IS NULL AND [Code Postal] IS NULL) AND ([Coef PA PV] = ? OR ? IS NULL AND [Coef PA PV] IS NULL) AND (Nom = ? OR ? IS NULL AND Nom IS NULL) AND (Pays = ? OR ? IS NULL AND Pays IS NULL) AND ([Pourcentage Remise] = ? OR ? IS NULL AND [Pourcentage Remise] IS NULL) AND (Telecopie = ? OR ? IS NULL AND Telecopie IS NULL) AND (Telephone = ? OR ? IS NULL AND Telephone IS NULL) AND (Telex = ? OR ? IS NULL AND Telex IS NULL) AND (Ville = ? OR ? IS NULL AND Ville IS NULL)</value>
+  </data>
+  <metadata name="oleDbDataAdapter5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="btPieces.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1OHAAAAAAAADYAAAAoAAAAKQAAADoAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8AAgICRUVFTU1NSEhI4H8A4H8AHx8fCwsLcnJy4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/ADMzM6mpqa6urlFRUeB/AOB/AC4uLqioqDw8PCgoKOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwCnp6cDAwNQUFDgfwDgfwBxcXEhISGurq6urq4iIiIHBwcLCwtmZmaurq5OTk5ra2vgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8AAAAAdHR0qKioTU1NDw8PR0dHrq6urq6urq6urq6urq6urq6urq6urq6uERER4H8A4H8A
+        kpKSUFBQ4H8A4H8A4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AE1NTa6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6uro2NjSws
+        LICAgCIiIjo6OkBAQOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwA1NTVjY2Ourq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq4xMTGurq6srKwoKCibn5/gfwDgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8Anp6eAQEBfX19dHR0NDQ0rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq6urq6urq6urq6ud3d3DhISXzMz4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AAAAAHd3d0JCQiwsLK6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq6urq6urq6urq6urq6urgAAAOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwANDQ2pqamurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq6urq6urq6urq6urq6urq6urq4bGxvgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AFRUVLy8vaWlprq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq6urq6urq6urq6urq6urq6urq6urq6ucXFxJSUlKCcnIQwM4H8A4H8AEeB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AH9/fykpKa6urq6urq6urq6urq6urq6urq6urnR0
+        dCkpKSMjI0RERK6urq6urq6urq6urq6urq6urq6urq6urmtra66urjAxMeB/AOB/ABHgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwCJiYlXV1eurq6urq6urq6urq6urq6urq6u
+        rq4mJia8vLzgfwBQUFBNTU2urq6urq6urq6urq6urq6urq6urq6urq6rq6tHR0fgfwDgfwAR4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8Aqampj4+PPDw8cHBwrq6urq6urq6urq6urq6u
+        rq6ud3d3VFRU4H8A4H8A4H8AICAgrq6urq6urq6urq6urq6urq6urq6uZWVlQUFBFRUV4H8A4H8AEeB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/ACIiImBgYGZmZq6urq6urq6urq6urq6u
+        rq6urq6urpSUlB0dHeB/AOB/AIiIiCsrK66urq6urq6urq6urq6urq6urq6urikpKeB/AOB/AOB/AOB/
+        ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwAuLi6rq6uurq6urq6urq6urq6u
+        rq6urq6urq6urq6urq5FRUUNDQ0lJSUNDQ2urq6urq6urq6urq6urq6urq6urq55eXkpKSngfwDgfwDg
+        fwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AVVVVHBwcJiYmMTExrq6u
+        rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ulJSUJCQkQEBA
+        mJiY4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AD09
+        PWNjY66urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rm1tbRMTE+B/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwCVlZUiIiKurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq5U
+        VFSurq5JSUlYWFjgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8Aj4+PGxsbcXFxrq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        ExMTWFhYEBAQCQkJ4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AAcHB39/f6Kiomtra3BwcK6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        risrK5KSkuB/AOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwCBgYFgYGDgfwCBgYETExNxcXEdHR0YGBhpaWmurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq5ERER/f3/gfwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        cHBwFBQUW1tba2trLi4u4H8AXV1dAAAAHR0djY2NDAwMeXl5rq6urq6urq6urq6urq6urq6urq6urq6u
+        Tk5OPDw8rq6urq6uRUVFl5eX4H8A4H8A4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/ALS0tEZGRuB/
+        AOB/AJaWlmJiYq6urq6uriUlJeB/AJ6enkVFRYWFhTAwMAMDA66urq6urkRERDU1NV1dXa6urq6urnl5
+        eSUlJXR0dEpKSlZWVl1dXS0tLeB/AOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwCCgoIVFRVF
+        RUVfX1/gfwA4ODg/Pz+urq6urq4SEhImJiYRERF2dnaurq46OjohISGsrKyurq4iIiK1tbVnZ2cwMDCr
+        q6tra2tlZWXgfwDgfwAQEBA5OTngfwDgfwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8A4H8AtLS0AAAA
+        rq6urq6uKSkpDw8PWlparq6urq6urq6urq6urq6urq6urq6urq6uBQUFPT09QUFBISEhR0dH4H8A4H8A
+        ERERrq6uV1dXHh4e4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/
+        AOB/AFdXV66urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urlpaWkBAQEtLSzAwMBsbG5iY
+        mOB/AAoKCh4eHhYWFjExMeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDg
+        fwDgfwDgfwAXFxeurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq43Nzeurq6u
+        rq4PDw/gfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A
+        4H8ARUVFkpKST09PUFBQrq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6uWFhYDg4O4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/
+        AOB/AB4eHn19fTMzMz8/P66urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urlVVVTExMeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        ABHgfwDgfwBRUVGoqKiurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq6urq6urq4kJCTgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwAR4H8A4H8ABwcHLS0trq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq6urq6urq6urq6urq6uR0dHISEhKSkpd3d34H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8AEeB/AOB/AKKiolVVVVRUVK6urq6urq6urq6urq6urq6urq6urmJiYkBAQEBAQGdnZ66u
+        rq6urq6urq6urq6urq6urq6urq6urnR0dK6urjo6OuB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwBkZGR2dnaurq6urq6urq6urq6urq6urq6urq4pKSmvr6+vr68w
+        MDB5eXmurq6urq6urq6urq6urq6urq6urq6urq6urq4+Pj7gfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwAR4H8AUFBQBgYGFRUVrq6urq6urq6urq6urq6urq6urq6uYGBgenp64H8A
+        4H8Afn5+YGBgrq6urq6urq6urq6urq6urq6urq6uMjIyGxsbJiYm4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/ABAQEK6urq6urq6urq6urq6urq6urq6urq6urq6urmhoaC4u
+        LuB/AOB/AERERGpqaq6urq6urq6urq6urq6urq6urnd3d15eXuB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/ABHgfwAkJCSurq6urq6urq6urq6urq6urq6urq6urq6urq6u
+        rq4eHh4XFxcZGRknJyeurq6urq6urq6urq6urq6urq6urq5vb29bW1vgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwAR4H8AKioqOjo6MDAwVlZWrq6urq6urq6urq6urq6u
+        rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6uY2NjIyMjXFxc4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/AOB/AOB/AOB/ABUVFa6urq6urq6urq6u
+        rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urjs7Ozo6OuB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwBWVlZHR0eurq6u
+        rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq54eHhubm6urq4iIiKcnJzg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8AY2NjKioqlJSU
+        rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ueXl5JSUlPT09FxcXCwsL
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/AOB/AOB/AAEBAa6u
+        rq6urmNjY66urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urhQUFMXFxeB/ALy8
+        vOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwBI
+        SEg2NjZUVFQnJycRERGhoaGurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq44ODi9vb3g
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A
+        4H8A4H8AGBgYICAg4H8Am5ubFhYWrq6urq6urq6urq6urq6urq6urq6urq6urq6uPz8/WVlZrq6urq6u
+        KSkp4H8A4H8A4H8A4H8A4H8A4H8AUVFRBQUFgICA4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/ACcnJ66urq6urkdHR05OTmJiYq6urq6urmVlZRcXF3l5eS4uLmxs
+        bEJCQkxMTOB/AOB/AOB/AOB/AOB/AOB/AOB/AAAAAFFRUeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwBvb29ISEinp6daWlpQUFCLi4twcHA0NDSrq6tKSkqSkpLgfwCw
+        sLAAAABkZGTgfwDgfwDgfwDgfwDgfwDgfwDgfwBxcXGioqLgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8AsbGxFxcXQEBAFxcXwsLC4H8A4H8AAAAArq6uY2NjW1tb
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AXl5e4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AKOjo5WVleB/AOB/AOB/ACAgIEdHRz4+
+        PnR0dOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AFBQUOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwBeXl7gfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8Af39/4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AGRkZOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwBbW1uSkpLgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AfHx8hoaGl5eX4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEeB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/
+        AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/AOB/ABHgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDg
+        fwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwDgfwAR4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A
+        4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8A4H8AEQ==
+</value>
+  </data>
+  <data name="button9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3+CgAAAAAAADYAAAAoAAAAHgAAAB4AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA3cSw3cSw
+        NEyoByOVCSWUCieXDCiXDCiXDiqXDimVDSmZDCmZDSmbDSqdDCqdCieaCSebByadByegBiafBSSbBCSf
+        AyShAyOgASKgASGdAR+XMEik3cSw3cSw///dxLAHKKwMLrMQMbUUNLQXOLgaObgbOrgcO7gbO7caOrga
+        OrkZOrkYOrkWOLgUOLwTOL0QNr4ONcANNcELMr4JML0HL78ELb8DLMABKrsBJ7YBI6kBHpTdxLD//zRT
+        zAwxxhM4yhg7yhw/yyFEziRGziZHziZIziVHzSRHzyNHziNHzyFGzx9Fzx1G0htE0hhD0xVB1BNA1BE+
+        0w480wo51Ag41QQ01AIy0gEuygEpvwEjqTBIpP//CDDPETjUGT/XIEbYJUrZK07aLVDbMFPbMFPcL1Lb
+        LVLcLVHbLFPdKlLdKFHdJlHfI1DfIE7gHEzhGUvhFUjhEUXiDUPiCj/hBjvgAzjeATPYAS7MASe3AR+W
+        //8KNNgVPdseRd0mS98sUN8xVOA0V+A3WeE3WeE2WeE1WOE0WeEzWeIwWOIuV+MrV+QoVuUlVOUhUuYd
+        UOYZTeYVS+YQR+cMROYIQOUFPOQCN94CMtIBKr4BIZ7//ww23BlB3iRK4CxR4TJV4Tda4jtd4z5f5D5f
+        5Dxf5Edo5oOa7sHM9+br/P///////+Xq/LzL+HaV8S1f6hxS6RhP6RNL6Q9J6QtE6AdA5gQ64QM01AIs
+        wAIin///DjjdHUTfKk/gMlbhOFriPV7jQWHkQ2TlQ2TliJzv8/X9////////////////////////////
+        ////8fT+gZ7zGlLqFU/qEkvqDUbpCULnBjzhBDXVAyzBAiOg//8ROt0hR+AvU+E4WuM+X+RDY+RHZuVI
+        aOW6xvb////////n7PyTqPFiges7ZOc4ZOdaf+yJpPPk6/z///////+qv/cYUeoUTeoPSeoMROcIPuIH
+        ONYFL8ICI6D//xM83SZL4DRX4j1e40Nj5Edn5Utq5bvH9f///////6O08kZo5kNo50Bn5z1m5zlk5zVi
+        6DBg6Sxe6oSi8////////6i99xRN6hFK6Q5G5wtA4gs61ggxwgQloP//Fj/eKk/gOVvjQmHkR2blS2nl
+        kKLv////////j6LvSmvmSGrnRWnnQmjnPmfnOmXnNmPoMWDpLF3pJ1rpdZbx////////fJrzFEzpEUfn
+        D0PhDj3WCzPCBSah//8ZQd4vU+E+XuRGZeVLaeVZdef09v3///+ntvJObuZMbOZKa+ZGaudDaef/////
+        //82Y+cyYOktXukoWukkV+mBnvP////x9P4lWOkVSuYTRuERP9UNNcMHJ6H//x1D3zNW4kNi5Epo5U9s
+        5pKk7////+nt/FJv5k9v501t5ktr5kdq50Ro5////////zdi5zJg6C1d6Cla6SVY6SFV6ePp/P///2+P
+        8BhM5hdI4RVC1hE4wwopof//IEffOFrjR2blTmzmU2/mydL3////nq7xU3DnUW/mTm3mS2vmR2rnRGjn
+        ////////NmHmMl7nLVzoKFjoJFboIVTogJzx////t8f3G03lGkrgGkTVFDrCDCqg//8jSd8+XuRMauVT
+        b+ZVcefq7fz///91iuxUcOdSbuZObOZKauZHaeZDZ+b///////82X+YxXeYsWucoV+ckVOYhUudIcOv/
+        ///x9P0eTuQeTOAdRtUXPMEOLKD//ydM4EJi5FBt5lZy51dz6P///////1dx51Rw51Ft5k5r5kpp5UZn
+        5kJl5v///////zVd5TFb5SxY5ihV5iVT5iFR5R9P5f///////yFP5CJO3yFJ1Bo9wQ8toP//KU7gRWXl
+        U2/nWHPoWnTo////////WHLnVXDnUm7mTmvmSmjlRmblQmTl////////NVzkMFnkLFblKFTlJVHlIlDk
+        H07l////////I0/jJU/fI0nTHD7AES6f//8tUeFKaOVYc+hdd+heeOjr7vz///94i+tVcOdSbuZOa+VK
+        aOVHZuVCY+X///////81W+QxWOQsVeQpUuQmUeQjT+Q8Y+b////x9P0lT+MnUN4mS9MeQMASL6D//zBT
+        4U5s5l546GF76GF76M3V+P///6Gv8lZw51Jt5k5q5Upn5UZl5EJi5P///////zVZ4zFX4yxU4ylS4ydQ
+        4yRO43WP7f///8jS+ChQ4ipR3ShM0yBBvxQwn///NFfiUm/nYnzpZX/pZH7onKzx////6u38V3DnU23m
+        TmrlSmfkRmTkQmHk////////NVjiMVXiLVPiKlHjKE/iJU7i4+j7////hJvvKlHhLFHdKk3SIkK/FTCf
+        //8zVuJXcuhogelqg+ppgelvhur19/7///+hrvJVb+dRbOZMaOVIZeRDYuT///////83WeIzV+IvVOIt
+        UuIrUeKFm+/////x9P03WuQsUuEuU90rTtMjQ78VMZ///zda41p16GyE6nCI626G6mqC6qi28///////
+        /5al8FNt5k5q5Upm5EZk5EJh5D1d5Dlb4zZY4jJV4jBU4lRy5////////4ed7yxR4i5T4S9T3SxO0SRD
+        vxUxn///OFrjXnnocYnrdYzscorrbYXraIHqxM32////////nq3xUGvmTGjlSGXkRGLkP1/kPF3jOFrj
+        NVfii5/v////////sL30L1PiLlLiMFPhL1LeLk/TJUS/FjKe//88XONifOl3jux7kux4j+xxiutrg+pl
+        funDzfb////////p7fycq/FsgupHZORDYeRXc+aEmO3m6vv///////+yv/QxVeExVeExVOIxVOAxVN0u
+        T9IlRL4VMZ7//z9f42mB6oCW7Yab7oOY7XuR7HKK62qC6mZ/6aa08vX2/v//////////////////////
+        //////////P1/ZGk8Dtc4zlb4zha4jVY4jRX4TFU3S1O0iJBvRMvnf//RGTlconrip7vkqXwjKHvg5jt
+        epDscYnrbYXqaoLqb4bqnKzxzdX49fb9////////9Pb909r5m6vxWHTnSmjlRmXkQmPkQGHkPF3jN1rh
+        MlXdK0zSHz+9ECyb//9JaOV6kOyUpvCbrPGWqPCLn++Ble14j+xzi+tvh+tshOppgelmf+hkfuhifOhh
+        e+lfeehdeOhbduhYdOdUceZQbeZMa+VIZ+VBYuQ6XOIyVd0pS9EcPLwOKpv//0po5XyS7Ziq8aCx8pqs
+        8Y+i8IOY7XqR7HWN7HKK62+G6myE6mqC6WiB6WeA6WaA6WR+6WN96WB66V146Fh151Rx51Bu5ktp5URk
+        5Tpc4jJU3SZI0Bk6ug0pmv//XnnocYjrj6Lvl6nxkqXwh5zufJLsdYzrcorrbobqaIHpZ4DpZX/pY33p
+        YXvoYXvoX3noW3foWXXnV3TnVHHmT27mS2rlRWXkPl/kNVfhLVHbIkXPFze5OFCs///dxLBIZ+Vuhup6
+        kOx2jexshOpjfulfeehdd+hadehTcOdTb+dTb+dRbudPbOZPbOZNa+ZKaOVHZeVEY+RBYuQ/YOQ9X+Q3
+        WeIxVeEpTd8jR9kbPssRMbLdxLD//93EsN3EsGF86EVk5ENi5D5f5Dla4zVX4jZY4jRW4jFU4jJV4TNV
+        4jNV4jJV4i1R4SxP4StP4SlO4SRK4CRK3yVK4CVK4B9G3xxD3xg/3BQ71T1a0N3EsN3EsP//
+</value>
+  </data>
+  <metadata name="oleDbDataAdapter6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>165, 54</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbDeleteCommand6.CommandText" xml:space="preserve">
+    <value>DELETE FROM T_devis_entete WHERE ([N° Devis] = ?) AND ([Accord Client] = ?) AND ([Calcul Auto] = ?) AND ([Cause atelier] = ? OR ? IS NULL AND [Cause atelier] IS NULL) AND ([Cause client] = ? OR ? IS NULL AND [Cause client] IS NULL) AND ([Code Client] = ? OR ? IS NULL AND [Code Client] IS NULL) AND ([Code Materiel] = ? OR ? IS NULL AND [Code Materiel] IS NULL) AND ([Commande generee] = ? OR ? IS NULL AND [Commande generee] IS NULL) AND ([Date] = ? OR ? IS NULL AND [Date] IS NULL) AND ([Date Decision] = ? OR ? IS NULL AND [Date Decision] IS NULL) AND ([Date Generation commande] = ? OR ? IS NULL AND [Date Generation commande] IS NULL) AND ([Date Reception pieces] = ? OR ? IS NULL AND [Date Reception pieces] IS NULL) AND ([Date entree reelle] = ? OR ? IS NULL AND [Date entree reelle] IS NULL) AND ([Date reparation] = ? OR ? IS NULL AND [Date reparation] IS NULL) AND ([Detail Client] = ? OR ? IS NULL AND [Detail Client] IS NULL) AND ([Detail atelier] = ? OR ? IS NULL AND [Detail atelier] IS NULL) AND (Edite = ?) AND (Emplacement = ? OR ? IS NULL AND Emplacement IS NULL) AND ([Forfait Controle] = ? OR ? IS NULL AND [Forfait Controle] IS NULL) AND ([Forfait DNR] = ? OR ? IS NULL AND [Forfait DNR] IS NULL) AND ([Forfait transport] = ? OR ? IS NULL AND [Forfait transport] IS NULL) AND ([Imputation comptable] = ? OR ? IS NULL AND [Imputation comptable] IS NULL) AND ([Limite Devis] = ? OR ? IS NULL AND [Limite Devis] IS NULL) AND ([Message Pieds] = ? OR ? IS NULL AND [Message Pieds] IS NULL) AND (Niveau = ? OR ? IS NULL AND Niveau IS NULL) AND ([N° Commande generee] = ? OR ? IS NULL AND [N° Commande generee] IS NULL) AND ([N° Commande ouverte] = ?) AND ([N° Troncon] = ?) AND ([Ordre Travail] = ?) AND ([Prix Reference] = ? OR ? IS NULL AND [Prix Reference] IS NULL) AND ([Prix machine neuve] = ? OR ? IS NULL AND [Prix machine neuve] IS NULL) AND (Reforme = ?) AND (Refus = ?) AND (Reparateur_D = ? OR ? IS NULL AND Reparateur_D IS NULL) AND (Reparateur_R = ? OR ? IS NULL AND Reparateur_R IS NULL) AND (Repare = ?) AND ([Seuil Client] = ? OR ? IS NULL AND [Seuil Client] IS NULL) AND ([Seuil devis] = ? OR ? IS NULL AND [Seuil devis] IS NULL) AND ([Total devis] = ? OR ? IS NULL AND [Total devis] IS NULL) AND ([Total devis euro] = ? OR ? IS NULL AND [Total devis euro] IS NULL) AND ([Total pieces] = ? OR ? IS NULL AND [Total pieces] IS NULL) AND ([Type devis] = ? OR ? IS NULL AND [Type devis] IS NULL) AND (Valide = ?) AND (edition_fax = ?) AND ([n° Bl] = ? OR ? IS NULL AND [n° Bl] IS NULL)</value>
+  </data>
+  <metadata name="oleDbInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbInsertCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO T_devis_entete([Accord Client], [Calcul Auto], [Cause atelier], [Cause client], [Code Client], [Code Materiel], [Commande generee], Comment, [Date], [Date Decision], [Date entree reelle], [Date Generation commande], [Date Reception pieces], [Date reparation], [Detail atelier], [Detail Client], Edite, edition_fax, Emplacement, [Forfait Controle], [Forfait DNR], [Forfait transport], [Imputation comptable], [Limite Devis], [Message Pieds], [n° Bl], [N° Commande generee], [N° Commande ouverte], [N° Devis], [N° Troncon], Niveau, [Ordre Travail], [Prix machine neuve], [Prix Reference], Reforme, Refus, Reparateur_D, Reparateur_R, Repare, [Seuil Client], [Seuil devis], [Total devis], [Total devis euro], [Total pieces], [Type devis], Valide) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <metadata name="oleDbSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbSelectCommand6.CommandText" xml:space="preserve">
+    <value>SELECT [Accord Client], [Calcul Auto], [Cause atelier], [Cause client], [Code Client], [Code Materiel], [Commande generee], Comment, [Date], [Date Decision], [Date entree reelle], [Date Generation commande], [Date Reception pieces], [Date reparation], [Detail atelier], [Detail Client], Edite, edition_fax, Emplacement, [Forfait Controle], [Forfait DNR], [Forfait transport], [Imputation comptable], [Limite Devis], [Message Pieds], [n° Bl], [N° Commande generee], [N° Commande ouverte], [N° Devis], [N° Troncon], Niveau, [Ordre Travail], [Prix machine neuve], [Prix Reference], Reforme, Refus, Reparateur_D, Reparateur_R, Repare, [Seuil Client], [Seuil devis], [Total devis], [Total devis euro], [Total pieces], [Type devis], Valide FROM T_devis_entete</value>
+  </data>
+  <metadata name="oleDbUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="oleDbUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE T_devis_entete SET [Accord Client] = ?, [Calcul Auto] = ?, [Cause atelier] = ?, [Cause client] = ?, [Code Client] = ?, [Code Materiel] = ?, [Commande generee] = ?, Comment = ?, [Date] = ?, [Date Decision] = ?, [Date entree reelle] = ?, [Date Generation commande] = ?, [Date Reception pieces] = ?, [Date reparation] = ?, [Detail atelier] = ?, [Detail Client] = ?, Edite = ?, edition_fax = ?, Emplacement = ?, [Forfait Controle] = ?, [Forfait DNR] = ?, [Forfait transport] = ?, [Imputation comptable] = ?, [Limite Devis] = ?, [Message Pieds] = ?, [n° Bl] = ?, [N° Commande generee] = ?, [N° Commande ouverte] = ?, [N° Devis] = ?, [N° Troncon] = ?, Niveau = ?, [Ordre Travail] = ?, [Prix machine neuve] = ?, [Prix Reference] = ?, Reforme = ?, Refus = ?, Reparateur_D = ?, Reparateur_R = ?, Repare = ?, [Seuil Client] = ?, [Seuil devis] = ?, [Total devis] = ?, [Total devis euro] = ?, [Total pieces] = ?, [Type devis] = ?, Valide = ? WHERE ([N° Devis] = ?) AND ([Accord Client] = ?) AND ([Calcul Auto] = ?) AND ([Cause atelier] = ? OR ? IS NULL AND [Cause atelier] IS NULL) AND ([Cause client] = ? OR ? IS NULL AND [Cause client] IS NULL) AND ([Code Client] = ? OR ? IS NULL AND [Code Client] IS NULL) AND ([Code Materiel] = ? OR ? IS NULL AND [Code Materiel] IS NULL) AND ([Commande generee] = ? OR ? IS NULL AND [Commande generee] IS NULL) AND ([Date] = ? OR ? IS NULL AND [Date] IS NULL) AND ([Date Decision] = ? OR ? IS NULL AND [Date Decision] IS NULL) AND ([Date Generation commande] = ? OR ? IS NULL AND [Date Generation commande] IS NULL) AND ([Date Reception pieces] = ? OR ? IS NULL AND [Date Reception pieces] IS NULL) AND ([Date entree reelle] = ? OR ? IS NULL AND [Date entree reelle] IS NULL) AND ([Date reparation] = ? OR ? IS NULL AND [Date reparation] IS NULL) AND ([Detail Client] = ? OR ? IS NULL AND [Detail Client] IS NULL) AND ([Detail atelier] = ? OR ? IS NULL AND [Detail atelier] IS NULL) AND (Edite = ?) AND (Emplacement = ? OR ? IS NULL AND Emplacement IS NULL) AND ([Forfait Controle] = ? OR ? IS NULL AND [Forfait Controle] IS NULL) AND ([Forfait DNR] = ? OR ? IS NULL AND [Forfait DNR] IS NULL) AND ([Forfait transport] = ? OR ? IS NULL AND [Forfait transport] IS NULL) AND ([Imputation comptable] = ? OR ? IS NULL AND [Imputation comptable] IS NULL) AND ([Limite Devis] = ? OR ? IS NULL AND [Limite Devis] IS NULL) AND ([Message Pieds] = ? OR ? IS NULL AND [Message Pieds] IS NULL) AND (Niveau = ? OR ? IS NULL AND Niveau IS NULL) AND ([N° Commande generee] = ? OR ? IS NULL AND [N° Commande generee] IS NULL) AND ([N° Commande ouverte] = ?) AND ([N° Troncon] = ?) AND ([Ordre Travail] = ?) AND ([Prix Reference] = ? OR ? IS NULL AND [Prix Reference] IS NULL) AND ([Prix machine neuve] = ? OR ? IS NULL AND [Prix machine neuve] IS NULL) AND (Reforme = ?) AND (Refus = ?) AND (Reparateur_D = ? OR ? IS NULL AND Reparateur_D IS NULL) AND (Reparateur_R = ? OR ? IS NULL AND Reparateur_R IS NULL) AND (Repare = ?) AND ([Seuil Client] = ? OR ? IS NULL AND [Seuil Client] IS NULL) AND ([Seuil devis] = ? OR ? IS NULL AND [Seuil devis] IS NULL) AND ([Total devis] = ? OR ? IS NULL AND [Total devis] IS NULL) AND ([Total devis euro] = ? OR ? IS NULL AND [Total devis euro] IS NULL) AND ([Total pieces] = ? OR ? IS NULL AND [Total pieces] IS NULL) AND ([Type devis] = ? OR ? IS NULL AND [Type devis] IS NULL) AND (Valide = ?) AND (edition_fax = ?) AND ([n° Bl] = ? OR ? IS NULL AND [n° Bl] IS NULL)</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>85</value>
+  </metadata>
+</root>

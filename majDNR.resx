@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="oleDbConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="oleDbConnection1.ConnectionString" xml:space="preserve">
+    <value>Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Registry Path=;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Database Password=;Data Source="M:\Lyon\bd.mdb";Password=;Jet OLEDB:Engine Type=5;Jet OLEDB:Global Bulk Transactions=1;Provider="Microsoft.Jet.OLEDB.4.0";Jet OLEDB:System database=;Jet OLEDB:SFP=False;Extended Properties=;Mode=Share Deny None;Jet OLEDB:New Database Password=;Jet OLEDB:Create System Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;User ID=Admin;Jet OLEDB:Encrypt Database=False</value>
+  </data>
+  <metadata name="oleDbDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>159, 17</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="oleDbDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM T_type_machine WHERE (Code = ?) AND ([Code famille] = ? OR ? IS NULL AND [Code famille] IS NULL) AND ([Date MAJ DNR] = ? OR ? IS NULL AND [Date MAJ DNR] IS NULL) AND ([Date MAJ Transport] = ? OR ? IS NULL AND [Date MAJ Transport] IS NULL) AND ([Date MAJ controle] = ? OR ? IS NULL AND [Date MAJ controle] IS NULL) AND ([Date creation] = ? OR ? IS NULL AND [Date creation] IS NULL) AND ([Delai garantie] = ? OR ? IS NULL AND [Delai garantie] IS NULL) AND ([Forfait DNR] = ? OR ? IS NULL AND [Forfait DNR] IS NULL) AND ([Forfait Transport] = ? OR ? IS NULL AND [Forfait Transport] IS NULL) AND ([Forfait controle] = ? OR ? IS NULL AND [Forfait controle] IS NULL) AND (Fournisseur = ? OR ? IS NULL AND Fournisseur IS NULL) AND ([Maxi machine] = ? OR ? IS NULL AND [Maxi machine] IS NULL) AND ([Mini machine] = ? OR ? IS NULL AND [Mini machine] IS NULL) AND ([Mise a jour tarif] = ? OR ? IS NULL AND [Mise a jour tarif] IS NULL) AND ([Nombre reparations] = ? OR ? IS NULL AND [Nombre reparations] IS NULL) AND ([Prix catalogue] = ? OR ? IS NULL AND [Prix catalogue] IS NULL) AND (Vitesse = ? OR ? IS NULL AND Vitesse IS NULL)</value>
+  </data>
+  <metadata name="oleDbInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="oleDbInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO T_type_machine(Code, [Code famille], [Date creation], [Date MAJ controle], [Date MAJ DNR], [Date MAJ Transport], [Delai garantie], [Forfait controle], [Forfait DNR], [Forfait Transport], Fournisseur, [Maxi machine], [Mini machine], [Mise a jour tarif], [Nombre reparations], [Prix catalogue], Vitesse) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <metadata name="oleDbSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="oleDbSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT Code, [Code famille], [Date creation], [Date MAJ controle], [Date MAJ DNR], [Date MAJ Transport], [Delai garantie], [Forfait controle], [Forfait DNR], [Forfait Transport], Fournisseur, [Maxi machine], [Mini machine], [Mise a jour tarif], [Nombre reparations], [Prix catalogue], Vitesse FROM T_type_machine</value>
+  </data>
+  <metadata name="oleDbUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="oleDbUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="oleDbUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE T_type_machine SET Code = ?, [Code famille] = ?, [Date creation] = ?, [Date MAJ controle] = ?, [Date MAJ DNR] = ?, [Date MAJ Transport] = ?, [Delai garantie] = ?, [Forfait controle] = ?, [Forfait DNR] = ?, [Forfait Transport] = ?, Fournisseur = ?, [Maxi machine] = ?, [Mini machine] = ?, [Mise a jour tarif] = ?, [Nombre reparations] = ?, [Prix catalogue] = ?, Vitesse = ? WHERE (Code = ?) AND ([Code famille] = ? OR ? IS NULL AND [Code famille] IS NULL) AND ([Date MAJ DNR] = ? OR ? IS NULL AND [Date MAJ DNR] IS NULL) AND ([Date MAJ Transport] = ? OR ? IS NULL AND [Date MAJ Transport] IS NULL) AND ([Date MAJ controle] = ? OR ? IS NULL AND [Date MAJ controle] IS NULL) AND ([Date creation] = ? OR ? IS NULL AND [Date creation] IS NULL) AND ([Delai garantie] = ? OR ? IS NULL AND [Delai garantie] IS NULL) AND ([Forfait DNR] = ? OR ? IS NULL AND [Forfait DNR] IS NULL) AND ([Forfait Transport] = ? OR ? IS NULL AND [Forfait Transport] IS NULL) AND ([Forfait controle] = ? OR ? IS NULL AND [Forfait controle] IS NULL) AND (Fournisseur = ? OR ? IS NULL AND Fournisseur IS NULL) AND ([Maxi machine] = ? OR ? IS NULL AND [Maxi machine] IS NULL) AND ([Mini machine] = ? OR ? IS NULL AND [Mini machine] IS NULL) AND ([Mise a jour tarif] = ? OR ? IS NULL AND [Mise a jour tarif] IS NULL) AND ([Nombre reparations] = ? OR ? IS NULL AND [Nombre reparations] IS NULL) AND ([Prix catalogue] = ? OR ? IS NULL AND [Prix catalogue] IS NULL) AND (Vitesse = ? OR ? IS NULL AND Vitesse IS NULL)</value>
+  </data>
+  <metadata name="dataSet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>307, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3+CgAAAAAAADYAAAAoAAAAHgAAAB4AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA3cSw3cSw
+        NEyoByOVCSWUCieXDCiXDCiXDiqXDimVDSmZDCmZDSmbDSqdDCqdCieaCSebByadByegBiafBSSbBCSf
+        AyShAyOgASKgASGdAR+XMEik3cSw3cSwAADdxLAHKKwMLrMQMbUUNLQXOLgaObgbOrgcO7gbO7caOrga
+        OrkZOrkYOrkWOLgUOLwTOL0QNr4ONcANNcELMr4JML0HL78ELb8DLMABKrsBJ7YBI6kBHpTdxLAAADRT
+        zAwxxhM4yhg7yhw/yyFEziRGziZHziZIziVHzSRHzyNHziNHzyFGzx9Fzx1G0htE0hhD0xVB1BNA1BE+
+        0w480wo51Ag41QQ01AIy0gEuygEpvwEjqTBIpAAACDDPETjUGT/XIEbYJUrZK07aLVDbMFPbMFPcL1Lb
+        LVLcLVHbLFPdKlLdKFHdJlHfI1DfIE7gHEzhGUvhFUjhEUXiDUPiCj/hBjvgAzjeATPYAS7MASe3AR+W
+        AAAKNNgVPdseRd0mS98sUN8xVOA0V+A3WeE3WeE2WeE1WOE0WeEzWeIwWOIuV+MrV+QoVuUlVOUhUuYd
+        UOYZTeYVS+YQR+cMROYIQOUFPOQCN94CMtIBKr4BIZ4AAAw23BlB3iRK4CxR4TJV4Tda4jtd4z5f5D5f
+        5Dxf5Edo5oOa7sHM9+br/P///////+Xq/LzL+HaV8S1f6hxS6RhP6RNL6Q9J6QtE6AdA5gQ64QM01AIs
+        wAIinwAADjjdHUTfKk/gMlbhOFriPV7jQWHkQ2TlQ2TliJzv8/X9////////////////////////////
+        ////8fT+gZ7zGlLqFU/qEkvqDUbpCULnBjzhBDXVAyzBAiOgAAAROt0hR+AvU+E4WuM+X+RDY+RHZuVI
+        aOW6xvb////////n7PyTqPFiges7ZOc4ZOdaf+yJpPPk6/z///////+qv/cYUeoUTeoPSeoMROcIPuIH
+        ONYFL8ICI6AAABM83SZL4DRX4j1e40Nj5Edn5Utq5bvH9f///////6O08kZo5kNo50Bn5z1m5zlk5zVi
+        6DBg6Sxe6oSi8////////6i99xRN6hFK6Q5G5wtA4gs61ggxwgQloAAAFj/eKk/gOVvjQmHkR2blS2nl
+        kKLv////////j6LvSmvmSGrnRWnnQmjnPmfnOmXnNmPoMWDpLF3pJ1rpdZbx////////fJrzFEzpEUfn
+        D0PhDj3WCzPCBSahAAAZQd4vU+E+XuRGZeVLaeVZdef09v3///+ntvJObuZMbOZKa+ZGaudDaef/////
+        //82Y+cyYOktXukoWukkV+mBnvP////x9P4lWOkVSuYTRuERP9UNNcMHJ6EAAB1D3zNW4kNi5Epo5U9s
+        5pKk7////+nt/FJv5k9v501t5ktr5kdq50Ro5////////zdi5zJg6C1d6Cla6SVY6SFV6ePp/P///2+P
+        8BhM5hdI4RVC1hE4wwopoQAAIEffOFrjR2blTmzmU2/mydL3////nq7xU3DnUW/mTm3mS2vmR2rnRGjn
+        ////////NmHmMl7nLVzoKFjoJFboIVTogJzx////t8f3G03lGkrgGkTVFDrCDCqgAAAjSd8+XuRMauVT
+        b+ZVcefq7fz///91iuxUcOdSbuZObOZKauZHaeZDZ+b///////82X+YxXeYsWucoV+ckVOYhUudIcOv/
+        ///x9P0eTuQeTOAdRtUXPMEOLKAAACdM4EJi5FBt5lZy51dz6P///////1dx51Rw51Ft5k5r5kpp5UZn
+        5kJl5v///////zVd5TFb5SxY5ihV5iVT5iFR5R9P5f///////yFP5CJO3yFJ1Bo9wQ8toAAAKU7gRWXl
+        U2/nWHPoWnTo////////WHLnVXDnUm7mTmvmSmjlRmblQmTl////////NVzkMFnkLFblKFTlJVHlIlDk
+        H07l////////I0/jJU/fI0nTHD7AES6fAAAtUeFKaOVYc+hdd+heeOjr7vz///94i+tVcOdSbuZOa+VK
+        aOVHZuVCY+X///////81W+QxWOQsVeQpUuQmUeQjT+Q8Y+b////x9P0lT+MnUN4mS9MeQMASL6AAADBT
+        4U5s5l546GF76GF76M3V+P///6Gv8lZw51Jt5k5q5Upn5UZl5EJi5P///////zVZ4zFX4yxU4ylS4ydQ
+        4yRO43WP7f///8jS+ChQ4ipR3ShM0yBBvxQwnwAANFfiUm/nYnzpZX/pZH7onKzx////6u38V3DnU23m
+        TmrlSmfkRmTkQmHk////////NVjiMVXiLVPiKlHjKE/iJU7i4+j7////hJvvKlHhLFHdKk3SIkK/FTCf
+        AAAzVuJXcuhogelqg+ppgelvhur19/7///+hrvJVb+dRbOZMaOVIZeRDYuT///////83WeIzV+IvVOIt
+        UuIrUeKFm+/////x9P03WuQsUuEuU90rTtMjQ78VMZ8AADda41p16GyE6nCI626G6mqC6qi28///////
+        /5al8FNt5k5q5Upm5EZk5EJh5D1d5Dlb4zZY4jJV4jBU4lRy5////////4ed7yxR4i5T4S9T3SxO0SRD
+        vxUxnwAAOFrjXnnocYnrdYzscorrbYXraIHqxM32////////nq3xUGvmTGjlSGXkRGLkP1/kPF3jOFrj
+        NVfii5/v////////sL30L1PiLlLiMFPhL1LeLk/TJUS/FjKeAAA8XONifOl3jux7kux4j+xxiutrg+pl
+        funDzfb////////p7fycq/FsgupHZORDYeRXc+aEmO3m6vv///////+yv/QxVeExVeExVOIxVOAxVN0u
+        T9IlRL4VMZ4AAD9f42mB6oCW7Yab7oOY7XuR7HKK62qC6mZ/6aa08vX2/v//////////////////////
+        //////////P1/ZGk8Dtc4zlb4zha4jVY4jRX4TFU3S1O0iJBvRMvnQAARGTlconrip7vkqXwjKHvg5jt
+        epDscYnrbYXqaoLqb4bqnKzxzdX49fb9////////9Pb909r5m6vxWHTnSmjlRmXkQmPkQGHkPF3jN1rh
+        MlXdK0zSHz+9ECybAABJaOV6kOyUpvCbrPGWqPCLn++Ble14j+xzi+tvh+tshOppgelmf+hkfuhifOhh
+        e+lfeehdeOhbduhYdOdUceZQbeZMa+VIZ+VBYuQ6XOIyVd0pS9EcPLwOKpsAAEpo5XyS7Ziq8aCx8pqs
+        8Y+i8IOY7XqR7HWN7HKK62+G6myE6mqC6WiB6WeA6WaA6WR+6WN96WB66V146Fh151Rx51Bu5ktp5URk
+        5Tpc4jJU3SZI0Bk6ug0pmgAAXnnocYjrj6Lvl6nxkqXwh5zufJLsdYzrcorrbobqaIHpZ4DpZX/pY33p
+        YXvoYXvoX3noW3foWXXnV3TnVHHmT27mS2rlRWXkPl/kNVfhLVHbIkXPFze5OFCsAADdxLBIZ+Vuhup6
+        kOx2jexshOpjfulfeehdd+hadehTcOdTb+dTb+dRbudPbOZPbOZNa+ZKaOVHZeVEY+RBYuQ/YOQ9X+Q3
+        WeIxVeEpTd8jR9kbPssRMbLdxLAAAN3EsN3EsGF86EVk5ENi5D5f5Dla4zVX4jZY4jRW4jFU4jJV4TNV
+        4jNV4jJV4i1R4SxP4StP4SlO4SRK4CRK3yVK4CVK4B9G3xxD3xg/3BQ71T1a0N3EsN3EsAAA
+</value>
+  </data>
+</root>

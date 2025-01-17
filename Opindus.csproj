@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1953DCD6-47FC-484F-A083-34A5DE1F4DAF}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Opindus</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Opindus</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D64E2E4814747A8C69B0E70AAACEC7C3C6BDDE8E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Opindus_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorcfg">
+      <Name>mscorcfg</Name>
+      <HintPath>bin\Debug\mscorcfg.dll</HintPath>
+    </Reference>
+    <Reference Include="MTGCCombobox">
+      <Name>MTGCCombobox</Name>
+      <HintPath>bin\MTGCCombobox.dll</HintPath>
+    </Reference>
+    <Reference Include="PrintChaining">
+      <Name>PrintChaining</Name>
+      <HintPath>bin\PrintChaining.dll</HintPath>
+    </Reference>
+    <Reference Include="PrintForm">
+      <Name>PrintForm</Name>
+      <HintPath>bin\PrintForm.dll</HintPath>
+    </Reference>
+    <Reference Include="rchart11">
+      <Name>rchart11</Name>
+      <HintPath>bin\rchart11.dll</HintPath>
+    </Reference>
+    <Reference Include="RS232">
+      <Name>RS232</Name>
+      <HintPath>bin\RS232.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Name>System.Messaging</Name>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <Name>System.ServiceProcess</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="TabControlEX">
+      <Name>TabControlEX</Name>
+      <HintPath>TabControlEX.dll</HintPath>
+    </Reference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcCauses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcGroupes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcReglements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiviteCli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiviteFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiviteRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiviteRepGar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiviteRepGarChiffres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcTransports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcUsines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apropos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Atelier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutresMAJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvancementDevis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capteurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caracteristiques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caracteristiques2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caracteristiques3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChainesMesures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoixDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoefDNR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommandesEnCours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsoClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsoFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControleDyn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlesCAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreationDevis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemandePrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demontage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepensesMachines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailControles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailDevis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsFourn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFourn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DélaisMoyens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditionBL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditionCommandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emplacements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntreeSortie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamillesMachines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FicheDeVie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FicheVieGraphique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FicheVieGraphique.Designer.cs">
+      <DependentUpon>FicheVieGraphique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionBL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCommandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionDevis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphiquesCAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphiquesCAM2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImpressionParc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoCorres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoDNR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfosClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LignesCommandesEnCours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeCommandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeControlesCam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeControlesDyn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="majDNR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAJPDCoef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAJTarifs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negatif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Niveau3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Niveaux.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParamSociete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParcMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pieces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreparationCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reparateurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaisieFournisseurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectReglement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectTransport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectUsine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatCapt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsCAFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsCARep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsDevis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransfertBL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypesMachines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="AcCauses.resx">
+      <DependentUpon>AcCauses.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcGroupes.resx">
+      <DependentUpon>AcGroupes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcReglements.resx">
+      <DependentUpon>AcReglements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiviteCli.resx">
+      <DependentUpon>ActiviteCli.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiviteFourn.resx">
+      <DependentUpon>ActiviteFourn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiviteRep.resx">
+      <DependentUpon>ActiviteRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiviteRepGar.resx">
+      <DependentUpon>ActiviteRepGar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiviteRepGarChiffres.resx">
+      <DependentUpon>ActiviteRepGarChiffres.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcTransports.resx">
+      <DependentUpon>AcTransports.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcUsines.resx">
+      <DependentUpon>AcUsines.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration.resx">
+      <DependentUpon>Administration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apropos.resx">
+      <DependentUpon>Apropos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atelier.resx">
+      <DependentUpon>Atelier.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutresMAJ.resx">
+      <DependentUpon>AutresMAJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvancementDevis.resx">
+      <DependentUpon>AvancementDevis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BL.resx">
+      <DependentUpon>BL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capteurs.resx">
+      <DependentUpon>Capteurs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caracteristiques.resx">
+      <DependentUpon>Caracteristiques.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caracteristiques2.resx">
+      <DependentUpon>Caracteristiques2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caracteristiques3.resx">
+      <DependentUpon>Caracteristiques3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChainesMesures.resx">
+      <DependentUpon>ChainesMesures.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoixDate.resx">
+      <DependentUpon>ChoixDate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoefDNR.resx">
+      <DependentUpon>CoefDNR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commande.resx">
+      <DependentUpon>Commande.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommandesEnCours.resx">
+      <DependentUpon>CommandesEnCours.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoClients.resx">
+      <DependentUpon>ConsoClients.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoFourn.resx">
+      <DependentUpon>ConsoFourn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControleDyn.resx">
+      <DependentUpon>ControleDyn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesCAM.resx">
+      <DependentUpon>ControlesCAM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreationDevis.resx">
+      <DependentUpon>CreationDevis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemandePrix.resx">
+      <DependentUpon>DemandePrix.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demontage.resx">
+      <DependentUpon>Demontage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepensesMachines.resx">
+      <DependentUpon>DepensesMachines.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailControles.resx">
+      <DependentUpon>DetailControles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailDevis.resx">
+      <DependentUpon>DetailDevis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DélaisMoyens.resx">
+      <DependentUpon>DélaisMoyens.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditionBL.resx">
+      <DependentUpon>EditionBL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditionCommandes.resx">
+      <DependentUpon>EditionCommandes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emplacements.resx">
+      <DependentUpon>Emplacements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntreeSortie.resx">
+      <DependentUpon>EntreeSortie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamillesMachines.resx">
+      <DependentUpon>FamillesMachines.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FicheDeVie.resx">
+      <DependentUpon>FicheDeVie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FicheVieGraphique.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FicheVieGraphique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionBL.resx">
+      <DependentUpon>GestionBL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCommandes.resx">
+      <DependentUpon>GestionCommandes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionDevis.resx">
+      <DependentUpon>GestionDevis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphiquesCAM.resx">
+      <DependentUpon>GraphiquesCAM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphiquesCAM2.resx">
+      <DependentUpon>GraphiquesCAM2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImpressionParc.resx">
+      <DependentUpon>ImpressionParc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoCorres.resx">
+      <DependentUpon>InfoCorres.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoDNR.resx">
+      <DependentUpon>InfoDNR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoFourn.resx">
+      <DependentUpon>InfoFourn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfosClients.resx">
+      <DependentUpon>InfosClients.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventaire.resx">
+      <DependentUpon>Inventaire.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LignesCommandesEnCours.resx">
+      <DependentUpon>LignesCommandesEnCours.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeCommandes.resx">
+      <DependentUpon>ListeCommandes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeControlesCam.resx">
+      <DependentUpon>ListeControlesCam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeControlesDyn.resx">
+      <DependentUpon>ListeControlesDyn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="majDNR.resx">
+      <DependentUpon>majDNR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAJPDCoef.fr-FR.resx">
+      <DependentUpon>MAJPDCoef.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAJPDCoef.fr.resx">
+      <DependentUpon>MAJPDCoef.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAJPDCoef.resx">
+      <DependentUpon>MAJPDCoef.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAJTarifs.resx">
+      <DependentUpon>MAJTarifs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negatif.resx">
+      <DependentUpon>Negatif.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niveau3.resx">
+      <DependentUpon>Niveau3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niveaux.resx">
+      <DependentUpon>Niveaux.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParamSociete.resx">
+      <DependentUpon>ParamSociete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParcMachine.resx">
+      <DependentUpon>ParcMachine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pieces.resx">
+      <DependentUpon>Pieces.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreparationCommande.resx">
+      <DependentUpon>PreparationCommande.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reparateurs.resx">
+      <DependentUpon>Reparateurs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaisieFournisseurs.resx">
+      <DependentUpon>SaisieFournisseurs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectClients.resx">
+      <DependentUpon>SelectClients.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectFournisseur.resx">
+      <DependentUpon>SelectFournisseur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectMachine.resx">
+      <DependentUpon>SelectMachine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectReglement.resx">
+      <DependentUpon>SelectReglement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectTransport.resx">
+      <DependentUpon>SelectTransport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectUsine.resx">
+      <DependentUpon>SelectUsine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatCapt.resx">
+      <DependentUpon>StatCapt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsCAFourn.resx">
+      <DependentUpon>StatsCAFourn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsCARep.resx">
+      <DependentUpon>StatsCARep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsDevis.resx">
+      <DependentUpon>StatsDevis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsGestion.resx">
+      <DependentUpon>StatsGestion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransfertBL.resx">
+      <DependentUpon>TransfertBL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypesMachines.resx">
+      <DependentUpon>TypesMachines.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App.ico" />
+    <Content Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="dsFourn.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFourn.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsx">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsx">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dsFourn.xsx">
+      <DependentUpon>dsFourn.xsd</DependentUpon>
+    </None>
+    <None Include="Opindus_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

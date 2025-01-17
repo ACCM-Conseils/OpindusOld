@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSet2" targetNamespace="http://www.tempuri.org/DataSet2.xsd" xmlns:mstns="http://www.tempuri.org/DataSet2.xsd" xmlns="http://www.tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:Locale="fr-FR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="T_fournisseurs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nom" type="xs:string" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_pieces_detachees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cause_x0020_Principale" type="xs:int" minOccurs="0" />
+              <xs:element name="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_Famille" type="xs:int" minOccurs="0" />
+              <xs:element name="Code_x0020_Fournisseur_x0020_Principal" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_x0020_Unite" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_1" type="xs:string" minOccurs="0" />
+              <xs:element name="Correspondance_x0020_Stock" type="xs:string" minOccurs="0" />
+              <xs:element name="Date_x0020_Dernier_x0020_Mouvement" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_MAJ_x0020_Tarif" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Delai_x0020_Livraison" type="xs:short" minOccurs="0" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="Identificateur" type="xs:int" />
+              <xs:element name="pre_devis" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Prix_x0020_Achat_x0020_Brut" type="xs:double" minOccurs="0" />
+              <xs:element name="Prix_x0020_Achat_x0020_Net" type="xs:double" minOccurs="0" />
+              <xs:element name="Prix_x0020_Vente" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Commande" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Disponible" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Maxi" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Minimum" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Reserve" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_Stock" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantite_x0020_stock_x0020_theorique" type="xs:double" minOccurs="0" />
+              <xs:element name="Stock_x0020_Alerte" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_fournisseurs" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="T_pieces_detachees_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_pieces_detachees" />
+      <xs:field xpath="mstns:Identificateur" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
