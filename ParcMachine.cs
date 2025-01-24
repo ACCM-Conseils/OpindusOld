@@ -2098,7 +2098,7 @@ namespace Opindus
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(9, 19);
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
-            this.ClientSize = new System.Drawing.Size(1352, 781);
+            this.ClientSize = new System.Drawing.Size(1407, 1008);
             this.ControlBox = false;
             this.Controls.Add(this.button9);
             this.Controls.Add(this.tabControlEX1);

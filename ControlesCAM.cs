@@ -766,2907 +766,2840 @@ namespace Opindus
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(ControlesCAM));
-			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.textBox4 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.label4 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label1 = new System.Windows.Forms.Label();
-			this.groupBox2 = new System.Windows.Forms.GroupBox();
-			this.textBox6 = new System.Windows.Forms.TextBox();
-			this.textBox5 = new System.Windows.Forms.TextBox();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.idcli = new System.Windows.Forms.TextBox();
-			this.groupBox3 = new System.Windows.Forms.GroupBox();
-			this.label19 = new System.Windows.Forms.Label();
-			this.textBox117 = new System.Windows.Forms.TextBox();
-			this.textBox8 = new System.Windows.Forms.TextBox();
-			this.textBox7 = new System.Windows.Forms.TextBox();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.textBox15 = new System.Windows.Forms.TextBox();
-			this.groupBox4 = new System.Windows.Forms.GroupBox();
-			this.label17 = new System.Windows.Forms.Label();
-			this.label16 = new System.Windows.Forms.Label();
-			this.mtgcComboBox3 = new MTGCComboBox();
-			this.mtgcComboBox2 = new MTGCComboBox();
-			this.label15 = new System.Windows.Forms.Label();
-			this.mtgcComboBox1 = new MTGCComboBox();
-			this.label14 = new System.Windows.Forms.Label();
-			this.label13 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.textBox14 = new System.Windows.Forms.TextBox();
-			this.textBox13 = new System.Windows.Forms.TextBox();
-			this.textBox12 = new System.Windows.Forms.TextBox();
-			this.textBox11 = new System.Windows.Forms.TextBox();
-			this.textBox10 = new System.Windows.Forms.TextBox();
-			this.textBox9 = new System.Windows.Forms.TextBox();
-			this.textBox16 = new System.Windows.Forms.TextBox();
-			this.groupBox5 = new System.Windows.Forms.GroupBox();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
-			this.radioButton3 = new System.Windows.Forms.RadioButton();
-			this.radioButton2 = new System.Windows.Forms.RadioButton();
-			this.label18 = new System.Windows.Forms.Label();
-			this.radioButton1 = new System.Windows.Forms.RadioButton();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.groupBox6 = new System.Windows.Forms.GroupBox();
-			this.label49 = new System.Windows.Forms.Label();
-			this.label48 = new System.Windows.Forms.Label();
-			this.label47 = new System.Windows.Forms.Label();
-			this.label46 = new System.Windows.Forms.Label();
-			this.label45 = new System.Windows.Forms.Label();
-			this.label44 = new System.Windows.Forms.Label();
-			this.label43 = new System.Windows.Forms.Label();
-			this.label42 = new System.Windows.Forms.Label();
-			this.label41 = new System.Windows.Forms.Label();
-			this.label40 = new System.Windows.Forms.Label();
-			this.label39 = new System.Windows.Forms.Label();
-			this.label38 = new System.Windows.Forms.Label();
-			this.label37 = new System.Windows.Forms.Label();
-			this.label36 = new System.Windows.Forms.Label();
-			this.label31 = new System.Windows.Forms.Label();
-			this.label32 = new System.Windows.Forms.Label();
-			this.label33 = new System.Windows.Forms.Label();
-			this.label34 = new System.Windows.Forms.Label();
-			this.label35 = new System.Windows.Forms.Label();
-			this.label30 = new System.Windows.Forms.Label();
-			this.label28 = new System.Windows.Forms.Label();
-			this.label27 = new System.Windows.Forms.Label();
-			this.label26 = new System.Windows.Forms.Label();
-			this.label25 = new System.Windows.Forms.Label();
-			this.label24 = new System.Windows.Forms.Label();
-			this.label23 = new System.Windows.Forms.Label();
-			this.label22 = new System.Windows.Forms.Label();
-			this.label21 = new System.Windows.Forms.Label();
-			this.label20 = new System.Windows.Forms.Label();
-			this.textBox116 = new System.Windows.Forms.TextBox();
-			this.textBox106 = new System.Windows.Forms.TextBox();
-			this.textBox107 = new System.Windows.Forms.TextBox();
-			this.textBox108 = new System.Windows.Forms.TextBox();
-			this.textBox109 = new System.Windows.Forms.TextBox();
-			this.textBox110 = new System.Windows.Forms.TextBox();
-			this.textBox111 = new System.Windows.Forms.TextBox();
-			this.textBox112 = new System.Windows.Forms.TextBox();
-			this.textBox113 = new System.Windows.Forms.TextBox();
-			this.textBox114 = new System.Windows.Forms.TextBox();
-			this.textBox115 = new System.Windows.Forms.TextBox();
-			this.textBox96 = new System.Windows.Forms.TextBox();
-			this.textBox97 = new System.Windows.Forms.TextBox();
-			this.textBox98 = new System.Windows.Forms.TextBox();
-			this.textBox99 = new System.Windows.Forms.TextBox();
-			this.textBox100 = new System.Windows.Forms.TextBox();
-			this.textBox101 = new System.Windows.Forms.TextBox();
-			this.textBox102 = new System.Windows.Forms.TextBox();
-			this.textBox103 = new System.Windows.Forms.TextBox();
-			this.textBox104 = new System.Windows.Forms.TextBox();
-			this.textBox105 = new System.Windows.Forms.TextBox();
-			this.textBox86 = new System.Windows.Forms.TextBox();
-			this.textBox87 = new System.Windows.Forms.TextBox();
-			this.textBox88 = new System.Windows.Forms.TextBox();
-			this.textBox89 = new System.Windows.Forms.TextBox();
-			this.textBox90 = new System.Windows.Forms.TextBox();
-			this.textBox91 = new System.Windows.Forms.TextBox();
-			this.textBox92 = new System.Windows.Forms.TextBox();
-			this.textBox93 = new System.Windows.Forms.TextBox();
-			this.textBox94 = new System.Windows.Forms.TextBox();
-			this.textBox95 = new System.Windows.Forms.TextBox();
-			this.textBox76 = new System.Windows.Forms.TextBox();
-			this.textBox77 = new System.Windows.Forms.TextBox();
-			this.textBox78 = new System.Windows.Forms.TextBox();
-			this.textBox79 = new System.Windows.Forms.TextBox();
-			this.textBox80 = new System.Windows.Forms.TextBox();
-			this.textBox81 = new System.Windows.Forms.TextBox();
-			this.textBox82 = new System.Windows.Forms.TextBox();
-			this.textBox83 = new System.Windows.Forms.TextBox();
-			this.textBox84 = new System.Windows.Forms.TextBox();
-			this.textBox85 = new System.Windows.Forms.TextBox();
-			this.textBox66 = new System.Windows.Forms.TextBox();
-			this.textBox67 = new System.Windows.Forms.TextBox();
-			this.textBox68 = new System.Windows.Forms.TextBox();
-			this.textBox69 = new System.Windows.Forms.TextBox();
-			this.textBox70 = new System.Windows.Forms.TextBox();
-			this.textBox71 = new System.Windows.Forms.TextBox();
-			this.textBox72 = new System.Windows.Forms.TextBox();
-			this.textBox73 = new System.Windows.Forms.TextBox();
-			this.textBox74 = new System.Windows.Forms.TextBox();
-			this.textBox75 = new System.Windows.Forms.TextBox();
-			this.textBox56 = new System.Windows.Forms.TextBox();
-			this.textBox57 = new System.Windows.Forms.TextBox();
-			this.textBox58 = new System.Windows.Forms.TextBox();
-			this.textBox59 = new System.Windows.Forms.TextBox();
-			this.textBox60 = new System.Windows.Forms.TextBox();
-			this.textBox61 = new System.Windows.Forms.TextBox();
-			this.textBox62 = new System.Windows.Forms.TextBox();
-			this.textBox63 = new System.Windows.Forms.TextBox();
-			this.textBox64 = new System.Windows.Forms.TextBox();
-			this.textBox65 = new System.Windows.Forms.TextBox();
-			this.textBox46 = new System.Windows.Forms.TextBox();
-			this.textBox47 = new System.Windows.Forms.TextBox();
-			this.textBox48 = new System.Windows.Forms.TextBox();
-			this.textBox49 = new System.Windows.Forms.TextBox();
-			this.textBox50 = new System.Windows.Forms.TextBox();
-			this.textBox51 = new System.Windows.Forms.TextBox();
-			this.textBox52 = new System.Windows.Forms.TextBox();
-			this.textBox53 = new System.Windows.Forms.TextBox();
-			this.textBox54 = new System.Windows.Forms.TextBox();
-			this.textBox55 = new System.Windows.Forms.TextBox();
-			this.textBox36 = new System.Windows.Forms.TextBox();
-			this.textBox37 = new System.Windows.Forms.TextBox();
-			this.textBox38 = new System.Windows.Forms.TextBox();
-			this.textBox39 = new System.Windows.Forms.TextBox();
-			this.textBox40 = new System.Windows.Forms.TextBox();
-			this.textBox41 = new System.Windows.Forms.TextBox();
-			this.textBox42 = new System.Windows.Forms.TextBox();
-			this.textBox43 = new System.Windows.Forms.TextBox();
-			this.textBox44 = new System.Windows.Forms.TextBox();
-			this.textBox45 = new System.Windows.Forms.TextBox();
-			this.textBox26 = new System.Windows.Forms.TextBox();
-			this.textBox27 = new System.Windows.Forms.TextBox();
-			this.textBox28 = new System.Windows.Forms.TextBox();
-			this.textBox29 = new System.Windows.Forms.TextBox();
-			this.textBox30 = new System.Windows.Forms.TextBox();
-			this.textBox31 = new System.Windows.Forms.TextBox();
-			this.textBox32 = new System.Windows.Forms.TextBox();
-			this.textBox33 = new System.Windows.Forms.TextBox();
-			this.textBox34 = new System.Windows.Forms.TextBox();
-			this.textBox35 = new System.Windows.Forms.TextBox();
-			this.textBox25 = new System.Windows.Forms.TextBox();
-			this.textBox24 = new System.Windows.Forms.TextBox();
-			this.textBox23 = new System.Windows.Forms.TextBox();
-			this.textBox22 = new System.Windows.Forms.TextBox();
-			this.textBox21 = new System.Windows.Forms.TextBox();
-			this.textBox20 = new System.Windows.Forms.TextBox();
-			this.textBox19 = new System.Windows.Forms.TextBox();
-			this.textBox18 = new System.Windows.Forms.TextBox();
-			this.textBox17 = new System.Windows.Forms.TextBox();
-			this.label29 = new System.Windows.Forms.Label();
-			this.oleDbDeleteCommand2 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbInsertCommand2 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbSelectCommand2 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbUpdateCommand2 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbDeleteCommand3 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbInsertCommand3 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbSelectCommand3 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbUpdateCommand3 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbDeleteCommand5 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbInsertCommand5 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbSelectCommand5 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbUpdateCommand5 = new System.Data.OleDb.OleDbCommand();
-			this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-			this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-			this.oleDbDeleteCommand7 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbInsertCommand7 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbSelectCommand7 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbUpdateCommand7 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbConnection1 = new System.Data.OleDb.OleDbConnection();
-			this.oleDbSelectCommand6 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbInsertCommand6 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbUpdateCommand6 = new System.Data.OleDb.OleDbCommand();
-			this.oleDbDeleteCommand6 = new System.Data.OleDb.OleDbCommand();
-			this.txDateDernierControle = new System.Windows.Forms.TextBox();
-			this.groupBox1.SuspendLayout();
-			this.groupBox2.SuspendLayout();
-			this.groupBox3.SuspendLayout();
-			this.groupBox4.SuspendLayout();
-			this.groupBox5.SuspendLayout();
-			this.groupBox6.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// groupBox1
-			// 
-			this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.groupBox1.Controls.Add(this.textBox4);
-			this.groupBox1.Controls.Add(this.textBox3);
-			this.groupBox1.Controls.Add(this.textBox2);
-			this.groupBox1.Controls.Add(this.textBox1);
-			this.groupBox1.Controls.Add(this.label4);
-			this.groupBox1.Controls.Add(this.label3);
-			this.groupBox1.Controls.Add(this.label2);
-			this.groupBox1.Controls.Add(this.label1);
-			this.groupBox1.Location = new System.Drawing.Point(8, 8);
-			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(504, 120);
-			this.groupBox1.TabIndex = 0;
-			this.groupBox1.TabStop = false;
-			// 
-			// textBox4
-			// 
-			this.textBox4.BackColor = System.Drawing.Color.White;
-			this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox4.Location = new System.Drawing.Point(104, 88);
-			this.textBox4.Name = "textBox4";
-			this.textBox4.ReadOnly = true;
-			this.textBox4.Size = new System.Drawing.Size(384, 20);
-			this.textBox4.TabIndex = 7;
-			this.textBox4.Text = "";
-			// 
-			// textBox3
-			// 
-			this.textBox3.BackColor = System.Drawing.Color.White;
-			this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox3.Location = new System.Drawing.Point(104, 64);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.ReadOnly = true;
-			this.textBox3.Size = new System.Drawing.Size(384, 20);
-			this.textBox3.TabIndex = 6;
-			this.textBox3.Text = "";
-			// 
-			// textBox2
-			// 
-			this.textBox2.BackColor = System.Drawing.Color.White;
-			this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox2.Location = new System.Drawing.Point(104, 40);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.ReadOnly = true;
-			this.textBox2.Size = new System.Drawing.Size(384, 20);
-			this.textBox2.TabIndex = 5;
-			this.textBox2.Text = "";
-			// 
-			// textBox1
-			// 
-			this.textBox1.BackColor = System.Drawing.Color.White;
-			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox1.Location = new System.Drawing.Point(104, 16);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.ReadOnly = true;
-			this.textBox1.Size = new System.Drawing.Size(384, 20);
-			this.textBox1.TabIndex = 4;
-			this.textBox1.Text = "";
-			// 
-			// label4
-			// 
-			this.label4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label4.Location = new System.Drawing.Point(8, 88);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(80, 16);
-			this.label4.TabIndex = 3;
-			this.label4.Text = "Code MABEC";
-			// 
-			// label3
-			// 
-			this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label3.Location = new System.Drawing.Point(8, 64);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(80, 16);
-			this.label3.TabIndex = 2;
-			this.label3.Text = "Type";
-			// 
-			// label2
-			// 
-			this.label2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label2.Location = new System.Drawing.Point(8, 40);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(88, 16);
-			this.label2.TabIndex = 1;
-			this.label2.Text = "Marque";
-			// 
-			// label1
-			// 
-			this.label1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label1.Location = new System.Drawing.Point(8, 16);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(88, 16);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "Code machine";
-			// 
-			// groupBox2
-			// 
-			this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.groupBox2.Controls.Add(this.textBox6);
-			this.groupBox2.Controls.Add(this.textBox5);
-			this.groupBox2.Controls.Add(this.label6);
-			this.groupBox2.Controls.Add(this.label5);
-			this.groupBox2.Controls.Add(this.idcli);
-			this.groupBox2.Location = new System.Drawing.Point(512, 8);
-			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(400, 120);
-			this.groupBox2.TabIndex = 1;
-			this.groupBox2.TabStop = false;
-			// 
-			// textBox6
-			// 
-			this.textBox6.BackColor = System.Drawing.Color.White;
-			this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox6.Location = new System.Drawing.Point(20, 86);
-			this.textBox6.Name = "textBox6";
-			this.textBox6.ReadOnly = true;
-			this.textBox6.Size = new System.Drawing.Size(356, 20);
-			this.textBox6.TabIndex = 39;
-			this.textBox6.Text = "";
-			// 
-			// textBox5
-			// 
-			this.textBox5.BackColor = System.Drawing.Color.White;
-			this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox5.Location = new System.Drawing.Point(20, 38);
-			this.textBox5.Name = "textBox5";
-			this.textBox5.ReadOnly = true;
-			this.textBox5.Size = new System.Drawing.Size(356, 20);
-			this.textBox5.TabIndex = 38;
-			this.textBox5.Text = "";
-			// 
-			// label6
-			// 
-			this.label6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label6.Location = new System.Drawing.Point(20, 70);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(100, 16);
-			this.label6.TabIndex = 37;
-			this.label6.Text = "Site";
-			// 
-			// label5
-			// 
-			this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label5.Location = new System.Drawing.Point(20, 14);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(100, 18);
-			this.label5.TabIndex = 36;
-			this.label5.Text = "Affectation";
-			// 
-			// idcli
-			// 
-			this.idcli.Location = new System.Drawing.Point(328, 16);
-			this.idcli.Name = "idcli";
-			this.idcli.Size = new System.Drawing.Size(48, 20);
-			this.idcli.TabIndex = 7;
-			this.idcli.Text = "";
-			this.idcli.Visible = false;
-			// 
-			// groupBox3
-			// 
-			this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.groupBox3.Controls.Add(this.label19);
-			this.groupBox3.Controls.Add(this.textBox117);
-			this.groupBox3.Controls.Add(this.textBox8);
-			this.groupBox3.Controls.Add(this.textBox7);
-			this.groupBox3.Controls.Add(this.label8);
-			this.groupBox3.Controls.Add(this.label7);
-			this.groupBox3.Controls.Add(this.textBox15);
-			this.groupBox3.Location = new System.Drawing.Point(8, 121);
-			this.groupBox3.Name = "groupBox3";
-			this.groupBox3.Size = new System.Drawing.Size(504, 207);
-			this.groupBox3.TabIndex = 2;
-			this.groupBox3.TabStop = false;
-			// 
-			// label19
-			// 
-			this.label19.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label19.Location = new System.Drawing.Point(16, 120);
-			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(100, 16);
-			this.label19.TabIndex = 34;
-			this.label19.Text = "Commentaires";
-			// 
-			// textBox117
-			// 
-			this.textBox117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox117.Enabled = false;
-			this.textBox117.Location = new System.Drawing.Point(16, 144);
-			this.textBox117.Multiline = true;
-			this.textBox117.Name = "textBox117";
-			this.textBox117.Size = new System.Drawing.Size(472, 40);
-			this.textBox117.TabIndex = 33;
-			this.textBox117.Text = "";
-			// 
-			// textBox8
-			// 
-			this.textBox8.BackColor = System.Drawing.Color.White;
-			this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox8.Location = new System.Drawing.Point(120, 48);
-			this.textBox8.Name = "textBox8";
-			this.textBox8.ReadOnly = true;
-			this.textBox8.Size = new System.Drawing.Size(120, 20);
-			this.textBox8.TabIndex = 31;
-			this.textBox8.Text = "";
-			this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox7
-			// 
-			this.textBox7.BackColor = System.Drawing.Color.White;
-			this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox7.Location = new System.Drawing.Point(120, 24);
-			this.textBox7.Name = "textBox7";
-			this.textBox7.ReadOnly = true;
-			this.textBox7.Size = new System.Drawing.Size(120, 20);
-			this.textBox7.TabIndex = 30;
-			this.textBox7.Text = "";
-			this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// label8
-			// 
-			this.label8.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label8.Location = new System.Drawing.Point(16, 48);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(100, 16);
-			this.label8.TabIndex = 29;
-			this.label8.Text = "Date contr犨e";
-			// 
-			// label7
-			// 
-			this.label7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label7.Location = new System.Drawing.Point(16, 24);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(100, 17);
-			this.label7.TabIndex = 28;
-			this.label7.Text = "Num廨o contr犨e";
-			// 
-			// textBox15
-			// 
-			this.textBox15.BackColor = System.Drawing.Color.SteelBlue;
-			this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.textBox15.ForeColor = System.Drawing.Color.White;
-			this.textBox15.Location = new System.Drawing.Point(0, 80);
-			this.textBox15.Name = "textBox15";
-			this.textBox15.ReadOnly = true;
-			this.textBox15.Size = new System.Drawing.Size(504, 22);
-			this.textBox15.TabIndex = 32;
-			this.textBox15.Text = "Fichier acquisition en cours";
-			this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// groupBox4
-			// 
-			this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.groupBox4.Controls.Add(this.label17);
-			this.groupBox4.Controls.Add(this.label16);
-			this.groupBox4.Controls.Add(this.mtgcComboBox3);
-			this.groupBox4.Controls.Add(this.mtgcComboBox2);
-			this.groupBox4.Controls.Add(this.label15);
-			this.groupBox4.Controls.Add(this.mtgcComboBox1);
-			this.groupBox4.Controls.Add(this.label14);
-			this.groupBox4.Controls.Add(this.label13);
-			this.groupBox4.Controls.Add(this.label12);
-			this.groupBox4.Controls.Add(this.label11);
-			this.groupBox4.Controls.Add(this.label10);
-			this.groupBox4.Controls.Add(this.label9);
-			this.groupBox4.Controls.Add(this.textBox14);
-			this.groupBox4.Controls.Add(this.textBox13);
-			this.groupBox4.Controls.Add(this.textBox12);
-			this.groupBox4.Controls.Add(this.textBox11);
-			this.groupBox4.Controls.Add(this.textBox10);
-			this.groupBox4.Controls.Add(this.textBox9);
-			this.groupBox4.Location = new System.Drawing.Point(512, 121);
-			this.groupBox4.Name = "groupBox4";
-			this.groupBox4.Size = new System.Drawing.Size(400, 207);
-			this.groupBox4.TabIndex = 3;
-			this.groupBox4.TabStop = false;
-			// 
-			// label17
-			// 
-			this.label17.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label17.Location = new System.Drawing.Point(16, 136);
-			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(100, 16);
-			this.label17.TabIndex = 17;
-			this.label17.Text = "Capteur";
-			// 
-			// label16
-			// 
-			this.label16.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label16.Location = new System.Drawing.Point(16, 96);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(100, 16);
-			this.label16.TabIndex = 16;
-			this.label16.Text = "Chaine";
-			// 
-			// mtgcComboBox3
-			// 
-			this.mtgcComboBox3.BorderStyle = MTGCComboBox.TipiBordi.FlatXP;
-			this.mtgcComboBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-			this.mtgcComboBox3.ColumnNum = 2;
-			this.mtgcComboBox3.ColumnWidth = "270;50";
-			this.mtgcComboBox3.DisplayMember = "Text";
-			this.mtgcComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.mtgcComboBox3.DropDownArrowBackColor = System.Drawing.Color.FromArgb(((System.Byte)(136)), ((System.Byte)(169)), ((System.Byte)(223)));
-			this.mtgcComboBox3.DropDownBackColor = System.Drawing.Color.FromArgb(((System.Byte)(193)), ((System.Byte)(210)), ((System.Byte)(238)));
-			this.mtgcComboBox3.DropDownForeColor = System.Drawing.Color.Black;
-			this.mtgcComboBox3.DropDownStyle = MTGCComboBox.CustomDropDownStyle.DropDown;
-			this.mtgcComboBox3.DropDownWidth = 340;
-			this.mtgcComboBox3.Enabled = false;
-			this.mtgcComboBox3.GridLineColor = System.Drawing.Color.LightGray;
-			this.mtgcComboBox3.GridLineHorizontal = false;
-			this.mtgcComboBox3.GridLineVertical = true;
-			this.mtgcComboBox3.HighlightBorderColor = System.Drawing.Color.Blue;
-			this.mtgcComboBox3.HighlightBorderOnMouseEvents = true;
-			this.mtgcComboBox3.LoadingType = MTGCComboBox.CaricamentoCombo.ComboBoxItem;
-			this.mtgcComboBox3.Location = new System.Drawing.Point(16, 152);
-			this.mtgcComboBox3.ManagingFastMouseMoving = true;
-			this.mtgcComboBox3.ManagingFastMouseMovingInterval = 30;
-			this.mtgcComboBox3.Name = "mtgcComboBox3";
-			this.mtgcComboBox3.NormalBorderColor = System.Drawing.Color.Black;
-			this.mtgcComboBox3.Size = new System.Drawing.Size(359, 21);
-			this.mtgcComboBox3.TabIndex = 15;
-			// 
-			// mtgcComboBox2
-			// 
-			this.mtgcComboBox2.BorderStyle = MTGCComboBox.TipiBordi.FlatXP;
-			this.mtgcComboBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-			this.mtgcComboBox2.ColumnNum = 1;
-			this.mtgcComboBox2.ColumnWidth = "200";
-			this.mtgcComboBox2.DisplayMember = "Text";
-			this.mtgcComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.mtgcComboBox2.DropDownArrowBackColor = System.Drawing.Color.FromArgb(((System.Byte)(136)), ((System.Byte)(169)), ((System.Byte)(223)));
-			this.mtgcComboBox2.DropDownBackColor = System.Drawing.Color.FromArgb(((System.Byte)(193)), ((System.Byte)(210)), ((System.Byte)(238)));
-			this.mtgcComboBox2.DropDownForeColor = System.Drawing.Color.Black;
-			this.mtgcComboBox2.DropDownStyle = MTGCComboBox.CustomDropDownStyle.DropDown;
-			this.mtgcComboBox2.DropDownWidth = 270;
-			this.mtgcComboBox2.Enabled = false;
-			this.mtgcComboBox2.GridLineColor = System.Drawing.Color.LightGray;
-			this.mtgcComboBox2.GridLineHorizontal = false;
-			this.mtgcComboBox2.GridLineVertical = false;
-			this.mtgcComboBox2.HighlightBorderColor = System.Drawing.Color.Blue;
-			this.mtgcComboBox2.HighlightBorderOnMouseEvents = true;
-			this.mtgcComboBox2.LoadingType = MTGCComboBox.CaricamentoCombo.ComboBoxItem;
-			this.mtgcComboBox2.Location = new System.Drawing.Point(16, 112);
-			this.mtgcComboBox2.ManagingFastMouseMoving = true;
-			this.mtgcComboBox2.ManagingFastMouseMovingInterval = 30;
-			this.mtgcComboBox2.Name = "mtgcComboBox2";
-			this.mtgcComboBox2.NormalBorderColor = System.Drawing.Color.Black;
-			this.mtgcComboBox2.Size = new System.Drawing.Size(360, 21);
-			this.mtgcComboBox2.TabIndex = 14;
-			// 
-			// label15
-			// 
-			this.label15.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label15.Location = new System.Drawing.Point(303, 55);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(67, 17);
-			this.label15.TabIndex = 13;
-			this.label15.Text = "Op廨ateur";
-			// 
-			// mtgcComboBox1
-			// 
-			this.mtgcComboBox1.BorderStyle = MTGCComboBox.TipiBordi.FlatXP;
-			this.mtgcComboBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-			this.mtgcComboBox1.ColumnNum = 1;
-			this.mtgcComboBox1.ColumnWidth = "121";
-			this.mtgcComboBox1.DisplayMember = "Text";
-			this.mtgcComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.mtgcComboBox1.DropDownArrowBackColor = System.Drawing.Color.FromArgb(((System.Byte)(136)), ((System.Byte)(169)), ((System.Byte)(223)));
-			this.mtgcComboBox1.DropDownBackColor = System.Drawing.Color.FromArgb(((System.Byte)(193)), ((System.Byte)(210)), ((System.Byte)(238)));
-			this.mtgcComboBox1.DropDownForeColor = System.Drawing.Color.Black;
-			this.mtgcComboBox1.DropDownStyle = MTGCComboBox.CustomDropDownStyle.DropDown;
-			this.mtgcComboBox1.DropDownWidth = 141;
-			this.mtgcComboBox1.Enabled = false;
-			this.mtgcComboBox1.GridLineColor = System.Drawing.Color.LightGray;
-			this.mtgcComboBox1.GridLineHorizontal = false;
-			this.mtgcComboBox1.GridLineVertical = false;
-			this.mtgcComboBox1.HighlightBorderColor = System.Drawing.Color.Blue;
-			this.mtgcComboBox1.HighlightBorderOnMouseEvents = true;
-			this.mtgcComboBox1.LoadingType = MTGCComboBox.CaricamentoCombo.ComboBoxItem;
-			this.mtgcComboBox1.Location = new System.Drawing.Point(289, 72);
-			this.mtgcComboBox1.ManagingFastMouseMoving = true;
-			this.mtgcComboBox1.ManagingFastMouseMovingInterval = 30;
-			this.mtgcComboBox1.Name = "mtgcComboBox1";
-			this.mtgcComboBox1.NormalBorderColor = System.Drawing.Color.Black;
-			this.mtgcComboBox1.Size = new System.Drawing.Size(87, 21);
-			this.mtgcComboBox1.TabIndex = 12;
-			// 
-			// label14
-			// 
-			this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label14.Location = new System.Drawing.Point(189, 56);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(100, 16);
-			this.label14.TabIndex = 11;
-			this.label14.Text = "Vit. mesur嶪";
-			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label13
-			// 
-			this.label13.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label13.Location = new System.Drawing.Point(15, 56);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(100, 16);
-			this.label13.TabIndex = 10;
-			this.label13.Text = "Mini poste";
-			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label12
-			// 
-			this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label12.Location = new System.Drawing.Point(103, 56);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(96, 16);
-			this.label12.TabIndex = 9;
-			this.label12.Text = "Maxi poste";
-			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label11
-			// 
-			this.label11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label11.Location = new System.Drawing.Point(192, 16);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(96, 16);
-			this.label11.TabIndex = 8;
-			this.label11.Text = "Vitesse";
-			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label10
-			// 
-			this.label10.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label10.Location = new System.Drawing.Point(103, 16);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(96, 16);
-			this.label10.TabIndex = 7;
-			this.label10.Text = "Maxi Mach.";
-			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label9
-			// 
-			this.label9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.label9.Location = new System.Drawing.Point(15, 16);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(96, 16);
-			this.label9.TabIndex = 6;
-			this.label9.Text = "Mini Mach.";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// textBox14
-			// 
-			this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox14.Enabled = false;
-			this.textBox14.Location = new System.Drawing.Point(194, 72);
-			this.textBox14.Name = "textBox14";
-			this.textBox14.Size = new System.Drawing.Size(90, 20);
-			this.textBox14.TabIndex = 5;
-			this.textBox14.Text = "0,00";
-			this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox13
-			// 
-			this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox13.Enabled = false;
-			this.textBox13.Location = new System.Drawing.Point(105, 72);
-			this.textBox13.Name = "textBox13";
-			this.textBox13.Size = new System.Drawing.Size(90, 20);
-			this.textBox13.TabIndex = 4;
-			this.textBox13.Text = "0,00";
-			this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox12
-			// 
-			this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox12.Enabled = false;
-			this.textBox12.Location = new System.Drawing.Point(16, 72);
-			this.textBox12.Name = "textBox12";
-			this.textBox12.Size = new System.Drawing.Size(90, 20);
-			this.textBox12.TabIndex = 3;
-			this.textBox12.Text = "0,00";
-			this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox11
-			// 
-			this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox11.Location = new System.Drawing.Point(194, 32);
-			this.textBox11.Name = "textBox11";
-			this.textBox11.Size = new System.Drawing.Size(90, 20);
-			this.textBox11.TabIndex = 2;
-			this.textBox11.Text = "";
-			this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox10
-			// 
-			this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox10.Location = new System.Drawing.Point(105, 32);
-			this.textBox10.Name = "textBox10";
-			this.textBox10.Size = new System.Drawing.Size(90, 20);
-			this.textBox10.TabIndex = 1;
-			this.textBox10.Text = "";
-			this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox9
-			// 
-			this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox9.Location = new System.Drawing.Point(16, 32);
-			this.textBox9.Name = "textBox9";
-			this.textBox9.Size = new System.Drawing.Size(90, 20);
-			this.textBox9.TabIndex = 0;
-			this.textBox9.Text = "";
-			this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox16
-			// 
-			this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox16.Enabled = false;
-			this.textBox16.ForeColor = System.Drawing.Color.Black;
-			this.textBox16.Location = new System.Drawing.Point(72, 64);
-			this.textBox16.Name = "textBox16";
-			this.textBox16.Size = new System.Drawing.Size(64, 20);
-			this.textBox16.TabIndex = 4;
-			this.textBox16.Text = "0,00";
-			this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox16.Leave += new System.EventHandler(this.textBox16_Leave);
-			// 
-			// groupBox5
-			// 
-			this.groupBox5.BackColor = System.Drawing.Color.Transparent;
-			this.groupBox5.Controls.Add(this.button3);
-			this.groupBox5.Controls.Add(this.button4);
-			this.groupBox5.Controls.Add(this.radioButton3);
-			this.groupBox5.Controls.Add(this.radioButton2);
-			this.groupBox5.Controls.Add(this.label18);
-			this.groupBox5.Controls.Add(this.radioButton1);
-			this.groupBox5.Controls.Add(this.button1);
-			this.groupBox5.Controls.Add(this.button2);
-			this.groupBox5.Location = new System.Drawing.Point(8, 320);
-			this.groupBox5.Name = "groupBox5";
-			this.groupBox5.Size = new System.Drawing.Size(88, 312);
-			this.groupBox5.TabIndex = 5;
-			this.groupBox5.TabStop = false;
-			// 
-			// button3
-			// 
-			this.button3.BackColor = System.Drawing.Color.White;
-			this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.button3.ForeColor = System.Drawing.Color.Blue;
-			this.button3.Location = new System.Drawing.Point(8, 160);
-			this.button3.Name = "button3";
-			this.button3.TabIndex = 37;
-			this.button3.Text = "Edition";
-			this.button3.Click += new System.EventHandler(this.button5_Click);
-			// 
-			// button4
-			// 
-			this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
-			this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.button4.ForeColor = System.Drawing.Color.Black;
-			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.Location = new System.Drawing.Point(20, 240);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(48, 48);
-			this.button4.TabIndex = 36;
-			this.button4.Click += new System.EventHandler(this.button4_Click);
-			// 
-			// radioButton3
-			// 
-			this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.radioButton3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.radioButton3.Location = new System.Drawing.Point(16, 80);
-			this.radioButton3.Name = "radioButton3";
-			this.radioButton3.TabIndex = 35;
-			this.radioButton3.Text = "100";
-			this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
-			// 
-			// radioButton2
-			// 
-			this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.radioButton2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.radioButton2.Location = new System.Drawing.Point(16, 56);
-			this.radioButton2.Name = "radioButton2";
-			this.radioButton2.TabIndex = 34;
-			this.radioButton2.Text = "50";
-			this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
-			// 
-			// label18
-			// 
-			this.label18.Location = new System.Drawing.Point(11, 8);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(64, 23);
-			this.label18.TabIndex = 33;
-			this.label18.Text = "Valeurs";
-			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// radioButton1
-			// 
-			this.radioButton1.Checked = true;
-			this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.radioButton1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.radioButton1.Location = new System.Drawing.Point(16, 32);
-			this.radioButton1.Name = "radioButton1";
-			this.radioButton1.Size = new System.Drawing.Size(44, 24);
-			this.radioButton1.TabIndex = 33;
-			this.radioButton1.TabStop = true;
-			this.radioButton1.Text = "30";
-			this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-			// 
-			// button1
-			// 
-			this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-			this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.button1.ForeColor = System.Drawing.Color.Blue;
-			this.button1.Location = new System.Drawing.Point(8, 112);
-			this.button1.Name = "button1";
-			this.button1.TabIndex = 33;
-			this.button1.Text = "Saisie";
-			this.button1.Click += new System.EventHandler(this.button1_Click);
-			// 
-			// button2
-			// 
-			this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-			this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button2.Enabled = false;
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.button2.ForeColor = System.Drawing.Color.Blue;
-			this.button2.Location = new System.Drawing.Point(8, 136);
-			this.button2.Name = "button2";
-			this.button2.TabIndex = 33;
-			this.button2.Text = "Enregistre";
-			this.button2.Click += new System.EventHandler(this.button2_Click);
-			// 
-			// groupBox6
-			// 
-			this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.groupBox6.Controls.Add(this.label49);
-			this.groupBox6.Controls.Add(this.label48);
-			this.groupBox6.Controls.Add(this.label47);
-			this.groupBox6.Controls.Add(this.label46);
-			this.groupBox6.Controls.Add(this.label45);
-			this.groupBox6.Controls.Add(this.label44);
-			this.groupBox6.Controls.Add(this.label43);
-			this.groupBox6.Controls.Add(this.label42);
-			this.groupBox6.Controls.Add(this.label41);
-			this.groupBox6.Controls.Add(this.label40);
-			this.groupBox6.Controls.Add(this.label39);
-			this.groupBox6.Controls.Add(this.label38);
-			this.groupBox6.Controls.Add(this.label37);
-			this.groupBox6.Controls.Add(this.label36);
-			this.groupBox6.Controls.Add(this.label31);
-			this.groupBox6.Controls.Add(this.label32);
-			this.groupBox6.Controls.Add(this.label33);
-			this.groupBox6.Controls.Add(this.label34);
-			this.groupBox6.Controls.Add(this.label35);
-			this.groupBox6.Controls.Add(this.label30);
-			this.groupBox6.Controls.Add(this.label28);
-			this.groupBox6.Controls.Add(this.label27);
-			this.groupBox6.Controls.Add(this.label26);
-			this.groupBox6.Controls.Add(this.label25);
-			this.groupBox6.Controls.Add(this.label24);
-			this.groupBox6.Controls.Add(this.label23);
-			this.groupBox6.Controls.Add(this.label22);
-			this.groupBox6.Controls.Add(this.label21);
-			this.groupBox6.Controls.Add(this.label20);
-			this.groupBox6.Controls.Add(this.textBox116);
-			this.groupBox6.Controls.Add(this.textBox106);
-			this.groupBox6.Controls.Add(this.textBox107);
-			this.groupBox6.Controls.Add(this.textBox108);
-			this.groupBox6.Controls.Add(this.textBox109);
-			this.groupBox6.Controls.Add(this.textBox110);
-			this.groupBox6.Controls.Add(this.textBox111);
-			this.groupBox6.Controls.Add(this.textBox112);
-			this.groupBox6.Controls.Add(this.textBox113);
-			this.groupBox6.Controls.Add(this.textBox114);
-			this.groupBox6.Controls.Add(this.textBox115);
-			this.groupBox6.Controls.Add(this.textBox96);
-			this.groupBox6.Controls.Add(this.textBox97);
-			this.groupBox6.Controls.Add(this.textBox98);
-			this.groupBox6.Controls.Add(this.textBox99);
-			this.groupBox6.Controls.Add(this.textBox100);
-			this.groupBox6.Controls.Add(this.textBox101);
-			this.groupBox6.Controls.Add(this.textBox102);
-			this.groupBox6.Controls.Add(this.textBox103);
-			this.groupBox6.Controls.Add(this.textBox104);
-			this.groupBox6.Controls.Add(this.textBox105);
-			this.groupBox6.Controls.Add(this.textBox86);
-			this.groupBox6.Controls.Add(this.textBox87);
-			this.groupBox6.Controls.Add(this.textBox88);
-			this.groupBox6.Controls.Add(this.textBox89);
-			this.groupBox6.Controls.Add(this.textBox90);
-			this.groupBox6.Controls.Add(this.textBox91);
-			this.groupBox6.Controls.Add(this.textBox92);
-			this.groupBox6.Controls.Add(this.textBox93);
-			this.groupBox6.Controls.Add(this.textBox94);
-			this.groupBox6.Controls.Add(this.textBox95);
-			this.groupBox6.Controls.Add(this.textBox76);
-			this.groupBox6.Controls.Add(this.textBox77);
-			this.groupBox6.Controls.Add(this.textBox78);
-			this.groupBox6.Controls.Add(this.textBox79);
-			this.groupBox6.Controls.Add(this.textBox80);
-			this.groupBox6.Controls.Add(this.textBox81);
-			this.groupBox6.Controls.Add(this.textBox82);
-			this.groupBox6.Controls.Add(this.textBox83);
-			this.groupBox6.Controls.Add(this.textBox84);
-			this.groupBox6.Controls.Add(this.textBox85);
-			this.groupBox6.Controls.Add(this.textBox66);
-			this.groupBox6.Controls.Add(this.textBox67);
-			this.groupBox6.Controls.Add(this.textBox68);
-			this.groupBox6.Controls.Add(this.textBox69);
-			this.groupBox6.Controls.Add(this.textBox70);
-			this.groupBox6.Controls.Add(this.textBox71);
-			this.groupBox6.Controls.Add(this.textBox72);
-			this.groupBox6.Controls.Add(this.textBox73);
-			this.groupBox6.Controls.Add(this.textBox74);
-			this.groupBox6.Controls.Add(this.textBox75);
-			this.groupBox6.Controls.Add(this.textBox56);
-			this.groupBox6.Controls.Add(this.textBox57);
-			this.groupBox6.Controls.Add(this.textBox58);
-			this.groupBox6.Controls.Add(this.textBox59);
-			this.groupBox6.Controls.Add(this.textBox60);
-			this.groupBox6.Controls.Add(this.textBox61);
-			this.groupBox6.Controls.Add(this.textBox62);
-			this.groupBox6.Controls.Add(this.textBox63);
-			this.groupBox6.Controls.Add(this.textBox64);
-			this.groupBox6.Controls.Add(this.textBox65);
-			this.groupBox6.Controls.Add(this.textBox46);
-			this.groupBox6.Controls.Add(this.textBox47);
-			this.groupBox6.Controls.Add(this.textBox48);
-			this.groupBox6.Controls.Add(this.textBox49);
-			this.groupBox6.Controls.Add(this.textBox50);
-			this.groupBox6.Controls.Add(this.textBox51);
-			this.groupBox6.Controls.Add(this.textBox52);
-			this.groupBox6.Controls.Add(this.textBox53);
-			this.groupBox6.Controls.Add(this.textBox54);
-			this.groupBox6.Controls.Add(this.textBox55);
-			this.groupBox6.Controls.Add(this.textBox36);
-			this.groupBox6.Controls.Add(this.textBox37);
-			this.groupBox6.Controls.Add(this.textBox38);
-			this.groupBox6.Controls.Add(this.textBox39);
-			this.groupBox6.Controls.Add(this.textBox40);
-			this.groupBox6.Controls.Add(this.textBox41);
-			this.groupBox6.Controls.Add(this.textBox42);
-			this.groupBox6.Controls.Add(this.textBox43);
-			this.groupBox6.Controls.Add(this.textBox44);
-			this.groupBox6.Controls.Add(this.textBox45);
-			this.groupBox6.Controls.Add(this.textBox26);
-			this.groupBox6.Controls.Add(this.textBox27);
-			this.groupBox6.Controls.Add(this.textBox28);
-			this.groupBox6.Controls.Add(this.textBox29);
-			this.groupBox6.Controls.Add(this.textBox30);
-			this.groupBox6.Controls.Add(this.textBox31);
-			this.groupBox6.Controls.Add(this.textBox32);
-			this.groupBox6.Controls.Add(this.textBox33);
-			this.groupBox6.Controls.Add(this.textBox34);
-			this.groupBox6.Controls.Add(this.textBox35);
-			this.groupBox6.Controls.Add(this.textBox25);
-			this.groupBox6.Controls.Add(this.textBox24);
-			this.groupBox6.Controls.Add(this.textBox23);
-			this.groupBox6.Controls.Add(this.textBox22);
-			this.groupBox6.Controls.Add(this.textBox21);
-			this.groupBox6.Controls.Add(this.textBox20);
-			this.groupBox6.Controls.Add(this.textBox19);
-			this.groupBox6.Controls.Add(this.textBox18);
-			this.groupBox6.Controls.Add(this.textBox17);
-			this.groupBox6.Controls.Add(this.textBox16);
-			this.groupBox6.Controls.Add(this.label29);
-			this.groupBox6.Location = new System.Drawing.Point(96, 320);
-			this.groupBox6.Name = "groupBox6";
-			this.groupBox6.Size = new System.Drawing.Size(816, 312);
-			this.groupBox6.TabIndex = 6;
-			this.groupBox6.TabStop = false;
-			// 
-			// label49
-			// 
-			this.label49.Location = new System.Drawing.Point(432, 280);
-			this.label49.Name = "label49";
-			this.label49.Size = new System.Drawing.Size(32, 23);
-			this.label49.TabIndex = 133;
-			this.label49.Text = "E20 :";
-			this.label49.Visible = false;
-			// 
-			// label48
-			// 
-			this.label48.Location = new System.Drawing.Point(40, 280);
-			this.label48.Name = "label48";
-			this.label48.Size = new System.Drawing.Size(32, 23);
-			this.label48.TabIndex = 132;
-			this.label48.Text = "E19:";
-			this.label48.Visible = false;
-			// 
-			// label47
-			// 
-			this.label47.Location = new System.Drawing.Point(432, 256);
-			this.label47.Name = "label47";
-			this.label47.Size = new System.Drawing.Size(32, 23);
-			this.label47.TabIndex = 131;
-			this.label47.Text = "E18 :";
-			this.label47.Visible = false;
-			// 
-			// label46
-			// 
-			this.label46.Location = new System.Drawing.Point(40, 256);
-			this.label46.Name = "label46";
-			this.label46.Size = new System.Drawing.Size(32, 23);
-			this.label46.TabIndex = 130;
-			this.label46.Text = "E17 :";
-			this.label46.Visible = false;
-			// 
-			// label45
-			// 
-			this.label45.Location = new System.Drawing.Point(432, 232);
-			this.label45.Name = "label45";
-			this.label45.Size = new System.Drawing.Size(32, 23);
-			this.label45.TabIndex = 129;
-			this.label45.Text = "E16 :";
-			this.label45.Visible = false;
-			// 
-			// label44
-			// 
-			this.label44.Location = new System.Drawing.Point(40, 232);
-			this.label44.Name = "label44";
-			this.label44.Size = new System.Drawing.Size(32, 23);
-			this.label44.TabIndex = 128;
-			this.label44.Text = "E15 :";
-			this.label44.Visible = false;
-			// 
-			// label43
-			// 
-			this.label43.Location = new System.Drawing.Point(432, 208);
-			this.label43.Name = "label43";
-			this.label43.Size = new System.Drawing.Size(32, 23);
-			this.label43.TabIndex = 127;
-			this.label43.Text = "E14 :";
-			this.label43.Visible = false;
-			// 
-			// label42
-			// 
-			this.label42.Location = new System.Drawing.Point(40, 208);
-			this.label42.Name = "label42";
-			this.label42.Size = new System.Drawing.Size(32, 23);
-			this.label42.TabIndex = 126;
-			this.label42.Text = "E13:";
-			this.label42.Visible = false;
-			// 
-			// label41
-			// 
-			this.label41.Location = new System.Drawing.Point(432, 184);
-			this.label41.Name = "label41";
-			this.label41.Size = new System.Drawing.Size(32, 23);
-			this.label41.TabIndex = 125;
-			this.label41.Text = "E12 :";
-			this.label41.Visible = false;
-			// 
-			// label40
-			// 
-			this.label40.Location = new System.Drawing.Point(40, 184);
-			this.label40.Name = "label40";
-			this.label40.Size = new System.Drawing.Size(32, 23);
-			this.label40.TabIndex = 124;
-			this.label40.Text = "E11 :";
-			this.label40.Visible = false;
-			// 
-			// label39
-			// 
-			this.label39.Location = new System.Drawing.Point(432, 160);
-			this.label39.Name = "label39";
-			this.label39.Size = new System.Drawing.Size(32, 23);
-			this.label39.TabIndex = 123;
-			this.label39.Text = "E10 :";
-			this.label39.Visible = false;
-			// 
-			// label38
-			// 
-			this.label38.Location = new System.Drawing.Point(40, 160);
-			this.label38.Name = "label38";
-			this.label38.Size = new System.Drawing.Size(32, 23);
-			this.label38.TabIndex = 122;
-			this.label38.Text = "E9:";
-			this.label38.Visible = false;
-			// 
-			// label37
-			// 
-			this.label37.Location = new System.Drawing.Point(432, 136);
-			this.label37.Name = "label37";
-			this.label37.Size = new System.Drawing.Size(32, 23);
-			this.label37.TabIndex = 121;
-			this.label37.Text = "E8 :";
-			this.label37.Visible = false;
-			// 
-			// label36
-			// 
-			this.label36.Location = new System.Drawing.Point(40, 136);
-			this.label36.Name = "label36";
-			this.label36.Size = new System.Drawing.Size(32, 23);
-			this.label36.TabIndex = 120;
-			this.label36.Text = "E7 :";
-			this.label36.Visible = false;
-			// 
-			// label31
-			// 
-			this.label31.Location = new System.Drawing.Point(656, 40);
-			this.label31.Name = "label31";
-			this.label31.Size = new System.Drawing.Size(64, 23);
-			this.label31.TabIndex = 119;
-			this.label31.Text = "M4";
-			this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label32
-			// 
-			this.label32.Location = new System.Drawing.Point(720, 40);
-			this.label32.Name = "label32";
-			this.label32.Size = new System.Drawing.Size(64, 23);
-			this.label32.TabIndex = 118;
-			this.label32.Text = "M5";
-			this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label33
-			// 
-			this.label33.Location = new System.Drawing.Point(528, 40);
-			this.label33.Name = "label33";
-			this.label33.Size = new System.Drawing.Size(64, 23);
-			this.label33.TabIndex = 116;
-			this.label33.Text = "M2";
-			this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label34
-			// 
-			this.label34.Location = new System.Drawing.Point(464, 40);
-			this.label34.Name = "label34";
-			this.label34.Size = new System.Drawing.Size(64, 23);
-			this.label34.TabIndex = 115;
-			this.label34.Text = "M1";
-			this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label35
-			// 
-			this.label35.Location = new System.Drawing.Point(592, 40);
-			this.label35.Name = "label35";
-			this.label35.Size = new System.Drawing.Size(64, 23);
-			this.label35.TabIndex = 117;
-			this.label35.Text = "M3";
-			this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label30
-			// 
-			this.label30.Location = new System.Drawing.Point(264, 40);
-			this.label30.Name = "label30";
-			this.label30.Size = new System.Drawing.Size(64, 23);
-			this.label30.TabIndex = 114;
-			this.label30.Text = "M4";
-			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label28
-			// 
-			this.label28.Location = new System.Drawing.Point(328, 40);
-			this.label28.Name = "label28";
-			this.label28.Size = new System.Drawing.Size(64, 23);
-			this.label28.TabIndex = 113;
-			this.label28.Text = "M5";
-			this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label27
-			// 
-			this.label27.Location = new System.Drawing.Point(136, 40);
-			this.label27.Name = "label27";
-			this.label27.Size = new System.Drawing.Size(64, 23);
-			this.label27.TabIndex = 112;
-			this.label27.Text = "M2";
-			this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label26
-			// 
-			this.label26.Location = new System.Drawing.Point(72, 40);
-			this.label26.Name = "label26";
-			this.label26.Size = new System.Drawing.Size(64, 23);
-			this.label26.TabIndex = 111;
-			this.label26.Text = "M1";
-			this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label25
-			// 
-			this.label25.Location = new System.Drawing.Point(432, 112);
-			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(32, 23);
-			this.label25.TabIndex = 110;
-			this.label25.Text = "E6 :";
-			// 
-			// label24
-			// 
-			this.label24.Location = new System.Drawing.Point(40, 112);
-			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(32, 23);
-			this.label24.TabIndex = 109;
-			this.label24.Text = "E5 :";
-			// 
-			// label23
-			// 
-			this.label23.Location = new System.Drawing.Point(432, 88);
-			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(32, 23);
-			this.label23.TabIndex = 108;
-			this.label23.Text = "E4 :";
-			// 
-			// label22
-			// 
-			this.label22.Location = new System.Drawing.Point(40, 88);
-			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(32, 23);
-			this.label22.TabIndex = 107;
-			this.label22.Text = "E3 :";
-			// 
-			// label21
-			// 
-			this.label21.Location = new System.Drawing.Point(432, 64);
-			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(32, 23);
-			this.label21.TabIndex = 106;
-			this.label21.Text = "E2 :";
-			// 
-			// label20
-			// 
-			this.label20.Location = new System.Drawing.Point(40, 64);
-			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(32, 23);
-			this.label20.TabIndex = 105;
-			this.label20.Text = "E1 :";
-			// 
-			// textBox116
-			// 
-			this.textBox116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox116.Location = new System.Drawing.Point(8, 16);
-			this.textBox116.Name = "textBox116";
-			this.textBox116.ReadOnly = true;
-			this.textBox116.Size = new System.Drawing.Size(800, 20);
-			this.textBox116.TabIndex = 104;
-			this.textBox116.Text = "Contr犨e 30 mesures";
-			this.textBox116.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			// 
-			// textBox106
-			// 
-			this.textBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox106.Enabled = false;
-			this.textBox106.Location = new System.Drawing.Point(720, 280);
-			this.textBox106.Name = "textBox106";
-			this.textBox106.Size = new System.Drawing.Size(64, 20);
-			this.textBox106.TabIndex = 103;
-			this.textBox106.Text = "0,00";
-			this.textBox106.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox106.Visible = false;
-			this.textBox106.Leave += new System.EventHandler(this.textBox106_Leave);
-			// 
-			// textBox107
-			// 
-			this.textBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox107.Enabled = false;
-			this.textBox107.Location = new System.Drawing.Point(656, 280);
-			this.textBox107.Name = "textBox107";
-			this.textBox107.Size = new System.Drawing.Size(64, 20);
-			this.textBox107.TabIndex = 102;
-			this.textBox107.Text = "0,00";
-			this.textBox107.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox107.Visible = false;
-			this.textBox107.Leave += new System.EventHandler(this.textBox107_Leave);
-			// 
-			// textBox108
-			// 
-			this.textBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox108.Enabled = false;
-			this.textBox108.Location = new System.Drawing.Point(592, 280);
-			this.textBox108.Name = "textBox108";
-			this.textBox108.Size = new System.Drawing.Size(64, 20);
-			this.textBox108.TabIndex = 101;
-			this.textBox108.Text = "0,00";
-			this.textBox108.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox108.Visible = false;
-			this.textBox108.Leave += new System.EventHandler(this.textBox108_Leave);
-			// 
-			// textBox109
-			// 
-			this.textBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox109.Enabled = false;
-			this.textBox109.Location = new System.Drawing.Point(528, 280);
-			this.textBox109.Name = "textBox109";
-			this.textBox109.Size = new System.Drawing.Size(64, 20);
-			this.textBox109.TabIndex = 100;
-			this.textBox109.Text = "0,00";
-			this.textBox109.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox109.Visible = false;
-			this.textBox109.Leave += new System.EventHandler(this.textBox109_Leave);
-			// 
-			// textBox110
-			// 
-			this.textBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox110.Enabled = false;
-			this.textBox110.Location = new System.Drawing.Point(464, 280);
-			this.textBox110.Name = "textBox110";
-			this.textBox110.Size = new System.Drawing.Size(64, 20);
-			this.textBox110.TabIndex = 99;
-			this.textBox110.Text = "0,00";
-			this.textBox110.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox110.Visible = false;
-			this.textBox110.Leave += new System.EventHandler(this.textBox110_Leave);
-			// 
-			// textBox111
-			// 
-			this.textBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox111.Enabled = false;
-			this.textBox111.Location = new System.Drawing.Point(328, 280);
-			this.textBox111.Name = "textBox111";
-			this.textBox111.Size = new System.Drawing.Size(64, 20);
-			this.textBox111.TabIndex = 98;
-			this.textBox111.Text = "0,00";
-			this.textBox111.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox111.Visible = false;
-			this.textBox111.Leave += new System.EventHandler(this.textBox111_Leave);
-			// 
-			// textBox112
-			// 
-			this.textBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox112.Enabled = false;
-			this.textBox112.Location = new System.Drawing.Point(264, 280);
-			this.textBox112.Name = "textBox112";
-			this.textBox112.Size = new System.Drawing.Size(64, 20);
-			this.textBox112.TabIndex = 97;
-			this.textBox112.Text = "0,00";
-			this.textBox112.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox112.Visible = false;
-			this.textBox112.Leave += new System.EventHandler(this.textBox112_Leave);
-			// 
-			// textBox113
-			// 
-			this.textBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox113.Enabled = false;
-			this.textBox113.Location = new System.Drawing.Point(200, 280);
-			this.textBox113.Name = "textBox113";
-			this.textBox113.Size = new System.Drawing.Size(64, 20);
-			this.textBox113.TabIndex = 96;
-			this.textBox113.Text = "0,00";
-			this.textBox113.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox113.Visible = false;
-			this.textBox113.Leave += new System.EventHandler(this.textBox113_Leave);
-			// 
-			// textBox114
-			// 
-			this.textBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox114.Enabled = false;
-			this.textBox114.Location = new System.Drawing.Point(136, 280);
-			this.textBox114.Name = "textBox114";
-			this.textBox114.Size = new System.Drawing.Size(64, 20);
-			this.textBox114.TabIndex = 95;
-			this.textBox114.Text = "0,00";
-			this.textBox114.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox114.Visible = false;
-			this.textBox114.Leave += new System.EventHandler(this.textBox114_Leave);
-			// 
-			// textBox115
-			// 
-			this.textBox115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox115.Enabled = false;
-			this.textBox115.Location = new System.Drawing.Point(72, 280);
-			this.textBox115.Name = "textBox115";
-			this.textBox115.Size = new System.Drawing.Size(64, 20);
-			this.textBox115.TabIndex = 94;
-			this.textBox115.Text = "0,00";
-			this.textBox115.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox115.Visible = false;
-			this.textBox115.Leave += new System.EventHandler(this.textBox115_Leave);
-			// 
-			// textBox96
-			// 
-			this.textBox96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox96.Enabled = false;
-			this.textBox96.Location = new System.Drawing.Point(720, 256);
-			this.textBox96.Name = "textBox96";
-			this.textBox96.Size = new System.Drawing.Size(64, 20);
-			this.textBox96.TabIndex = 93;
-			this.textBox96.Text = "0,00";
-			this.textBox96.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox96.Visible = false;
-			this.textBox96.Leave += new System.EventHandler(this.textBox96_Leave);
-			// 
-			// textBox97
-			// 
-			this.textBox97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox97.Enabled = false;
-			this.textBox97.Location = new System.Drawing.Point(656, 256);
-			this.textBox97.Name = "textBox97";
-			this.textBox97.Size = new System.Drawing.Size(64, 20);
-			this.textBox97.TabIndex = 92;
-			this.textBox97.Text = "0,00";
-			this.textBox97.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox97.Visible = false;
-			this.textBox97.Leave += new System.EventHandler(this.textBox97_Leave);
-			// 
-			// textBox98
-			// 
-			this.textBox98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox98.Enabled = false;
-			this.textBox98.Location = new System.Drawing.Point(592, 256);
-			this.textBox98.Name = "textBox98";
-			this.textBox98.Size = new System.Drawing.Size(64, 20);
-			this.textBox98.TabIndex = 91;
-			this.textBox98.Text = "0,00";
-			this.textBox98.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox98.Visible = false;
-			this.textBox98.Leave += new System.EventHandler(this.textBox98_Leave);
-			// 
-			// textBox99
-			// 
-			this.textBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox99.Enabled = false;
-			this.textBox99.Location = new System.Drawing.Point(528, 256);
-			this.textBox99.Name = "textBox99";
-			this.textBox99.Size = new System.Drawing.Size(64, 20);
-			this.textBox99.TabIndex = 90;
-			this.textBox99.Text = "0,00";
-			this.textBox99.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox99.Visible = false;
-			this.textBox99.Leave += new System.EventHandler(this.textBox99_Leave);
-			// 
-			// textBox100
-			// 
-			this.textBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox100.Enabled = false;
-			this.textBox100.Location = new System.Drawing.Point(464, 256);
-			this.textBox100.Name = "textBox100";
-			this.textBox100.Size = new System.Drawing.Size(64, 20);
-			this.textBox100.TabIndex = 89;
-			this.textBox100.Text = "0,00";
-			this.textBox100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox100.Visible = false;
-			this.textBox100.Leave += new System.EventHandler(this.textBox100_Leave);
-			// 
-			// textBox101
-			// 
-			this.textBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox101.Enabled = false;
-			this.textBox101.Location = new System.Drawing.Point(328, 256);
-			this.textBox101.Name = "textBox101";
-			this.textBox101.Size = new System.Drawing.Size(64, 20);
-			this.textBox101.TabIndex = 88;
-			this.textBox101.Text = "0,00";
-			this.textBox101.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox101.Visible = false;
-			this.textBox101.Leave += new System.EventHandler(this.textBox101_Leave);
-			// 
-			// textBox102
-			// 
-			this.textBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox102.Enabled = false;
-			this.textBox102.Location = new System.Drawing.Point(264, 256);
-			this.textBox102.Name = "textBox102";
-			this.textBox102.Size = new System.Drawing.Size(64, 20);
-			this.textBox102.TabIndex = 87;
-			this.textBox102.Text = "0,00";
-			this.textBox102.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox102.Visible = false;
-			this.textBox102.Leave += new System.EventHandler(this.textBox102_Leave);
-			// 
-			// textBox103
-			// 
-			this.textBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox103.Enabled = false;
-			this.textBox103.Location = new System.Drawing.Point(200, 256);
-			this.textBox103.Name = "textBox103";
-			this.textBox103.Size = new System.Drawing.Size(64, 20);
-			this.textBox103.TabIndex = 86;
-			this.textBox103.Text = "0,00";
-			this.textBox103.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox103.Visible = false;
-			this.textBox103.Leave += new System.EventHandler(this.textBox103_Leave);
-			// 
-			// textBox104
-			// 
-			this.textBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox104.Enabled = false;
-			this.textBox104.Location = new System.Drawing.Point(136, 256);
-			this.textBox104.Name = "textBox104";
-			this.textBox104.Size = new System.Drawing.Size(64, 20);
-			this.textBox104.TabIndex = 85;
-			this.textBox104.Text = "0,00";
-			this.textBox104.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox104.Visible = false;
-			this.textBox104.Leave += new System.EventHandler(this.textBox104_Leave);
-			// 
-			// textBox105
-			// 
-			this.textBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox105.Enabled = false;
-			this.textBox105.Location = new System.Drawing.Point(72, 256);
-			this.textBox105.Name = "textBox105";
-			this.textBox105.Size = new System.Drawing.Size(64, 20);
-			this.textBox105.TabIndex = 84;
-			this.textBox105.Text = "0,00";
-			this.textBox105.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox105.Visible = false;
-			this.textBox105.Leave += new System.EventHandler(this.textBox105_Leave);
-			// 
-			// textBox86
-			// 
-			this.textBox86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox86.Enabled = false;
-			this.textBox86.Location = new System.Drawing.Point(720, 232);
-			this.textBox86.Name = "textBox86";
-			this.textBox86.Size = new System.Drawing.Size(64, 20);
-			this.textBox86.TabIndex = 83;
-			this.textBox86.Text = "0,00";
-			this.textBox86.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox86.Visible = false;
-			this.textBox86.Leave += new System.EventHandler(this.textBox86_Leave);
-			// 
-			// textBox87
-			// 
-			this.textBox87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox87.Enabled = false;
-			this.textBox87.Location = new System.Drawing.Point(656, 232);
-			this.textBox87.Name = "textBox87";
-			this.textBox87.Size = new System.Drawing.Size(64, 20);
-			this.textBox87.TabIndex = 82;
-			this.textBox87.Text = "0,00";
-			this.textBox87.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox87.Visible = false;
-			this.textBox87.Leave += new System.EventHandler(this.textBox87_Leave);
-			// 
-			// textBox88
-			// 
-			this.textBox88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox88.Enabled = false;
-			this.textBox88.Location = new System.Drawing.Point(592, 232);
-			this.textBox88.Name = "textBox88";
-			this.textBox88.Size = new System.Drawing.Size(64, 20);
-			this.textBox88.TabIndex = 81;
-			this.textBox88.Text = "0,00";
-			this.textBox88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox88.Visible = false;
-			this.textBox88.Leave += new System.EventHandler(this.textBox88_Leave);
-			// 
-			// textBox89
-			// 
-			this.textBox89.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox89.Enabled = false;
-			this.textBox89.Location = new System.Drawing.Point(528, 232);
-			this.textBox89.Name = "textBox89";
-			this.textBox89.Size = new System.Drawing.Size(64, 20);
-			this.textBox89.TabIndex = 80;
-			this.textBox89.Text = "0,00";
-			this.textBox89.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox89.Visible = false;
-			this.textBox89.Leave += new System.EventHandler(this.textBox89_Leave);
-			// 
-			// textBox90
-			// 
-			this.textBox90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox90.Enabled = false;
-			this.textBox90.Location = new System.Drawing.Point(464, 232);
-			this.textBox90.Name = "textBox90";
-			this.textBox90.Size = new System.Drawing.Size(64, 20);
-			this.textBox90.TabIndex = 79;
-			this.textBox90.Text = "0,00";
-			this.textBox90.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox90.Visible = false;
-			this.textBox90.Leave += new System.EventHandler(this.textBox90_Leave);
-			// 
-			// textBox91
-			// 
-			this.textBox91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox91.Enabled = false;
-			this.textBox91.Location = new System.Drawing.Point(328, 232);
-			this.textBox91.Name = "textBox91";
-			this.textBox91.Size = new System.Drawing.Size(64, 20);
-			this.textBox91.TabIndex = 78;
-			this.textBox91.Text = "0,00";
-			this.textBox91.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox91.Visible = false;
-			this.textBox91.Leave += new System.EventHandler(this.textBox91_Leave);
-			// 
-			// textBox92
-			// 
-			this.textBox92.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox92.Enabled = false;
-			this.textBox92.Location = new System.Drawing.Point(264, 232);
-			this.textBox92.Name = "textBox92";
-			this.textBox92.Size = new System.Drawing.Size(64, 20);
-			this.textBox92.TabIndex = 77;
-			this.textBox92.Text = "0,00";
-			this.textBox92.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox92.Visible = false;
-			this.textBox92.Leave += new System.EventHandler(this.textBox92_Leave);
-			// 
-			// textBox93
-			// 
-			this.textBox93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox93.Enabled = false;
-			this.textBox93.Location = new System.Drawing.Point(200, 232);
-			this.textBox93.Name = "textBox93";
-			this.textBox93.Size = new System.Drawing.Size(64, 20);
-			this.textBox93.TabIndex = 76;
-			this.textBox93.Text = "0,00";
-			this.textBox93.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox93.Visible = false;
-			this.textBox93.Leave += new System.EventHandler(this.textBox93_Leave);
-			// 
-			// textBox94
-			// 
-			this.textBox94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox94.Enabled = false;
-			this.textBox94.Location = new System.Drawing.Point(136, 232);
-			this.textBox94.Name = "textBox94";
-			this.textBox94.Size = new System.Drawing.Size(64, 20);
-			this.textBox94.TabIndex = 75;
-			this.textBox94.Text = "0,00";
-			this.textBox94.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox94.Visible = false;
-			this.textBox94.Leave += new System.EventHandler(this.textBox94_Leave);
-			// 
-			// textBox95
-			// 
-			this.textBox95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox95.Enabled = false;
-			this.textBox95.Location = new System.Drawing.Point(72, 232);
-			this.textBox95.Name = "textBox95";
-			this.textBox95.Size = new System.Drawing.Size(64, 20);
-			this.textBox95.TabIndex = 74;
-			this.textBox95.Text = "0,00";
-			this.textBox95.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox95.Visible = false;
-			this.textBox95.Leave += new System.EventHandler(this.textBox95_Leave);
-			// 
-			// textBox76
-			// 
-			this.textBox76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox76.Enabled = false;
-			this.textBox76.Location = new System.Drawing.Point(720, 208);
-			this.textBox76.Name = "textBox76";
-			this.textBox76.Size = new System.Drawing.Size(64, 20);
-			this.textBox76.TabIndex = 73;
-			this.textBox76.Text = "0,00";
-			this.textBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox76.Visible = false;
-			this.textBox76.Leave += new System.EventHandler(this.textBox76_Leave);
-			// 
-			// textBox77
-			// 
-			this.textBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox77.Enabled = false;
-			this.textBox77.Location = new System.Drawing.Point(656, 208);
-			this.textBox77.Name = "textBox77";
-			this.textBox77.Size = new System.Drawing.Size(64, 20);
-			this.textBox77.TabIndex = 72;
-			this.textBox77.Text = "0,00";
-			this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox77.Visible = false;
-			this.textBox77.Leave += new System.EventHandler(this.textBox77_Leave);
-			// 
-			// textBox78
-			// 
-			this.textBox78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox78.Enabled = false;
-			this.textBox78.Location = new System.Drawing.Point(592, 208);
-			this.textBox78.Name = "textBox78";
-			this.textBox78.Size = new System.Drawing.Size(64, 20);
-			this.textBox78.TabIndex = 71;
-			this.textBox78.Text = "0,00";
-			this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox78.Visible = false;
-			this.textBox78.Leave += new System.EventHandler(this.textBox78_Leave);
-			// 
-			// textBox79
-			// 
-			this.textBox79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox79.Enabled = false;
-			this.textBox79.Location = new System.Drawing.Point(528, 208);
-			this.textBox79.Name = "textBox79";
-			this.textBox79.Size = new System.Drawing.Size(64, 20);
-			this.textBox79.TabIndex = 70;
-			this.textBox79.Text = "0,00";
-			this.textBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox79.Visible = false;
-			this.textBox79.Leave += new System.EventHandler(this.textBox79_Leave);
-			// 
-			// textBox80
-			// 
-			this.textBox80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox80.Enabled = false;
-			this.textBox80.Location = new System.Drawing.Point(464, 208);
-			this.textBox80.Name = "textBox80";
-			this.textBox80.Size = new System.Drawing.Size(64, 20);
-			this.textBox80.TabIndex = 69;
-			this.textBox80.Text = "0,00";
-			this.textBox80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox80.Visible = false;
-			this.textBox80.Leave += new System.EventHandler(this.textBox80_Leave);
-			// 
-			// textBox81
-			// 
-			this.textBox81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox81.Enabled = false;
-			this.textBox81.Location = new System.Drawing.Point(328, 208);
-			this.textBox81.Name = "textBox81";
-			this.textBox81.Size = new System.Drawing.Size(64, 20);
-			this.textBox81.TabIndex = 68;
-			this.textBox81.Text = "0,00";
-			this.textBox81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox81.Visible = false;
-			this.textBox81.Leave += new System.EventHandler(this.textBox81_Leave);
-			// 
-			// textBox82
-			// 
-			this.textBox82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox82.Enabled = false;
-			this.textBox82.Location = new System.Drawing.Point(264, 208);
-			this.textBox82.Name = "textBox82";
-			this.textBox82.Size = new System.Drawing.Size(64, 20);
-			this.textBox82.TabIndex = 67;
-			this.textBox82.Text = "0,00";
-			this.textBox82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox82.Visible = false;
-			this.textBox82.Leave += new System.EventHandler(this.textBox82_Leave);
-			// 
-			// textBox83
-			// 
-			this.textBox83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox83.Enabled = false;
-			this.textBox83.Location = new System.Drawing.Point(200, 208);
-			this.textBox83.Name = "textBox83";
-			this.textBox83.Size = new System.Drawing.Size(64, 20);
-			this.textBox83.TabIndex = 66;
-			this.textBox83.Text = "0,00";
-			this.textBox83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox83.Visible = false;
-			this.textBox83.Leave += new System.EventHandler(this.textBox83_Leave);
-			// 
-			// textBox84
-			// 
-			this.textBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox84.Enabled = false;
-			this.textBox84.Location = new System.Drawing.Point(136, 208);
-			this.textBox84.Name = "textBox84";
-			this.textBox84.Size = new System.Drawing.Size(64, 20);
-			this.textBox84.TabIndex = 65;
-			this.textBox84.Text = "0,00";
-			this.textBox84.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox84.Visible = false;
-			this.textBox84.Leave += new System.EventHandler(this.textBox84_Leave);
-			// 
-			// textBox85
-			// 
-			this.textBox85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox85.Enabled = false;
-			this.textBox85.Location = new System.Drawing.Point(72, 208);
-			this.textBox85.Name = "textBox85";
-			this.textBox85.Size = new System.Drawing.Size(64, 20);
-			this.textBox85.TabIndex = 64;
-			this.textBox85.Text = "0,00";
-			this.textBox85.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox85.Visible = false;
-			this.textBox85.Leave += new System.EventHandler(this.textBox85_Leave);
-			// 
-			// textBox66
-			// 
-			this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox66.Enabled = false;
-			this.textBox66.Location = new System.Drawing.Point(720, 184);
-			this.textBox66.Name = "textBox66";
-			this.textBox66.Size = new System.Drawing.Size(64, 20);
-			this.textBox66.TabIndex = 63;
-			this.textBox66.Text = "0,00";
-			this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox66.Visible = false;
-			this.textBox66.Leave += new System.EventHandler(this.textBox66_Leave);
-			// 
-			// textBox67
-			// 
-			this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox67.Enabled = false;
-			this.textBox67.Location = new System.Drawing.Point(656, 184);
-			this.textBox67.Name = "textBox67";
-			this.textBox67.Size = new System.Drawing.Size(64, 20);
-			this.textBox67.TabIndex = 62;
-			this.textBox67.Text = "0,00";
-			this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox67.Visible = false;
-			this.textBox67.Leave += new System.EventHandler(this.textBox67_Leave);
-			// 
-			// textBox68
-			// 
-			this.textBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox68.Enabled = false;
-			this.textBox68.Location = new System.Drawing.Point(592, 184);
-			this.textBox68.Name = "textBox68";
-			this.textBox68.Size = new System.Drawing.Size(64, 20);
-			this.textBox68.TabIndex = 61;
-			this.textBox68.Text = "0,00";
-			this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox68.Visible = false;
-			this.textBox68.Leave += new System.EventHandler(this.textBox68_Leave);
-			// 
-			// textBox69
-			// 
-			this.textBox69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox69.Enabled = false;
-			this.textBox69.Location = new System.Drawing.Point(528, 184);
-			this.textBox69.Name = "textBox69";
-			this.textBox69.Size = new System.Drawing.Size(64, 20);
-			this.textBox69.TabIndex = 60;
-			this.textBox69.Text = "0,00";
-			this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox69.Visible = false;
-			this.textBox69.Leave += new System.EventHandler(this.textBox69_Leave);
-			// 
-			// textBox70
-			// 
-			this.textBox70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox70.Enabled = false;
-			this.textBox70.Location = new System.Drawing.Point(464, 184);
-			this.textBox70.Name = "textBox70";
-			this.textBox70.Size = new System.Drawing.Size(64, 20);
-			this.textBox70.TabIndex = 59;
-			this.textBox70.Text = "0,00";
-			this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox70.Visible = false;
-			this.textBox70.Leave += new System.EventHandler(this.textBox70_Leave);
-			// 
-			// textBox71
-			// 
-			this.textBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox71.Enabled = false;
-			this.textBox71.Location = new System.Drawing.Point(328, 184);
-			this.textBox71.Name = "textBox71";
-			this.textBox71.Size = new System.Drawing.Size(64, 20);
-			this.textBox71.TabIndex = 58;
-			this.textBox71.Text = "0,00";
-			this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox71.Visible = false;
-			this.textBox71.Leave += new System.EventHandler(this.textBox71_Leave);
-			// 
-			// textBox72
-			// 
-			this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox72.Enabled = false;
-			this.textBox72.Location = new System.Drawing.Point(264, 184);
-			this.textBox72.Name = "textBox72";
-			this.textBox72.Size = new System.Drawing.Size(64, 20);
-			this.textBox72.TabIndex = 57;
-			this.textBox72.Text = "0,00";
-			this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox72.Visible = false;
-			this.textBox72.Leave += new System.EventHandler(this.textBox72_Leave);
-			// 
-			// textBox73
-			// 
-			this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox73.Enabled = false;
-			this.textBox73.Location = new System.Drawing.Point(200, 184);
-			this.textBox73.Name = "textBox73";
-			this.textBox73.Size = new System.Drawing.Size(64, 20);
-			this.textBox73.TabIndex = 56;
-			this.textBox73.Text = "0,00";
-			this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox73.Visible = false;
-			this.textBox73.Leave += new System.EventHandler(this.textBox73_Leave);
-			// 
-			// textBox74
-			// 
-			this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox74.Enabled = false;
-			this.textBox74.Location = new System.Drawing.Point(136, 184);
-			this.textBox74.Name = "textBox74";
-			this.textBox74.Size = new System.Drawing.Size(64, 20);
-			this.textBox74.TabIndex = 55;
-			this.textBox74.Text = "0,00";
-			this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox74.Visible = false;
-			this.textBox74.Leave += new System.EventHandler(this.textBox74_Leave);
-			// 
-			// textBox75
-			// 
-			this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox75.Enabled = false;
-			this.textBox75.Location = new System.Drawing.Point(72, 184);
-			this.textBox75.Name = "textBox75";
-			this.textBox75.Size = new System.Drawing.Size(64, 20);
-			this.textBox75.TabIndex = 54;
-			this.textBox75.Text = "0,00";
-			this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox75.Visible = false;
-			this.textBox75.Leave += new System.EventHandler(this.textBox75_Leave);
-			// 
-			// textBox56
-			// 
-			this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox56.Enabled = false;
-			this.textBox56.Location = new System.Drawing.Point(720, 160);
-			this.textBox56.Name = "textBox56";
-			this.textBox56.Size = new System.Drawing.Size(64, 20);
-			this.textBox56.TabIndex = 53;
-			this.textBox56.Text = "0,00";
-			this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox56.Visible = false;
-			this.textBox56.Leave += new System.EventHandler(this.textBox56_Leave);
-			// 
-			// textBox57
-			// 
-			this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox57.Enabled = false;
-			this.textBox57.Location = new System.Drawing.Point(656, 160);
-			this.textBox57.Name = "textBox57";
-			this.textBox57.Size = new System.Drawing.Size(64, 20);
-			this.textBox57.TabIndex = 52;
-			this.textBox57.Text = "0,00";
-			this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox57.Visible = false;
-			this.textBox57.Leave += new System.EventHandler(this.textBox57_Leave);
-			// 
-			// textBox58
-			// 
-			this.textBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox58.Enabled = false;
-			this.textBox58.Location = new System.Drawing.Point(592, 160);
-			this.textBox58.Name = "textBox58";
-			this.textBox58.Size = new System.Drawing.Size(64, 20);
-			this.textBox58.TabIndex = 51;
-			this.textBox58.Text = "0,00";
-			this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox58.Visible = false;
-			this.textBox58.Leave += new System.EventHandler(this.textBox58_Leave);
-			// 
-			// textBox59
-			// 
-			this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox59.Enabled = false;
-			this.textBox59.Location = new System.Drawing.Point(528, 160);
-			this.textBox59.Name = "textBox59";
-			this.textBox59.Size = new System.Drawing.Size(64, 20);
-			this.textBox59.TabIndex = 50;
-			this.textBox59.Text = "0,00";
-			this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox59.Visible = false;
-			this.textBox59.Leave += new System.EventHandler(this.textBox59_Leave);
-			// 
-			// textBox60
-			// 
-			this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox60.Enabled = false;
-			this.textBox60.Location = new System.Drawing.Point(464, 160);
-			this.textBox60.Name = "textBox60";
-			this.textBox60.Size = new System.Drawing.Size(64, 20);
-			this.textBox60.TabIndex = 49;
-			this.textBox60.Text = "0,00";
-			this.textBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox60.Visible = false;
-			this.textBox60.Leave += new System.EventHandler(this.textBox60_Leave);
-			// 
-			// textBox61
-			// 
-			this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox61.Enabled = false;
-			this.textBox61.Location = new System.Drawing.Point(328, 160);
-			this.textBox61.Name = "textBox61";
-			this.textBox61.Size = new System.Drawing.Size(64, 20);
-			this.textBox61.TabIndex = 48;
-			this.textBox61.Text = "0,00";
-			this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox61.Visible = false;
-			this.textBox61.Leave += new System.EventHandler(this.textBox61_Leave);
-			// 
-			// textBox62
-			// 
-			this.textBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox62.Enabled = false;
-			this.textBox62.Location = new System.Drawing.Point(264, 160);
-			this.textBox62.Name = "textBox62";
-			this.textBox62.Size = new System.Drawing.Size(64, 20);
-			this.textBox62.TabIndex = 47;
-			this.textBox62.Text = "0,00";
-			this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox62.Visible = false;
-			this.textBox62.Leave += new System.EventHandler(this.textBox62_Leave);
-			// 
-			// textBox63
-			// 
-			this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox63.Enabled = false;
-			this.textBox63.Location = new System.Drawing.Point(200, 160);
-			this.textBox63.Name = "textBox63";
-			this.textBox63.Size = new System.Drawing.Size(64, 20);
-			this.textBox63.TabIndex = 46;
-			this.textBox63.Text = "0,00";
-			this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox63.Visible = false;
-			this.textBox63.Leave += new System.EventHandler(this.textBox63_Leave);
-			// 
-			// textBox64
-			// 
-			this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox64.Enabled = false;
-			this.textBox64.Location = new System.Drawing.Point(136, 160);
-			this.textBox64.Name = "textBox64";
-			this.textBox64.Size = new System.Drawing.Size(64, 20);
-			this.textBox64.TabIndex = 45;
-			this.textBox64.Text = "0,00";
-			this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox64.Visible = false;
-			this.textBox64.Leave += new System.EventHandler(this.textBox64_Leave);
-			// 
-			// textBox65
-			// 
-			this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox65.Enabled = false;
-			this.textBox65.Location = new System.Drawing.Point(72, 160);
-			this.textBox65.Name = "textBox65";
-			this.textBox65.Size = new System.Drawing.Size(64, 20);
-			this.textBox65.TabIndex = 44;
-			this.textBox65.Text = "0,00";
-			this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox65.Visible = false;
-			this.textBox65.Leave += new System.EventHandler(this.textBox65_Leave);
-			// 
-			// textBox46
-			// 
-			this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox46.Enabled = false;
-			this.textBox46.Location = new System.Drawing.Point(720, 136);
-			this.textBox46.Name = "textBox46";
-			this.textBox46.Size = new System.Drawing.Size(64, 20);
-			this.textBox46.TabIndex = 43;
-			this.textBox46.Text = "0,00";
-			this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox46.Visible = false;
-			this.textBox46.Leave += new System.EventHandler(this.textBox46_Leave);
-			// 
-			// textBox47
-			// 
-			this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox47.Enabled = false;
-			this.textBox47.Location = new System.Drawing.Point(656, 136);
-			this.textBox47.Name = "textBox47";
-			this.textBox47.Size = new System.Drawing.Size(64, 20);
-			this.textBox47.TabIndex = 42;
-			this.textBox47.Text = "0,00";
-			this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox47.Visible = false;
-			this.textBox47.Leave += new System.EventHandler(this.textBox47_Leave);
-			// 
-			// textBox48
-			// 
-			this.textBox48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox48.Enabled = false;
-			this.textBox48.Location = new System.Drawing.Point(592, 136);
-			this.textBox48.Name = "textBox48";
-			this.textBox48.Size = new System.Drawing.Size(64, 20);
-			this.textBox48.TabIndex = 41;
-			this.textBox48.Text = "0,00";
-			this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox48.Visible = false;
-			this.textBox48.Leave += new System.EventHandler(this.textBox48_Leave);
-			// 
-			// textBox49
-			// 
-			this.textBox49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox49.Enabled = false;
-			this.textBox49.Location = new System.Drawing.Point(528, 136);
-			this.textBox49.Name = "textBox49";
-			this.textBox49.Size = new System.Drawing.Size(64, 20);
-			this.textBox49.TabIndex = 40;
-			this.textBox49.Text = "0,00";
-			this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox49.Visible = false;
-			this.textBox49.Leave += new System.EventHandler(this.textBox49_Leave);
-			// 
-			// textBox50
-			// 
-			this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox50.Enabled = false;
-			this.textBox50.Location = new System.Drawing.Point(464, 136);
-			this.textBox50.Name = "textBox50";
-			this.textBox50.Size = new System.Drawing.Size(64, 20);
-			this.textBox50.TabIndex = 39;
-			this.textBox50.Text = "0,00";
-			this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox50.Visible = false;
-			this.textBox50.Leave += new System.EventHandler(this.textBox50_Leave);
-			// 
-			// textBox51
-			// 
-			this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox51.Enabled = false;
-			this.textBox51.Location = new System.Drawing.Point(328, 136);
-			this.textBox51.Name = "textBox51";
-			this.textBox51.Size = new System.Drawing.Size(64, 20);
-			this.textBox51.TabIndex = 38;
-			this.textBox51.Text = "0,00";
-			this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox51.Visible = false;
-			this.textBox51.Leave += new System.EventHandler(this.textBox51_Leave);
-			// 
-			// textBox52
-			// 
-			this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox52.Enabled = false;
-			this.textBox52.Location = new System.Drawing.Point(264, 136);
-			this.textBox52.Name = "textBox52";
-			this.textBox52.Size = new System.Drawing.Size(64, 20);
-			this.textBox52.TabIndex = 37;
-			this.textBox52.Text = "0,00";
-			this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox52.Visible = false;
-			this.textBox52.Leave += new System.EventHandler(this.textBox52_Leave);
-			// 
-			// textBox53
-			// 
-			this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox53.Enabled = false;
-			this.textBox53.Location = new System.Drawing.Point(200, 136);
-			this.textBox53.Name = "textBox53";
-			this.textBox53.Size = new System.Drawing.Size(64, 20);
-			this.textBox53.TabIndex = 36;
-			this.textBox53.Text = "0,00";
-			this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox53.Visible = false;
-			this.textBox53.Leave += new System.EventHandler(this.textBox53_Leave);
-			// 
-			// textBox54
-			// 
-			this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox54.Enabled = false;
-			this.textBox54.Location = new System.Drawing.Point(136, 136);
-			this.textBox54.Name = "textBox54";
-			this.textBox54.Size = new System.Drawing.Size(64, 20);
-			this.textBox54.TabIndex = 35;
-			this.textBox54.Text = "0,00";
-			this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox54.Visible = false;
-			this.textBox54.Leave += new System.EventHandler(this.textBox54_Leave);
-			// 
-			// textBox55
-			// 
-			this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox55.Enabled = false;
-			this.textBox55.Location = new System.Drawing.Point(72, 136);
-			this.textBox55.Name = "textBox55";
-			this.textBox55.Size = new System.Drawing.Size(64, 20);
-			this.textBox55.TabIndex = 34;
-			this.textBox55.Text = "0,00";
-			this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox55.Visible = false;
-			this.textBox55.Leave += new System.EventHandler(this.textBox55_Leave);
-			// 
-			// textBox36
-			// 
-			this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox36.Enabled = false;
-			this.textBox36.Location = new System.Drawing.Point(720, 112);
-			this.textBox36.Name = "textBox36";
-			this.textBox36.Size = new System.Drawing.Size(64, 20);
-			this.textBox36.TabIndex = 33;
-			this.textBox36.Text = "0,00";
-			this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox36.Leave += new System.EventHandler(this.textBox36_Leave);
-			// 
-			// textBox37
-			// 
-			this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox37.Enabled = false;
-			this.textBox37.Location = new System.Drawing.Point(656, 112);
-			this.textBox37.Name = "textBox37";
-			this.textBox37.Size = new System.Drawing.Size(64, 20);
-			this.textBox37.TabIndex = 32;
-			this.textBox37.Text = "0,00";
-			this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox37.Leave += new System.EventHandler(this.textBox37_Leave);
-			// 
-			// textBox38
-			// 
-			this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox38.Enabled = false;
-			this.textBox38.Location = new System.Drawing.Point(592, 112);
-			this.textBox38.Name = "textBox38";
-			this.textBox38.Size = new System.Drawing.Size(64, 20);
-			this.textBox38.TabIndex = 31;
-			this.textBox38.Text = "0,00";
-			this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox38.Leave += new System.EventHandler(this.textBox38_Leave);
-			// 
-			// textBox39
-			// 
-			this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox39.Enabled = false;
-			this.textBox39.Location = new System.Drawing.Point(528, 112);
-			this.textBox39.Name = "textBox39";
-			this.textBox39.Size = new System.Drawing.Size(64, 20);
-			this.textBox39.TabIndex = 30;
-			this.textBox39.Text = "0,00";
-			this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox39.Leave += new System.EventHandler(this.textBox39_Leave);
-			// 
-			// textBox40
-			// 
-			this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox40.Enabled = false;
-			this.textBox40.Location = new System.Drawing.Point(464, 112);
-			this.textBox40.Name = "textBox40";
-			this.textBox40.Size = new System.Drawing.Size(64, 20);
-			this.textBox40.TabIndex = 29;
-			this.textBox40.Text = "0,00";
-			this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox40.Leave += new System.EventHandler(this.textBox40_Leave);
-			// 
-			// textBox41
-			// 
-			this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox41.Enabled = false;
-			this.textBox41.Location = new System.Drawing.Point(328, 112);
-			this.textBox41.Name = "textBox41";
-			this.textBox41.Size = new System.Drawing.Size(64, 20);
-			this.textBox41.TabIndex = 28;
-			this.textBox41.Text = "0,00";
-			this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox41.Leave += new System.EventHandler(this.textBox41_Leave);
-			// 
-			// textBox42
-			// 
-			this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox42.Enabled = false;
-			this.textBox42.Location = new System.Drawing.Point(264, 112);
-			this.textBox42.Name = "textBox42";
-			this.textBox42.Size = new System.Drawing.Size(64, 20);
-			this.textBox42.TabIndex = 27;
-			this.textBox42.Text = "0,00";
-			this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox42.Leave += new System.EventHandler(this.textBox42_Leave);
-			// 
-			// textBox43
-			// 
-			this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox43.Enabled = false;
-			this.textBox43.Location = new System.Drawing.Point(200, 112);
-			this.textBox43.Name = "textBox43";
-			this.textBox43.Size = new System.Drawing.Size(64, 20);
-			this.textBox43.TabIndex = 26;
-			this.textBox43.Text = "0,00";
-			this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox43.Leave += new System.EventHandler(this.textBox43_Leave);
-			// 
-			// textBox44
-			// 
-			this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox44.Enabled = false;
-			this.textBox44.Location = new System.Drawing.Point(136, 112);
-			this.textBox44.Name = "textBox44";
-			this.textBox44.Size = new System.Drawing.Size(64, 20);
-			this.textBox44.TabIndex = 25;
-			this.textBox44.Text = "0,00";
-			this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox44.Leave += new System.EventHandler(this.textBox44_Leave);
-			// 
-			// textBox45
-			// 
-			this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox45.Enabled = false;
-			this.textBox45.Location = new System.Drawing.Point(72, 112);
-			this.textBox45.Name = "textBox45";
-			this.textBox45.Size = new System.Drawing.Size(64, 20);
-			this.textBox45.TabIndex = 24;
-			this.textBox45.Text = "0,00";
-			this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox45.Leave += new System.EventHandler(this.textBox45_Leave);
-			// 
-			// textBox26
-			// 
-			this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox26.Enabled = false;
-			this.textBox26.Location = new System.Drawing.Point(720, 88);
-			this.textBox26.Name = "textBox26";
-			this.textBox26.Size = new System.Drawing.Size(64, 20);
-			this.textBox26.TabIndex = 23;
-			this.textBox26.Text = "0,00";
-			this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox26.Leave += new System.EventHandler(this.textBox26_Leave);
-			// 
-			// textBox27
-			// 
-			this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox27.Enabled = false;
-			this.textBox27.Location = new System.Drawing.Point(656, 88);
-			this.textBox27.Name = "textBox27";
-			this.textBox27.Size = new System.Drawing.Size(64, 20);
-			this.textBox27.TabIndex = 22;
-			this.textBox27.Text = "0,00";
-			this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox27.Leave += new System.EventHandler(this.textBox27_Leave);
-			// 
-			// textBox28
-			// 
-			this.textBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox28.Enabled = false;
-			this.textBox28.Location = new System.Drawing.Point(592, 88);
-			this.textBox28.Name = "textBox28";
-			this.textBox28.Size = new System.Drawing.Size(64, 20);
-			this.textBox28.TabIndex = 21;
-			this.textBox28.Text = "0,00";
-			this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox28.Leave += new System.EventHandler(this.textBox28_Leave);
-			// 
-			// textBox29
-			// 
-			this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox29.Enabled = false;
-			this.textBox29.Location = new System.Drawing.Point(528, 88);
-			this.textBox29.Name = "textBox29";
-			this.textBox29.Size = new System.Drawing.Size(64, 20);
-			this.textBox29.TabIndex = 20;
-			this.textBox29.Text = "0,00";
-			this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox29.Leave += new System.EventHandler(this.textBox29_Leave);
-			// 
-			// textBox30
-			// 
-			this.textBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox30.Enabled = false;
-			this.textBox30.Location = new System.Drawing.Point(464, 88);
-			this.textBox30.Name = "textBox30";
-			this.textBox30.Size = new System.Drawing.Size(64, 20);
-			this.textBox30.TabIndex = 19;
-			this.textBox30.Text = "0,00";
-			this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox30.Leave += new System.EventHandler(this.textBox30_Leave);
-			// 
-			// textBox31
-			// 
-			this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox31.Enabled = false;
-			this.textBox31.Location = new System.Drawing.Point(328, 88);
-			this.textBox31.Name = "textBox31";
-			this.textBox31.Size = new System.Drawing.Size(64, 20);
-			this.textBox31.TabIndex = 18;
-			this.textBox31.Text = "0,00";
-			this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox31.Leave += new System.EventHandler(this.textBox31_Leave);
-			// 
-			// textBox32
-			// 
-			this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox32.Enabled = false;
-			this.textBox32.Location = new System.Drawing.Point(264, 88);
-			this.textBox32.Name = "textBox32";
-			this.textBox32.Size = new System.Drawing.Size(64, 20);
-			this.textBox32.TabIndex = 17;
-			this.textBox32.Text = "0,00";
-			this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox32.Leave += new System.EventHandler(this.textBox32_Leave);
-			// 
-			// textBox33
-			// 
-			this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox33.Enabled = false;
-			this.textBox33.Location = new System.Drawing.Point(200, 88);
-			this.textBox33.Name = "textBox33";
-			this.textBox33.Size = new System.Drawing.Size(64, 20);
-			this.textBox33.TabIndex = 16;
-			this.textBox33.Text = "0,00";
-			this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox33.Leave += new System.EventHandler(this.textBox33_Leave);
-			// 
-			// textBox34
-			// 
-			this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox34.Enabled = false;
-			this.textBox34.Location = new System.Drawing.Point(136, 88);
-			this.textBox34.Name = "textBox34";
-			this.textBox34.Size = new System.Drawing.Size(64, 20);
-			this.textBox34.TabIndex = 15;
-			this.textBox34.Text = "0,00";
-			this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox34.Leave += new System.EventHandler(this.textBox34_Leave);
-			// 
-			// textBox35
-			// 
-			this.textBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox35.Enabled = false;
-			this.textBox35.Location = new System.Drawing.Point(72, 88);
-			this.textBox35.Name = "textBox35";
-			this.textBox35.Size = new System.Drawing.Size(64, 20);
-			this.textBox35.TabIndex = 14;
-			this.textBox35.Text = "0,00";
-			this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox35.Leave += new System.EventHandler(this.textBox35_Leave);
-			// 
-			// textBox25
-			// 
-			this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox25.Enabled = false;
-			this.textBox25.Location = new System.Drawing.Point(720, 64);
-			this.textBox25.Name = "textBox25";
-			this.textBox25.Size = new System.Drawing.Size(64, 20);
-			this.textBox25.TabIndex = 13;
-			this.textBox25.Text = "0,00";
-			this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox25.Leave += new System.EventHandler(this.textBox25_Leave);
-			// 
-			// textBox24
-			// 
-			this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox24.Enabled = false;
-			this.textBox24.Location = new System.Drawing.Point(656, 64);
-			this.textBox24.Name = "textBox24";
-			this.textBox24.Size = new System.Drawing.Size(64, 20);
-			this.textBox24.TabIndex = 12;
-			this.textBox24.Text = "0,00";
-			this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox24.Leave += new System.EventHandler(this.textBox24_Leave);
-			// 
-			// textBox23
-			// 
-			this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox23.Enabled = false;
-			this.textBox23.Location = new System.Drawing.Point(592, 64);
-			this.textBox23.Name = "textBox23";
-			this.textBox23.Size = new System.Drawing.Size(64, 20);
-			this.textBox23.TabIndex = 11;
-			this.textBox23.Text = "0,00";
-			this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox23.Leave += new System.EventHandler(this.textBox23_Leave);
-			// 
-			// textBox22
-			// 
-			this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox22.Enabled = false;
-			this.textBox22.Location = new System.Drawing.Point(528, 64);
-			this.textBox22.Name = "textBox22";
-			this.textBox22.Size = new System.Drawing.Size(64, 20);
-			this.textBox22.TabIndex = 10;
-			this.textBox22.Text = "0,00";
-			this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox22.Leave += new System.EventHandler(this.textBox22_Leave);
-			// 
-			// textBox21
-			// 
-			this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox21.Enabled = false;
-			this.textBox21.Location = new System.Drawing.Point(464, 64);
-			this.textBox21.Name = "textBox21";
-			this.textBox21.Size = new System.Drawing.Size(64, 20);
-			this.textBox21.TabIndex = 9;
-			this.textBox21.Text = "0,00";
-			this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox21.Leave += new System.EventHandler(this.textBox21_Leave);
-			// 
-			// textBox20
-			// 
-			this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox20.Enabled = false;
-			this.textBox20.Location = new System.Drawing.Point(328, 64);
-			this.textBox20.Name = "textBox20";
-			this.textBox20.Size = new System.Drawing.Size(64, 20);
-			this.textBox20.TabIndex = 8;
-			this.textBox20.Text = "0,00";
-			this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox20.Leave += new System.EventHandler(this.textBox20_Leave);
-			// 
-			// textBox19
-			// 
-			this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox19.Enabled = false;
-			this.textBox19.Location = new System.Drawing.Point(264, 64);
-			this.textBox19.Name = "textBox19";
-			this.textBox19.Size = new System.Drawing.Size(64, 20);
-			this.textBox19.TabIndex = 7;
-			this.textBox19.Text = "0,00";
-			this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox19.Leave += new System.EventHandler(this.textBox19_Leave);
-			// 
-			// textBox18
-			// 
-			this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox18.Enabled = false;
-			this.textBox18.Location = new System.Drawing.Point(200, 64);
-			this.textBox18.Name = "textBox18";
-			this.textBox18.Size = new System.Drawing.Size(64, 20);
-			this.textBox18.TabIndex = 6;
-			this.textBox18.Text = "0,00";
-			this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox18.Leave += new System.EventHandler(this.textBox18_Leave);
-			// 
-			// textBox17
-			// 
-			this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox17.Enabled = false;
-			this.textBox17.Location = new System.Drawing.Point(136, 64);
-			this.textBox17.Name = "textBox17";
-			this.textBox17.Size = new System.Drawing.Size(64, 20);
-			this.textBox17.TabIndex = 5;
-			this.textBox17.Text = "0,00";
-			this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox17.Leave += new System.EventHandler(this.textBox17_Leave);
-			// 
-			// label29
-			// 
-			this.label29.Location = new System.Drawing.Point(200, 40);
-			this.label29.Name = "label29";
-			this.label29.Size = new System.Drawing.Size(64, 23);
-			this.label29.TabIndex = 113;
-			this.label29.Text = "M3";
-			this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// printPreviewDialog1
-			// 
-			this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
-			this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
-			this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
-			this.printPreviewDialog1.Enabled = true;
-			this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
-			this.printPreviewDialog1.Location = new System.Drawing.Point(307, 17);
-			this.printPreviewDialog1.MinimumSize = new System.Drawing.Size(375, 250);
-			this.printPreviewDialog1.Name = "printPreviewDialog1";
-			this.printPreviewDialog1.TransparencyKey = System.Drawing.Color.Empty;
-			this.printPreviewDialog1.Visible = false;
-			// 
-			// oleDbConnection1
-			// 
-			this.oleDbConnection1.ConnectionString = @"Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Registry Path=;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Database Password=;Data Source=""M:\Lyon\bd.mdb"";Password=;Jet OLEDB:Engine Type=5;Jet OLEDB:Global Bulk Transactions=1;Provider=""Microsoft.Jet.OLEDB.4.0"";Jet OLEDB:System database=;Jet OLEDB:SFP=False;Extended Properties=;Mode=Share Deny None;Jet OLEDB:New Database Password=;Jet OLEDB:Create System Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;User ID=Admin;Jet OLEDB:Encrypt Database=False";
-			// 
-			// oleDbSelectCommand6
-			// 
-			this.oleDbSelectCommand6.CommandText = @"SELECT Adresse_1, Adresse_2, Batiment, [Borne Date Refus reforme], CA_Annee, CA_Annee_1, CA_Annee_2, CA_Annee_3, CA_Annee_4, code_GC, Code_Postal, Code_reglement, Code_transport, Coef_Controle, Coef_DNR, Coef_transport, Commentaire, Delai_garantie, Forfait_Controle, Forfait_DNR, Forfait_transport, Groupe, Ident, [N起Cde_Ouverte], [N起Client_facture], Nom, Nombre_rep_Annee, Nombre_rep_Annee_1, Nombre_rep_Annee_2, Nombre_rep_Annee_3, Nombre_rep_Annee_4, Notre_Code_Fournisseur, Pays, Pourcentage_remise, Seuil_reparation, telecopie, Telephone, telex, Usine, Ville FROM T_clients";
-			this.oleDbSelectCommand6.Connection = this.oleDbConnection1;
-			// 
-			// oleDbInsertCommand6
-			// 
-			this.oleDbInsertCommand6.CommandText = @"INSERT INTO T_clients(Adresse_1, Adresse_2, Batiment, [Borne Date Refus reforme], CA_Annee, CA_Annee_1, CA_Annee_2, CA_Annee_3, CA_Annee_4, code_GC, Code_Postal, Code_reglement, Code_transport, Coef_Controle, Coef_DNR, Coef_transport, Commentaire, Delai_garantie, Forfait_Controle, Forfait_DNR, Forfait_transport, Groupe, Ident, [N起Cde_Ouverte], [N起Client_facture], Nom, Nombre_rep_Annee, Nombre_rep_Annee_1, Nombre_rep_Annee_2, Nombre_rep_Annee_3, Nombre_rep_Annee_4, Notre_Code_Fournisseur, Pays, Pourcentage_remise, Seuil_reparation, telecopie, Telephone, telex, Usine, Ville) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-			this.oleDbInsertCommand6.Connection = this.oleDbConnection1;
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_1"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_2"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, "Batiment"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, "Borne Date Refus reforme"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_1"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_2"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_3"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_4"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, "code_GC"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, "Code_Postal"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_reglement"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_transport"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, "Coef_Controle"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, "Coef_DNR"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Coef_transport", System.Data.OleDb.OleDbType.Double, 0, "Coef_transport"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Commentaire", System.Data.OleDb.OleDbType.VarWChar, 0, "Commentaire"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, "Delai_garantie"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, "Forfait_Controle"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, "Forfait_DNR"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, "Forfait_transport"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, "Groupe"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Ident", System.Data.OleDb.OleDbType.Integer, 0, "Ident"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, "N起Cde_Ouverte"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, "N起Client_facture"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nom", System.Data.OleDb.OleDbType.VarWChar, 30, "Nom"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_1"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_2"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_3"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_4"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, "Notre_Code_Fournisseur"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Pays", System.Data.OleDb.OleDbType.VarWChar, 255, "Pays"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, "Pourcentage_remise"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, "Seuil_reparation"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, "telecopie"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, "Telephone"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("telex", System.Data.OleDb.OleDbType.VarWChar, 255, "telex"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Usine", System.Data.OleDb.OleDbType.VarWChar, 3, "Usine"));
-			this.oleDbInsertCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Ville", System.Data.OleDb.OleDbType.VarWChar, 255, "Ville"));
-			// 
-			// oleDbUpdateCommand6
-			// 
-			this.oleDbUpdateCommand6.CommandText = "UPDATE T_clients SET Adresse_1 = ?, Adresse_2 = ?, Batiment = ?, [Borne Date Refu" +
-				"s reforme] = ?, CA_Annee = ?, CA_Annee_1 = ?, CA_Annee_2 = ?, CA_Annee_3 = ?, CA" +
-				"_Annee_4 = ?, code_GC = ?, Code_Postal = ?, Code_reglement = ?, Code_transport =" +
-				" ?, Coef_Controle = ?, Coef_DNR = ?, Coef_transport = ?, Commentaire = ?, Delai_" +
-				"garantie = ?, Forfait_Controle = ?, Forfait_DNR = ?, Forfait_transport = ?, Grou" +
-				"pe = ?, Ident = ?, [N起Cde_Ouverte] = ?, [N起Client_facture] = ?, Nom = ?, Nombr" +
-				"e_rep_Annee = ?, Nombre_rep_Annee_1 = ?, Nombre_rep_Annee_2 = ?, Nombre_rep_Anne" +
-				"e_3 = ?, Nombre_rep_Annee_4 = ?, Notre_Code_Fournisseur = ?, Pays = ?, Pourcenta" +
-				"ge_remise = ?, Seuil_reparation = ?, telecopie = ?, Telephone = ?, telex = ?, Us" +
-				"ine = ?, Ville = ? WHERE (Ident = ?) AND (Adresse_1 = ? OR ? IS NULL AND Adresse" +
-				"_1 IS NULL) AND (Adresse_2 = ? OR ? IS NULL AND Adresse_2 IS NULL) AND (Batiment" +
-				" = ? OR ? IS NULL AND Batiment IS NULL) AND ([Borne Date Refus reforme] = ? OR ?" +
-				" IS NULL AND [Borne Date Refus reforme] IS NULL) AND (CA_Annee = ? OR ? IS NULL " +
-				"AND CA_Annee IS NULL) AND (CA_Annee_1 = ? OR ? IS NULL AND CA_Annee_1 IS NULL) A" +
-				"ND (CA_Annee_2 = ? OR ? IS NULL AND CA_Annee_2 IS NULL) AND (CA_Annee_3 = ? OR ?" +
-				" IS NULL AND CA_Annee_3 IS NULL) AND (CA_Annee_4 = ? OR ? IS NULL AND CA_Annee_4" +
-				" IS NULL) AND (Code_Postal = ? OR ? IS NULL AND Code_Postal IS NULL) AND (Code_r" +
-				"eglement = ? OR ? IS NULL AND Code_reglement IS NULL) AND (Code_transport = ? OR" +
-				" ? IS NULL AND Code_transport IS NULL) AND (Coef_Controle = ? OR ? IS NULL AND C" +
-				"oef_Controle IS NULL) AND (Coef_DNR = ? OR ? IS NULL AND Coef_DNR IS NULL) AND (" +
-				"Coef_transport = ? OR ? IS NULL AND Coef_transport IS NULL) AND (Delai_garantie " +
-				"= ? OR ? IS NULL AND Delai_garantie IS NULL) AND (Forfait_Controle = ? OR ? IS N" +
-				"ULL AND Forfait_Controle IS NULL) AND (Forfait_DNR = ? OR ? IS NULL AND Forfait_" +
-				"DNR IS NULL) AND (Forfait_transport = ? OR ? IS NULL AND Forfait_transport IS NU" +
-				"LL) AND (Groupe = ? OR ? IS NULL AND Groupe IS NULL) AND (Nom = ? OR ? IS NULL A" +
-				"ND Nom IS NULL) AND (Nombre_rep_Annee = ? OR ? IS NULL AND Nombre_rep_Annee IS N" +
-				"ULL) AND (Nombre_rep_Annee_1 = ? OR ? IS NULL AND Nombre_rep_Annee_1 IS NULL) AN" +
-				"D (Nombre_rep_Annee_2 = ? OR ? IS NULL AND Nombre_rep_Annee_2 IS NULL) AND (Nomb" +
-				"re_rep_Annee_3 = ? OR ? IS NULL AND Nombre_rep_Annee_3 IS NULL) AND (Nombre_rep_" +
-				"Annee_4 = ? OR ? IS NULL AND Nombre_rep_Annee_4 IS NULL) AND (Notre_Code_Fournis" +
-				"seur = ? OR ? IS NULL AND Notre_Code_Fournisseur IS NULL) AND ([N起Cde_Ouverte] " +
-				"= ? OR ? IS NULL AND [N起Cde_Ouverte] IS NULL) AND ([N起Client_facture] = ? OR ?" +
-				" IS NULL AND [N起Client_facture] IS NULL) AND (Pays = ? OR ? IS NULL AND Pays IS" +
-				" NULL) AND (Pourcentage_remise = ? OR ? IS NULL AND Pourcentage_remise IS NULL) " +
-				"AND (Seuil_reparation = ? OR ? IS NULL AND Seuil_reparation IS NULL) AND (Teleph" +
-				"one = ? OR ? IS NULL AND Telephone IS NULL) AND (Usine = ? OR ? IS NULL AND Usin" +
-				"e IS NULL) AND (Ville = ? OR ? IS NULL AND Ville IS NULL) AND (code_GC = ? OR ? " +
-				"IS NULL AND code_GC IS NULL) AND (telecopie = ? OR ? IS NULL AND telecopie IS NU" +
-				"LL) AND (telex = ? OR ? IS NULL AND telex IS NULL)";
-			this.oleDbUpdateCommand6.Connection = this.oleDbConnection1;
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_1"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_2"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, "Batiment"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, "Borne Date Refus reforme"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_1"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_2"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_3"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_4"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, "code_GC"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, "Code_Postal"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_reglement"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_transport"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, "Coef_Controle"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, "Coef_DNR"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Coef_transport", System.Data.OleDb.OleDbType.Double, 0, "Coef_transport"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Commentaire", System.Data.OleDb.OleDbType.VarWChar, 0, "Commentaire"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, "Delai_garantie"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, "Forfait_Controle"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, "Forfait_DNR"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, "Forfait_transport"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, "Groupe"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Ident", System.Data.OleDb.OleDbType.Integer, 0, "Ident"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, "N起Cde_Ouverte"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, "N起Client_facture"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nom", System.Data.OleDb.OleDbType.VarWChar, 30, "Nom"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_1"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_2"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_3"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_4"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, "Notre_Code_Fournisseur"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Pays", System.Data.OleDb.OleDbType.VarWChar, 255, "Pays"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, "Pourcentage_remise"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, "Seuil_reparation"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, "telecopie"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, "Telephone"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("telex", System.Data.OleDb.OleDbType.VarWChar, 255, "telex"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Usine", System.Data.OleDb.OleDbType.VarWChar, 3, "Usine"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Ville", System.Data.OleDb.OleDbType.VarWChar, 255, "Ville"));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Ident", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Ident", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_11", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_21", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Batiment1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme1", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_11", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_21", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_31", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_41", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_Postal1", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_reglement1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_transport1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Delai_garantie1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Groupe1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nom", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nom", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nom1", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nom", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_11", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_21", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_31", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_41", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Client_facture1", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pays", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pays", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pays1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pays", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Telephone1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Usine", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Usine", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Usine1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Usine", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Ville", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Ville", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Ville1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Ville", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_code_GC1", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telecopie1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telex", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telex", System.Data.DataRowVersion.Original, null));
-			this.oleDbUpdateCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telex1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telex", System.Data.DataRowVersion.Original, null));
-			// 
-			// oleDbDeleteCommand6
-			// 
-			this.oleDbDeleteCommand6.CommandText = "DELETE FROM T_clients WHERE (Ident = ?) AND (Adresse_1 = ? OR ? IS NULL AND Adres" +
-				"se_1 IS NULL) AND (Adresse_2 = ? OR ? IS NULL AND Adresse_2 IS NULL) AND (Batime" +
-				"nt = ? OR ? IS NULL AND Batiment IS NULL) AND ([Borne Date Refus reforme] = ? OR" +
-				" ? IS NULL AND [Borne Date Refus reforme] IS NULL) AND (CA_Annee = ? OR ? IS NUL" +
-				"L AND CA_Annee IS NULL) AND (CA_Annee_1 = ? OR ? IS NULL AND CA_Annee_1 IS NULL)" +
-				" AND (CA_Annee_2 = ? OR ? IS NULL AND CA_Annee_2 IS NULL) AND (CA_Annee_3 = ? OR" +
-				" ? IS NULL AND CA_Annee_3 IS NULL) AND (CA_Annee_4 = ? OR ? IS NULL AND CA_Annee" +
-				"_4 IS NULL) AND (Code_Postal = ? OR ? IS NULL AND Code_Postal IS NULL) AND (Code" +
-				"_reglement = ? OR ? IS NULL AND Code_reglement IS NULL) AND (Code_transport = ? " +
-				"OR ? IS NULL AND Code_transport IS NULL) AND (Coef_Controle = ? OR ? IS NULL AND" +
-				" Coef_Controle IS NULL) AND (Coef_DNR = ? OR ? IS NULL AND Coef_DNR IS NULL) AND" +
-				" (Coef_transport = ? OR ? IS NULL AND Coef_transport IS NULL) AND (Delai_garanti" +
-				"e = ? OR ? IS NULL AND Delai_garantie IS NULL) AND (Forfait_Controle = ? OR ? IS" +
-				" NULL AND Forfait_Controle IS NULL) AND (Forfait_DNR = ? OR ? IS NULL AND Forfai" +
-				"t_DNR IS NULL) AND (Forfait_transport = ? OR ? IS NULL AND Forfait_transport IS " +
-				"NULL) AND (Groupe = ? OR ? IS NULL AND Groupe IS NULL) AND (Nom = ? OR ? IS NULL" +
-				" AND Nom IS NULL) AND (Nombre_rep_Annee = ? OR ? IS NULL AND Nombre_rep_Annee IS" +
-				" NULL) AND (Nombre_rep_Annee_1 = ? OR ? IS NULL AND Nombre_rep_Annee_1 IS NULL) " +
-				"AND (Nombre_rep_Annee_2 = ? OR ? IS NULL AND Nombre_rep_Annee_2 IS NULL) AND (No" +
-				"mbre_rep_Annee_3 = ? OR ? IS NULL AND Nombre_rep_Annee_3 IS NULL) AND (Nombre_re" +
-				"p_Annee_4 = ? OR ? IS NULL AND Nombre_rep_Annee_4 IS NULL) AND (Notre_Code_Fourn" +
-				"isseur = ? OR ? IS NULL AND Notre_Code_Fournisseur IS NULL) AND ([N起Cde_Ouverte" +
-				"] = ? OR ? IS NULL AND [N起Cde_Ouverte] IS NULL) AND ([N起Client_facture] = ? OR" +
-				" ? IS NULL AND [N起Client_facture] IS NULL) AND (Pays = ? OR ? IS NULL AND Pays " +
-				"IS NULL) AND (Pourcentage_remise = ? OR ? IS NULL AND Pourcentage_remise IS NULL" +
-				") AND (Seuil_reparation = ? OR ? IS NULL AND Seuil_reparation IS NULL) AND (Tele" +
-				"phone = ? OR ? IS NULL AND Telephone IS NULL) AND (Usine = ? OR ? IS NULL AND Us" +
-				"ine IS NULL) AND (Ville = ? OR ? IS NULL AND Ville IS NULL) AND (code_GC = ? OR " +
-				"? IS NULL AND code_GC IS NULL) AND (telecopie = ? OR ? IS NULL AND telecopie IS " +
-				"NULL) AND (telex = ? OR ? IS NULL AND telex IS NULL)";
-			this.oleDbDeleteCommand6.Connection = this.oleDbConnection1;
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Ident", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Ident", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_11", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Adresse_21", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Batiment1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme1", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_11", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_21", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_31", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_CA_Annee_41", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_Postal1", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_reglement1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Code_transport1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Coef_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Delai_garantie1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Forfait_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Groupe1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nom", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nom", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nom1", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nom", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_11", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_21", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_31", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_41", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_N__Client_facture1", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pays", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pays", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pays1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pays", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Telephone1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Usine", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Usine", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Usine1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Usine", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Ville", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Ville", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_Ville1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "Ville", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_code_GC1", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telecopie1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telex", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telex", System.Data.DataRowVersion.Original, null));
-			this.oleDbDeleteCommand6.Parameters.Add(new System.Data.OleDb.OleDbParameter("Original_telex1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((System.Byte)(0)), ((System.Byte)(0)), "telex", System.Data.DataRowVersion.Original, null));
-			// 
-			// txDateDernierControle
-			// 
-			this.txDateDernierControle.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.txDateDernierControle.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.txDateDernierControle.ForeColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.txDateDernierControle.Location = new System.Drawing.Point(808, 640);
-			this.txDateDernierControle.Name = "txDateDernierControle";
-			this.txDateDernierControle.TabIndex = 11;
-			this.txDateDernierControle.TabStop = false;
-			this.txDateDernierControle.Text = "";
-			// 
-			// ControlesCAM
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(6, 13);
-			this.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.ClientSize = new System.Drawing.Size(924, 688);
-			this.ControlBox = false;
-			this.Controls.Add(this.txDateDernierControle);
-			this.Controls.Add(this.groupBox2);
-			this.Controls.Add(this.groupBox1);
-			this.Controls.Add(this.groupBox3);
-			this.Controls.Add(this.groupBox4);
-			this.Controls.Add(this.groupBox6);
-			this.Controls.Add(this.groupBox5);
-			this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.Name = "ControlesCAM";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Controles CAM";
-			this.groupBox1.ResumeLayout(false);
-			this.groupBox2.ResumeLayout(false);
-			this.groupBox3.ResumeLayout(false);
-			this.groupBox4.ResumeLayout(false);
-			this.groupBox5.ResumeLayout(false);
-			this.groupBox6.ResumeLayout(false);
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlesCAM));
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.idcli = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox117 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.mtgcComboBox3 = new MTGCComboBox();
+            this.mtgcComboBox2 = new MTGCComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.mtgcComboBox1 = new MTGCComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.label18 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBox116 = new System.Windows.Forms.TextBox();
+            this.textBox106 = new System.Windows.Forms.TextBox();
+            this.textBox107 = new System.Windows.Forms.TextBox();
+            this.textBox108 = new System.Windows.Forms.TextBox();
+            this.textBox109 = new System.Windows.Forms.TextBox();
+            this.textBox110 = new System.Windows.Forms.TextBox();
+            this.textBox111 = new System.Windows.Forms.TextBox();
+            this.textBox112 = new System.Windows.Forms.TextBox();
+            this.textBox113 = new System.Windows.Forms.TextBox();
+            this.textBox114 = new System.Windows.Forms.TextBox();
+            this.textBox115 = new System.Windows.Forms.TextBox();
+            this.textBox96 = new System.Windows.Forms.TextBox();
+            this.textBox97 = new System.Windows.Forms.TextBox();
+            this.textBox98 = new System.Windows.Forms.TextBox();
+            this.textBox99 = new System.Windows.Forms.TextBox();
+            this.textBox100 = new System.Windows.Forms.TextBox();
+            this.textBox101 = new System.Windows.Forms.TextBox();
+            this.textBox102 = new System.Windows.Forms.TextBox();
+            this.textBox103 = new System.Windows.Forms.TextBox();
+            this.textBox104 = new System.Windows.Forms.TextBox();
+            this.textBox105 = new System.Windows.Forms.TextBox();
+            this.textBox86 = new System.Windows.Forms.TextBox();
+            this.textBox87 = new System.Windows.Forms.TextBox();
+            this.textBox88 = new System.Windows.Forms.TextBox();
+            this.textBox89 = new System.Windows.Forms.TextBox();
+            this.textBox90 = new System.Windows.Forms.TextBox();
+            this.textBox91 = new System.Windows.Forms.TextBox();
+            this.textBox92 = new System.Windows.Forms.TextBox();
+            this.textBox93 = new System.Windows.Forms.TextBox();
+            this.textBox94 = new System.Windows.Forms.TextBox();
+            this.textBox95 = new System.Windows.Forms.TextBox();
+            this.textBox76 = new System.Windows.Forms.TextBox();
+            this.textBox77 = new System.Windows.Forms.TextBox();
+            this.textBox78 = new System.Windows.Forms.TextBox();
+            this.textBox79 = new System.Windows.Forms.TextBox();
+            this.textBox80 = new System.Windows.Forms.TextBox();
+            this.textBox81 = new System.Windows.Forms.TextBox();
+            this.textBox82 = new System.Windows.Forms.TextBox();
+            this.textBox83 = new System.Windows.Forms.TextBox();
+            this.textBox84 = new System.Windows.Forms.TextBox();
+            this.textBox85 = new System.Windows.Forms.TextBox();
+            this.textBox66 = new System.Windows.Forms.TextBox();
+            this.textBox67 = new System.Windows.Forms.TextBox();
+            this.textBox68 = new System.Windows.Forms.TextBox();
+            this.textBox69 = new System.Windows.Forms.TextBox();
+            this.textBox70 = new System.Windows.Forms.TextBox();
+            this.textBox71 = new System.Windows.Forms.TextBox();
+            this.textBox72 = new System.Windows.Forms.TextBox();
+            this.textBox73 = new System.Windows.Forms.TextBox();
+            this.textBox74 = new System.Windows.Forms.TextBox();
+            this.textBox75 = new System.Windows.Forms.TextBox();
+            this.textBox56 = new System.Windows.Forms.TextBox();
+            this.textBox57 = new System.Windows.Forms.TextBox();
+            this.textBox58 = new System.Windows.Forms.TextBox();
+            this.textBox59 = new System.Windows.Forms.TextBox();
+            this.textBox60 = new System.Windows.Forms.TextBox();
+            this.textBox61 = new System.Windows.Forms.TextBox();
+            this.textBox62 = new System.Windows.Forms.TextBox();
+            this.textBox63 = new System.Windows.Forms.TextBox();
+            this.textBox64 = new System.Windows.Forms.TextBox();
+            this.textBox65 = new System.Windows.Forms.TextBox();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.textBox53 = new System.Windows.Forms.TextBox();
+            this.textBox54 = new System.Windows.Forms.TextBox();
+            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.oleDbDeleteCommand2 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbInsertCommand2 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbSelectCommand2 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbUpdateCommand2 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbDeleteCommand3 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbInsertCommand3 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbSelectCommand3 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbUpdateCommand3 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbDeleteCommand5 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbInsertCommand5 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbSelectCommand5 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbUpdateCommand5 = new System.Data.OleDb.OleDbCommand();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.oleDbDeleteCommand7 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbInsertCommand7 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbSelectCommand7 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbUpdateCommand7 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbConnection1 = new System.Data.OleDb.OleDbConnection();
+            this.oleDbSelectCommand6 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbInsertCommand6 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbUpdateCommand6 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbDeleteCommand6 = new System.Data.OleDb.OleDbCommand();
+            this.txDateDernierControle = new System.Windows.Forms.TextBox();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(756, 175);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.White;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Location = new System.Drawing.Point(156, 129);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(576, 26);
+            this.textBox4.TabIndex = 7;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.White;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.Location = new System.Drawing.Point(156, 94);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(576, 26);
+            this.textBox3.TabIndex = 6;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Location = new System.Drawing.Point(156, 58);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(576, 26);
+            this.textBox2.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(156, 23);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(576, 26);
+            this.textBox1.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 129);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(120, 23);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Code MABEC";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(120, 23);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Type";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(132, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Marque";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(132, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Code machine";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.idcli);
+            this.groupBox2.Location = new System.Drawing.Point(768, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(600, 175);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.White;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.Location = new System.Drawing.Point(30, 126);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(534, 26);
+            this.textBox6.TabIndex = 39;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.White;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.Location = new System.Drawing.Point(30, 56);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(534, 26);
+            this.textBox5.TabIndex = 38;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(30, 102);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(150, 24);
+            this.label6.TabIndex = 37;
+            this.label6.Text = "Site";
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(30, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(150, 27);
+            this.label5.TabIndex = 36;
+            this.label5.Text = "Affectation";
+            // 
+            // idcli
+            // 
+            this.idcli.Location = new System.Drawing.Point(492, 23);
+            this.idcli.Name = "idcli";
+            this.idcli.Size = new System.Drawing.Size(72, 26);
+            this.idcli.TabIndex = 7;
+            this.idcli.Visible = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.groupBox3.Controls.Add(this.label19);
+            this.groupBox3.Controls.Add(this.textBox117);
+            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.textBox15);
+            this.groupBox3.Location = new System.Drawing.Point(12, 177);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(756, 302);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(24, 175);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(150, 24);
+            this.label19.TabIndex = 34;
+            this.label19.Text = "Commentaires";
+            // 
+            // textBox117
+            // 
+            this.textBox117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox117.Enabled = false;
+            this.textBox117.Location = new System.Drawing.Point(24, 210);
+            this.textBox117.Multiline = true;
+            this.textBox117.Name = "textBox117";
+            this.textBox117.Size = new System.Drawing.Size(708, 59);
+            this.textBox117.TabIndex = 33;
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.White;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.Location = new System.Drawing.Point(180, 70);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
+            this.textBox8.Size = new System.Drawing.Size(180, 26);
+            this.textBox8.TabIndex = 31;
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.White;
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.Location = new System.Drawing.Point(180, 35);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(180, 26);
+            this.textBox7.TabIndex = 30;
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(24, 70);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(150, 24);
+            this.label8.TabIndex = 29;
+            this.label8.Text = "Date contr犨e";
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(24, 35);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(150, 25);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "Num廨o contr犨e";
+            // 
+            // textBox15
+            // 
+            this.textBox15.BackColor = System.Drawing.Color.SteelBlue;
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.ForeColor = System.Drawing.Color.White;
+            this.textBox15.Location = new System.Drawing.Point(0, 117);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(756, 30);
+            this.textBox15.TabIndex = 32;
+            this.textBox15.Text = "Fichier acquisition en cours";
+            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.groupBox4.Controls.Add(this.label17);
+            this.groupBox4.Controls.Add(this.label16);
+            this.groupBox4.Controls.Add(this.mtgcComboBox3);
+            this.groupBox4.Controls.Add(this.mtgcComboBox2);
+            this.groupBox4.Controls.Add(this.label15);
+            this.groupBox4.Controls.Add(this.mtgcComboBox1);
+            this.groupBox4.Controls.Add(this.label14);
+            this.groupBox4.Controls.Add(this.label13);
+            this.groupBox4.Controls.Add(this.label12);
+            this.groupBox4.Controls.Add(this.label11);
+            this.groupBox4.Controls.Add(this.label10);
+            this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Controls.Add(this.textBox14);
+            this.groupBox4.Controls.Add(this.textBox13);
+            this.groupBox4.Controls.Add(this.textBox12);
+            this.groupBox4.Controls.Add(this.textBox11);
+            this.groupBox4.Controls.Add(this.textBox10);
+            this.groupBox4.Controls.Add(this.textBox9);
+            this.groupBox4.Location = new System.Drawing.Point(768, 177);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(600, 302);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(24, 199);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(150, 23);
+            this.label17.TabIndex = 17;
+            this.label17.Text = "Capteur";
+            // 
+            // label16
+            // 
+            this.label16.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(24, 140);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(150, 24);
+            this.label16.TabIndex = 16;
+            this.label16.Text = "Chaine";
+            // 
+            // mtgcComboBox3
+            // 
+            this.mtgcComboBox3.BorderStyle = MTGCComboBox.TipiBordi.FlatXP;
+            this.mtgcComboBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.mtgcComboBox3.ColumnNum = 2;
+            this.mtgcComboBox3.ColumnWidth = "270;50";
+            this.mtgcComboBox3.DisplayMember = "Text";
+            this.mtgcComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.mtgcComboBox3.DropDownArrowBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(169)))), ((int)(((byte)(223)))));
+            this.mtgcComboBox3.DropDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(210)))), ((int)(((byte)(238)))));
+            this.mtgcComboBox3.DropDownForeColor = System.Drawing.Color.Black;
+            this.mtgcComboBox3.DropDownStyle = MTGCComboBox.CustomDropDownStyle.DropDown;
+            this.mtgcComboBox3.DropDownWidth = 340;
+            this.mtgcComboBox3.Enabled = false;
+            this.mtgcComboBox3.GridLineColor = System.Drawing.Color.LightGray;
+            this.mtgcComboBox3.GridLineHorizontal = false;
+            this.mtgcComboBox3.GridLineVertical = true;
+            this.mtgcComboBox3.HighlightBorderColor = System.Drawing.Color.Blue;
+            this.mtgcComboBox3.HighlightBorderOnMouseEvents = true;
+            this.mtgcComboBox3.LoadingType = MTGCComboBox.CaricamentoCombo.ComboBoxItem;
+            this.mtgcComboBox3.Location = new System.Drawing.Point(24, 222);
+            this.mtgcComboBox3.ManagingFastMouseMoving = true;
+            this.mtgcComboBox3.ManagingFastMouseMovingInterval = 30;
+            this.mtgcComboBox3.Name = "mtgcComboBox3";
+            this.mtgcComboBox3.NormalBorderColor = System.Drawing.Color.Black;
+            this.mtgcComboBox3.Size = new System.Drawing.Size(538, 27);
+            this.mtgcComboBox3.TabIndex = 15;
+            // 
+            // mtgcComboBox2
+            // 
+            this.mtgcComboBox2.BorderStyle = MTGCComboBox.TipiBordi.FlatXP;
+            this.mtgcComboBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.mtgcComboBox2.ColumnNum = 1;
+            this.mtgcComboBox2.ColumnWidth = "200";
+            this.mtgcComboBox2.DisplayMember = "Text";
+            this.mtgcComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.mtgcComboBox2.DropDownArrowBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(169)))), ((int)(((byte)(223)))));
+            this.mtgcComboBox2.DropDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(210)))), ((int)(((byte)(238)))));
+            this.mtgcComboBox2.DropDownForeColor = System.Drawing.Color.Black;
+            this.mtgcComboBox2.DropDownStyle = MTGCComboBox.CustomDropDownStyle.DropDown;
+            this.mtgcComboBox2.DropDownWidth = 270;
+            this.mtgcComboBox2.Enabled = false;
+            this.mtgcComboBox2.GridLineColor = System.Drawing.Color.LightGray;
+            this.mtgcComboBox2.GridLineHorizontal = false;
+            this.mtgcComboBox2.GridLineVertical = false;
+            this.mtgcComboBox2.HighlightBorderColor = System.Drawing.Color.Blue;
+            this.mtgcComboBox2.HighlightBorderOnMouseEvents = true;
+            this.mtgcComboBox2.LoadingType = MTGCComboBox.CaricamentoCombo.ComboBoxItem;
+            this.mtgcComboBox2.Location = new System.Drawing.Point(24, 164);
+            this.mtgcComboBox2.ManagingFastMouseMoving = true;
+            this.mtgcComboBox2.ManagingFastMouseMovingInterval = 30;
+            this.mtgcComboBox2.Name = "mtgcComboBox2";
+            this.mtgcComboBox2.NormalBorderColor = System.Drawing.Color.Black;
+            this.mtgcComboBox2.Size = new System.Drawing.Size(540, 27);
+            this.mtgcComboBox2.TabIndex = 14;
+            // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(454, 80);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(101, 25);
+            this.label15.TabIndex = 13;
+            this.label15.Text = "Op廨ateur";
+            // 
+            // mtgcComboBox1
+            // 
+            this.mtgcComboBox1.BorderStyle = MTGCComboBox.TipiBordi.FlatXP;
+            this.mtgcComboBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.mtgcComboBox1.ColumnNum = 1;
+            this.mtgcComboBox1.ColumnWidth = "121";
+            this.mtgcComboBox1.DisplayMember = "Text";
+            this.mtgcComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.mtgcComboBox1.DropDownArrowBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(169)))), ((int)(((byte)(223)))));
+            this.mtgcComboBox1.DropDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(210)))), ((int)(((byte)(238)))));
+            this.mtgcComboBox1.DropDownForeColor = System.Drawing.Color.Black;
+            this.mtgcComboBox1.DropDownStyle = MTGCComboBox.CustomDropDownStyle.DropDown;
+            this.mtgcComboBox1.DropDownWidth = 141;
+            this.mtgcComboBox1.Enabled = false;
+            this.mtgcComboBox1.GridLineColor = System.Drawing.Color.LightGray;
+            this.mtgcComboBox1.GridLineHorizontal = false;
+            this.mtgcComboBox1.GridLineVertical = false;
+            this.mtgcComboBox1.HighlightBorderColor = System.Drawing.Color.Blue;
+            this.mtgcComboBox1.HighlightBorderOnMouseEvents = true;
+            this.mtgcComboBox1.LoadingType = MTGCComboBox.CaricamentoCombo.ComboBoxItem;
+            this.mtgcComboBox1.Location = new System.Drawing.Point(434, 105);
+            this.mtgcComboBox1.ManagingFastMouseMoving = true;
+            this.mtgcComboBox1.ManagingFastMouseMovingInterval = 30;
+            this.mtgcComboBox1.Name = "mtgcComboBox1";
+            this.mtgcComboBox1.NormalBorderColor = System.Drawing.Color.Black;
+            this.mtgcComboBox1.Size = new System.Drawing.Size(130, 27);
+            this.mtgcComboBox1.TabIndex = 12;
+            // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(284, 82);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(150, 23);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "Vit. mesur嶪";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(22, 82);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(150, 23);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "Mini poste";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(154, 82);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(144, 23);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "Maxi poste";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(288, 23);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(144, 24);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "Vitesse";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(154, 23);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(144, 24);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Maxi Mach.";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(22, 23);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(144, 24);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "Mini Mach.";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox14
+            // 
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox14.Enabled = false;
+            this.textBox14.Location = new System.Drawing.Point(291, 105);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(135, 26);
+            this.textBox14.TabIndex = 5;
+            this.textBox14.Text = "0,00";
+            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox13
+            // 
+            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox13.Enabled = false;
+            this.textBox13.Location = new System.Drawing.Point(158, 105);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(134, 26);
+            this.textBox13.TabIndex = 4;
+            this.textBox13.Text = "0,00";
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox12
+            // 
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox12.Enabled = false;
+            this.textBox12.Location = new System.Drawing.Point(24, 105);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(135, 26);
+            this.textBox12.TabIndex = 3;
+            this.textBox12.Text = "0,00";
+            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox11
+            // 
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox11.Location = new System.Drawing.Point(291, 47);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(135, 26);
+            this.textBox11.TabIndex = 2;
+            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox10
+            // 
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox10.Location = new System.Drawing.Point(158, 47);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(134, 26);
+            this.textBox10.TabIndex = 1;
+            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox9
+            // 
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox9.Location = new System.Drawing.Point(24, 47);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(135, 26);
+            this.textBox9.TabIndex = 0;
+            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox16
+            // 
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox16.Enabled = false;
+            this.textBox16.ForeColor = System.Drawing.Color.Black;
+            this.textBox16.Location = new System.Drawing.Point(108, 94);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(96, 26);
+            this.textBox16.TabIndex = 4;
+            this.textBox16.Text = "0,00";
+            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox16.Leave += new System.EventHandler(this.textBox16_Leave);
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox5.Controls.Add(this.button3);
+            this.groupBox5.Controls.Add(this.button4);
+            this.groupBox5.Controls.Add(this.radioButton3);
+            this.groupBox5.Controls.Add(this.radioButton2);
+            this.groupBox5.Controls.Add(this.label18);
+            this.groupBox5.Controls.Add(this.radioButton1);
+            this.groupBox5.Controls.Add(this.button1);
+            this.groupBox5.Controls.Add(this.button2);
+            this.groupBox5.Location = new System.Drawing.Point(12, 468);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(132, 456);
+            this.groupBox5.TabIndex = 5;
+            this.groupBox5.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Blue;
+            this.button3.Location = new System.Drawing.Point(12, 234);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(112, 33);
+            this.button3.TabIndex = 37;
+            this.button3.Text = "Edition";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.Location = new System.Drawing.Point(30, 351);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(72, 70);
+            this.button4.TabIndex = 36;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(24, 117);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(156, 35);
+            this.radioButton3.TabIndex = 35;
+            this.radioButton3.Text = "100";
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(24, 82);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(156, 35);
+            this.radioButton2.TabIndex = 34;
+            this.radioButton2.Text = "50";
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // label18
+            // 
+            this.label18.Location = new System.Drawing.Point(16, 12);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(96, 33);
+            this.label18.TabIndex = 33;
+            this.label18.Text = "Valeurs";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.Checked = true;
+            this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(24, 47);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(66, 35);
+            this.radioButton1.TabIndex = 33;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "30";
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(12, 164);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 33);
+            this.button1.TabIndex = 33;
+            this.button1.Text = "Saisie";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Enabled = false;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Blue;
+            this.button2.Location = new System.Drawing.Point(12, 199);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(112, 33);
+            this.button2.TabIndex = 33;
+            this.button2.Text = "Enregistre";
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.groupBox6.Controls.Add(this.label49);
+            this.groupBox6.Controls.Add(this.label48);
+            this.groupBox6.Controls.Add(this.label47);
+            this.groupBox6.Controls.Add(this.label46);
+            this.groupBox6.Controls.Add(this.label45);
+            this.groupBox6.Controls.Add(this.label44);
+            this.groupBox6.Controls.Add(this.label43);
+            this.groupBox6.Controls.Add(this.label42);
+            this.groupBox6.Controls.Add(this.label41);
+            this.groupBox6.Controls.Add(this.label40);
+            this.groupBox6.Controls.Add(this.label39);
+            this.groupBox6.Controls.Add(this.label38);
+            this.groupBox6.Controls.Add(this.label37);
+            this.groupBox6.Controls.Add(this.label36);
+            this.groupBox6.Controls.Add(this.label31);
+            this.groupBox6.Controls.Add(this.label32);
+            this.groupBox6.Controls.Add(this.label33);
+            this.groupBox6.Controls.Add(this.label34);
+            this.groupBox6.Controls.Add(this.label35);
+            this.groupBox6.Controls.Add(this.label30);
+            this.groupBox6.Controls.Add(this.label28);
+            this.groupBox6.Controls.Add(this.label27);
+            this.groupBox6.Controls.Add(this.label26);
+            this.groupBox6.Controls.Add(this.label25);
+            this.groupBox6.Controls.Add(this.label24);
+            this.groupBox6.Controls.Add(this.label23);
+            this.groupBox6.Controls.Add(this.label22);
+            this.groupBox6.Controls.Add(this.label21);
+            this.groupBox6.Controls.Add(this.label20);
+            this.groupBox6.Controls.Add(this.textBox116);
+            this.groupBox6.Controls.Add(this.textBox106);
+            this.groupBox6.Controls.Add(this.textBox107);
+            this.groupBox6.Controls.Add(this.textBox108);
+            this.groupBox6.Controls.Add(this.textBox109);
+            this.groupBox6.Controls.Add(this.textBox110);
+            this.groupBox6.Controls.Add(this.textBox111);
+            this.groupBox6.Controls.Add(this.textBox112);
+            this.groupBox6.Controls.Add(this.textBox113);
+            this.groupBox6.Controls.Add(this.textBox114);
+            this.groupBox6.Controls.Add(this.textBox115);
+            this.groupBox6.Controls.Add(this.textBox96);
+            this.groupBox6.Controls.Add(this.textBox97);
+            this.groupBox6.Controls.Add(this.textBox98);
+            this.groupBox6.Controls.Add(this.textBox99);
+            this.groupBox6.Controls.Add(this.textBox100);
+            this.groupBox6.Controls.Add(this.textBox101);
+            this.groupBox6.Controls.Add(this.textBox102);
+            this.groupBox6.Controls.Add(this.textBox103);
+            this.groupBox6.Controls.Add(this.textBox104);
+            this.groupBox6.Controls.Add(this.textBox105);
+            this.groupBox6.Controls.Add(this.textBox86);
+            this.groupBox6.Controls.Add(this.textBox87);
+            this.groupBox6.Controls.Add(this.textBox88);
+            this.groupBox6.Controls.Add(this.textBox89);
+            this.groupBox6.Controls.Add(this.textBox90);
+            this.groupBox6.Controls.Add(this.textBox91);
+            this.groupBox6.Controls.Add(this.textBox92);
+            this.groupBox6.Controls.Add(this.textBox93);
+            this.groupBox6.Controls.Add(this.textBox94);
+            this.groupBox6.Controls.Add(this.textBox95);
+            this.groupBox6.Controls.Add(this.textBox76);
+            this.groupBox6.Controls.Add(this.textBox77);
+            this.groupBox6.Controls.Add(this.textBox78);
+            this.groupBox6.Controls.Add(this.textBox79);
+            this.groupBox6.Controls.Add(this.textBox80);
+            this.groupBox6.Controls.Add(this.textBox81);
+            this.groupBox6.Controls.Add(this.textBox82);
+            this.groupBox6.Controls.Add(this.textBox83);
+            this.groupBox6.Controls.Add(this.textBox84);
+            this.groupBox6.Controls.Add(this.textBox85);
+            this.groupBox6.Controls.Add(this.textBox66);
+            this.groupBox6.Controls.Add(this.textBox67);
+            this.groupBox6.Controls.Add(this.textBox68);
+            this.groupBox6.Controls.Add(this.textBox69);
+            this.groupBox6.Controls.Add(this.textBox70);
+            this.groupBox6.Controls.Add(this.textBox71);
+            this.groupBox6.Controls.Add(this.textBox72);
+            this.groupBox6.Controls.Add(this.textBox73);
+            this.groupBox6.Controls.Add(this.textBox74);
+            this.groupBox6.Controls.Add(this.textBox75);
+            this.groupBox6.Controls.Add(this.textBox56);
+            this.groupBox6.Controls.Add(this.textBox57);
+            this.groupBox6.Controls.Add(this.textBox58);
+            this.groupBox6.Controls.Add(this.textBox59);
+            this.groupBox6.Controls.Add(this.textBox60);
+            this.groupBox6.Controls.Add(this.textBox61);
+            this.groupBox6.Controls.Add(this.textBox62);
+            this.groupBox6.Controls.Add(this.textBox63);
+            this.groupBox6.Controls.Add(this.textBox64);
+            this.groupBox6.Controls.Add(this.textBox65);
+            this.groupBox6.Controls.Add(this.textBox46);
+            this.groupBox6.Controls.Add(this.textBox47);
+            this.groupBox6.Controls.Add(this.textBox48);
+            this.groupBox6.Controls.Add(this.textBox49);
+            this.groupBox6.Controls.Add(this.textBox50);
+            this.groupBox6.Controls.Add(this.textBox51);
+            this.groupBox6.Controls.Add(this.textBox52);
+            this.groupBox6.Controls.Add(this.textBox53);
+            this.groupBox6.Controls.Add(this.textBox54);
+            this.groupBox6.Controls.Add(this.textBox55);
+            this.groupBox6.Controls.Add(this.textBox36);
+            this.groupBox6.Controls.Add(this.textBox37);
+            this.groupBox6.Controls.Add(this.textBox38);
+            this.groupBox6.Controls.Add(this.textBox39);
+            this.groupBox6.Controls.Add(this.textBox40);
+            this.groupBox6.Controls.Add(this.textBox41);
+            this.groupBox6.Controls.Add(this.textBox42);
+            this.groupBox6.Controls.Add(this.textBox43);
+            this.groupBox6.Controls.Add(this.textBox44);
+            this.groupBox6.Controls.Add(this.textBox45);
+            this.groupBox6.Controls.Add(this.textBox26);
+            this.groupBox6.Controls.Add(this.textBox27);
+            this.groupBox6.Controls.Add(this.textBox28);
+            this.groupBox6.Controls.Add(this.textBox29);
+            this.groupBox6.Controls.Add(this.textBox30);
+            this.groupBox6.Controls.Add(this.textBox31);
+            this.groupBox6.Controls.Add(this.textBox32);
+            this.groupBox6.Controls.Add(this.textBox33);
+            this.groupBox6.Controls.Add(this.textBox34);
+            this.groupBox6.Controls.Add(this.textBox35);
+            this.groupBox6.Controls.Add(this.textBox25);
+            this.groupBox6.Controls.Add(this.textBox24);
+            this.groupBox6.Controls.Add(this.textBox23);
+            this.groupBox6.Controls.Add(this.textBox22);
+            this.groupBox6.Controls.Add(this.textBox21);
+            this.groupBox6.Controls.Add(this.textBox20);
+            this.groupBox6.Controls.Add(this.textBox19);
+            this.groupBox6.Controls.Add(this.textBox18);
+            this.groupBox6.Controls.Add(this.textBox17);
+            this.groupBox6.Controls.Add(this.textBox16);
+            this.groupBox6.Controls.Add(this.label29);
+            this.groupBox6.Location = new System.Drawing.Point(144, 468);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(1224, 456);
+            this.groupBox6.TabIndex = 6;
+            this.groupBox6.TabStop = false;
+            // 
+            // label49
+            // 
+            this.label49.Location = new System.Drawing.Point(648, 409);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(48, 34);
+            this.label49.TabIndex = 133;
+            this.label49.Text = "E20 :";
+            this.label49.Visible = false;
+            // 
+            // label48
+            // 
+            this.label48.Location = new System.Drawing.Point(60, 409);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(48, 34);
+            this.label48.TabIndex = 132;
+            this.label48.Text = "E19:";
+            this.label48.Visible = false;
+            // 
+            // label47
+            // 
+            this.label47.Location = new System.Drawing.Point(648, 374);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(48, 34);
+            this.label47.TabIndex = 131;
+            this.label47.Text = "E18 :";
+            this.label47.Visible = false;
+            // 
+            // label46
+            // 
+            this.label46.Location = new System.Drawing.Point(60, 374);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(48, 34);
+            this.label46.TabIndex = 130;
+            this.label46.Text = "E17 :";
+            this.label46.Visible = false;
+            // 
+            // label45
+            // 
+            this.label45.Location = new System.Drawing.Point(648, 339);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(48, 34);
+            this.label45.TabIndex = 129;
+            this.label45.Text = "E16 :";
+            this.label45.Visible = false;
+            // 
+            // label44
+            // 
+            this.label44.Location = new System.Drawing.Point(60, 339);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(48, 34);
+            this.label44.TabIndex = 128;
+            this.label44.Text = "E15 :";
+            this.label44.Visible = false;
+            // 
+            // label43
+            // 
+            this.label43.Location = new System.Drawing.Point(648, 304);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(48, 34);
+            this.label43.TabIndex = 127;
+            this.label43.Text = "E14 :";
+            this.label43.Visible = false;
+            // 
+            // label42
+            // 
+            this.label42.Location = new System.Drawing.Point(60, 304);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(48, 34);
+            this.label42.TabIndex = 126;
+            this.label42.Text = "E13:";
+            this.label42.Visible = false;
+            // 
+            // label41
+            // 
+            this.label41.Location = new System.Drawing.Point(648, 269);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(48, 34);
+            this.label41.TabIndex = 125;
+            this.label41.Text = "E12 :";
+            this.label41.Visible = false;
+            // 
+            // label40
+            // 
+            this.label40.Location = new System.Drawing.Point(60, 269);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(48, 34);
+            this.label40.TabIndex = 124;
+            this.label40.Text = "E11 :";
+            this.label40.Visible = false;
+            // 
+            // label39
+            // 
+            this.label39.Location = new System.Drawing.Point(648, 234);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(48, 33);
+            this.label39.TabIndex = 123;
+            this.label39.Text = "E10 :";
+            this.label39.Visible = false;
+            // 
+            // label38
+            // 
+            this.label38.Location = new System.Drawing.Point(60, 234);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(48, 33);
+            this.label38.TabIndex = 122;
+            this.label38.Text = "E9:";
+            this.label38.Visible = false;
+            // 
+            // label37
+            // 
+            this.label37.Location = new System.Drawing.Point(648, 199);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(48, 33);
+            this.label37.TabIndex = 121;
+            this.label37.Text = "E8 :";
+            this.label37.Visible = false;
+            // 
+            // label36
+            // 
+            this.label36.Location = new System.Drawing.Point(60, 199);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(48, 33);
+            this.label36.TabIndex = 120;
+            this.label36.Text = "E7 :";
+            this.label36.Visible = false;
+            // 
+            // label31
+            // 
+            this.label31.Location = new System.Drawing.Point(984, 58);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(96, 34);
+            this.label31.TabIndex = 119;
+            this.label31.Text = "M4";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label32
+            // 
+            this.label32.Location = new System.Drawing.Point(1080, 58);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(96, 34);
+            this.label32.TabIndex = 118;
+            this.label32.Text = "M5";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label33
+            // 
+            this.label33.Location = new System.Drawing.Point(792, 58);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(96, 34);
+            this.label33.TabIndex = 116;
+            this.label33.Text = "M2";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label34
+            // 
+            this.label34.Location = new System.Drawing.Point(696, 58);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(96, 34);
+            this.label34.TabIndex = 115;
+            this.label34.Text = "M1";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label35
+            // 
+            this.label35.Location = new System.Drawing.Point(888, 58);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(96, 34);
+            this.label35.TabIndex = 117;
+            this.label35.Text = "M3";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label30
+            // 
+            this.label30.Location = new System.Drawing.Point(396, 58);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(96, 34);
+            this.label30.TabIndex = 114;
+            this.label30.Text = "M4";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            this.label28.Location = new System.Drawing.Point(492, 58);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(96, 34);
+            this.label28.TabIndex = 113;
+            this.label28.Text = "M5";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.Location = new System.Drawing.Point(204, 58);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(96, 34);
+            this.label27.TabIndex = 112;
+            this.label27.Text = "M2";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label26
+            // 
+            this.label26.Location = new System.Drawing.Point(108, 58);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(96, 34);
+            this.label26.TabIndex = 111;
+            this.label26.Text = "M1";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            this.label25.Location = new System.Drawing.Point(648, 164);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(48, 33);
+            this.label25.TabIndex = 110;
+            this.label25.Text = "E6 :";
+            // 
+            // label24
+            // 
+            this.label24.Location = new System.Drawing.Point(60, 164);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(48, 33);
+            this.label24.TabIndex = 109;
+            this.label24.Text = "E5 :";
+            // 
+            // label23
+            // 
+            this.label23.Location = new System.Drawing.Point(648, 129);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(48, 33);
+            this.label23.TabIndex = 108;
+            this.label23.Text = "E4 :";
+            // 
+            // label22
+            // 
+            this.label22.Location = new System.Drawing.Point(60, 129);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(48, 33);
+            this.label22.TabIndex = 107;
+            this.label22.Text = "E3 :";
+            // 
+            // label21
+            // 
+            this.label21.Location = new System.Drawing.Point(648, 94);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(48, 33);
+            this.label21.TabIndex = 106;
+            this.label21.Text = "E2 :";
+            // 
+            // label20
+            // 
+            this.label20.Location = new System.Drawing.Point(60, 94);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(48, 33);
+            this.label20.TabIndex = 105;
+            this.label20.Text = "E1 :";
+            // 
+            // textBox116
+            // 
+            this.textBox116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox116.Location = new System.Drawing.Point(12, 23);
+            this.textBox116.Name = "textBox116";
+            this.textBox116.ReadOnly = true;
+            this.textBox116.Size = new System.Drawing.Size(1200, 26);
+            this.textBox116.TabIndex = 104;
+            this.textBox116.Text = "Contr犨e 30 mesures";
+            this.textBox116.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox106
+            // 
+            this.textBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox106.Enabled = false;
+            this.textBox106.Location = new System.Drawing.Point(1080, 409);
+            this.textBox106.Name = "textBox106";
+            this.textBox106.Size = new System.Drawing.Size(96, 26);
+            this.textBox106.TabIndex = 103;
+            this.textBox106.Text = "0,00";
+            this.textBox106.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox106.Visible = false;
+            this.textBox106.Leave += new System.EventHandler(this.textBox106_Leave);
+            // 
+            // textBox107
+            // 
+            this.textBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox107.Enabled = false;
+            this.textBox107.Location = new System.Drawing.Point(984, 409);
+            this.textBox107.Name = "textBox107";
+            this.textBox107.Size = new System.Drawing.Size(96, 26);
+            this.textBox107.TabIndex = 102;
+            this.textBox107.Text = "0,00";
+            this.textBox107.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox107.Visible = false;
+            this.textBox107.Leave += new System.EventHandler(this.textBox107_Leave);
+            // 
+            // textBox108
+            // 
+            this.textBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox108.Enabled = false;
+            this.textBox108.Location = new System.Drawing.Point(888, 409);
+            this.textBox108.Name = "textBox108";
+            this.textBox108.Size = new System.Drawing.Size(96, 26);
+            this.textBox108.TabIndex = 101;
+            this.textBox108.Text = "0,00";
+            this.textBox108.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox108.Visible = false;
+            this.textBox108.Leave += new System.EventHandler(this.textBox108_Leave);
+            // 
+            // textBox109
+            // 
+            this.textBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox109.Enabled = false;
+            this.textBox109.Location = new System.Drawing.Point(792, 409);
+            this.textBox109.Name = "textBox109";
+            this.textBox109.Size = new System.Drawing.Size(96, 26);
+            this.textBox109.TabIndex = 100;
+            this.textBox109.Text = "0,00";
+            this.textBox109.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox109.Visible = false;
+            this.textBox109.Leave += new System.EventHandler(this.textBox109_Leave);
+            // 
+            // textBox110
+            // 
+            this.textBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox110.Enabled = false;
+            this.textBox110.Location = new System.Drawing.Point(696, 409);
+            this.textBox110.Name = "textBox110";
+            this.textBox110.Size = new System.Drawing.Size(96, 26);
+            this.textBox110.TabIndex = 99;
+            this.textBox110.Text = "0,00";
+            this.textBox110.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox110.Visible = false;
+            this.textBox110.Leave += new System.EventHandler(this.textBox110_Leave);
+            // 
+            // textBox111
+            // 
+            this.textBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox111.Enabled = false;
+            this.textBox111.Location = new System.Drawing.Point(492, 409);
+            this.textBox111.Name = "textBox111";
+            this.textBox111.Size = new System.Drawing.Size(96, 26);
+            this.textBox111.TabIndex = 98;
+            this.textBox111.Text = "0,00";
+            this.textBox111.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox111.Visible = false;
+            this.textBox111.Leave += new System.EventHandler(this.textBox111_Leave);
+            // 
+            // textBox112
+            // 
+            this.textBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox112.Enabled = false;
+            this.textBox112.Location = new System.Drawing.Point(396, 409);
+            this.textBox112.Name = "textBox112";
+            this.textBox112.Size = new System.Drawing.Size(96, 26);
+            this.textBox112.TabIndex = 97;
+            this.textBox112.Text = "0,00";
+            this.textBox112.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox112.Visible = false;
+            this.textBox112.Leave += new System.EventHandler(this.textBox112_Leave);
+            // 
+            // textBox113
+            // 
+            this.textBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox113.Enabled = false;
+            this.textBox113.Location = new System.Drawing.Point(300, 409);
+            this.textBox113.Name = "textBox113";
+            this.textBox113.Size = new System.Drawing.Size(96, 26);
+            this.textBox113.TabIndex = 96;
+            this.textBox113.Text = "0,00";
+            this.textBox113.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox113.Visible = false;
+            this.textBox113.Leave += new System.EventHandler(this.textBox113_Leave);
+            // 
+            // textBox114
+            // 
+            this.textBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox114.Enabled = false;
+            this.textBox114.Location = new System.Drawing.Point(204, 409);
+            this.textBox114.Name = "textBox114";
+            this.textBox114.Size = new System.Drawing.Size(96, 26);
+            this.textBox114.TabIndex = 95;
+            this.textBox114.Text = "0,00";
+            this.textBox114.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox114.Visible = false;
+            this.textBox114.Leave += new System.EventHandler(this.textBox114_Leave);
+            // 
+            // textBox115
+            // 
+            this.textBox115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox115.Enabled = false;
+            this.textBox115.Location = new System.Drawing.Point(108, 409);
+            this.textBox115.Name = "textBox115";
+            this.textBox115.Size = new System.Drawing.Size(96, 26);
+            this.textBox115.TabIndex = 94;
+            this.textBox115.Text = "0,00";
+            this.textBox115.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox115.Visible = false;
+            this.textBox115.Leave += new System.EventHandler(this.textBox115_Leave);
+            // 
+            // textBox96
+            // 
+            this.textBox96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox96.Enabled = false;
+            this.textBox96.Location = new System.Drawing.Point(1080, 374);
+            this.textBox96.Name = "textBox96";
+            this.textBox96.Size = new System.Drawing.Size(96, 26);
+            this.textBox96.TabIndex = 93;
+            this.textBox96.Text = "0,00";
+            this.textBox96.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox96.Visible = false;
+            this.textBox96.Leave += new System.EventHandler(this.textBox96_Leave);
+            // 
+            // textBox97
+            // 
+            this.textBox97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox97.Enabled = false;
+            this.textBox97.Location = new System.Drawing.Point(984, 374);
+            this.textBox97.Name = "textBox97";
+            this.textBox97.Size = new System.Drawing.Size(96, 26);
+            this.textBox97.TabIndex = 92;
+            this.textBox97.Text = "0,00";
+            this.textBox97.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox97.Visible = false;
+            this.textBox97.Leave += new System.EventHandler(this.textBox97_Leave);
+            // 
+            // textBox98
+            // 
+            this.textBox98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox98.Enabled = false;
+            this.textBox98.Location = new System.Drawing.Point(888, 374);
+            this.textBox98.Name = "textBox98";
+            this.textBox98.Size = new System.Drawing.Size(96, 26);
+            this.textBox98.TabIndex = 91;
+            this.textBox98.Text = "0,00";
+            this.textBox98.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox98.Visible = false;
+            this.textBox98.Leave += new System.EventHandler(this.textBox98_Leave);
+            // 
+            // textBox99
+            // 
+            this.textBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox99.Enabled = false;
+            this.textBox99.Location = new System.Drawing.Point(792, 374);
+            this.textBox99.Name = "textBox99";
+            this.textBox99.Size = new System.Drawing.Size(96, 26);
+            this.textBox99.TabIndex = 90;
+            this.textBox99.Text = "0,00";
+            this.textBox99.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox99.Visible = false;
+            this.textBox99.Leave += new System.EventHandler(this.textBox99_Leave);
+            // 
+            // textBox100
+            // 
+            this.textBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox100.Enabled = false;
+            this.textBox100.Location = new System.Drawing.Point(696, 374);
+            this.textBox100.Name = "textBox100";
+            this.textBox100.Size = new System.Drawing.Size(96, 26);
+            this.textBox100.TabIndex = 89;
+            this.textBox100.Text = "0,00";
+            this.textBox100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox100.Visible = false;
+            this.textBox100.Leave += new System.EventHandler(this.textBox100_Leave);
+            // 
+            // textBox101
+            // 
+            this.textBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox101.Enabled = false;
+            this.textBox101.Location = new System.Drawing.Point(492, 374);
+            this.textBox101.Name = "textBox101";
+            this.textBox101.Size = new System.Drawing.Size(96, 26);
+            this.textBox101.TabIndex = 88;
+            this.textBox101.Text = "0,00";
+            this.textBox101.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox101.Visible = false;
+            this.textBox101.Leave += new System.EventHandler(this.textBox101_Leave);
+            // 
+            // textBox102
+            // 
+            this.textBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox102.Enabled = false;
+            this.textBox102.Location = new System.Drawing.Point(396, 374);
+            this.textBox102.Name = "textBox102";
+            this.textBox102.Size = new System.Drawing.Size(96, 26);
+            this.textBox102.TabIndex = 87;
+            this.textBox102.Text = "0,00";
+            this.textBox102.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox102.Visible = false;
+            this.textBox102.Leave += new System.EventHandler(this.textBox102_Leave);
+            // 
+            // textBox103
+            // 
+            this.textBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox103.Enabled = false;
+            this.textBox103.Location = new System.Drawing.Point(300, 374);
+            this.textBox103.Name = "textBox103";
+            this.textBox103.Size = new System.Drawing.Size(96, 26);
+            this.textBox103.TabIndex = 86;
+            this.textBox103.Text = "0,00";
+            this.textBox103.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox103.Visible = false;
+            this.textBox103.Leave += new System.EventHandler(this.textBox103_Leave);
+            // 
+            // textBox104
+            // 
+            this.textBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox104.Enabled = false;
+            this.textBox104.Location = new System.Drawing.Point(204, 374);
+            this.textBox104.Name = "textBox104";
+            this.textBox104.Size = new System.Drawing.Size(96, 26);
+            this.textBox104.TabIndex = 85;
+            this.textBox104.Text = "0,00";
+            this.textBox104.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox104.Visible = false;
+            this.textBox104.Leave += new System.EventHandler(this.textBox104_Leave);
+            // 
+            // textBox105
+            // 
+            this.textBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox105.Enabled = false;
+            this.textBox105.Location = new System.Drawing.Point(108, 374);
+            this.textBox105.Name = "textBox105";
+            this.textBox105.Size = new System.Drawing.Size(96, 26);
+            this.textBox105.TabIndex = 84;
+            this.textBox105.Text = "0,00";
+            this.textBox105.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox105.Visible = false;
+            this.textBox105.Leave += new System.EventHandler(this.textBox105_Leave);
+            // 
+            // textBox86
+            // 
+            this.textBox86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox86.Enabled = false;
+            this.textBox86.Location = new System.Drawing.Point(1080, 339);
+            this.textBox86.Name = "textBox86";
+            this.textBox86.Size = new System.Drawing.Size(96, 26);
+            this.textBox86.TabIndex = 83;
+            this.textBox86.Text = "0,00";
+            this.textBox86.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox86.Visible = false;
+            this.textBox86.Leave += new System.EventHandler(this.textBox86_Leave);
+            // 
+            // textBox87
+            // 
+            this.textBox87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox87.Enabled = false;
+            this.textBox87.Location = new System.Drawing.Point(984, 339);
+            this.textBox87.Name = "textBox87";
+            this.textBox87.Size = new System.Drawing.Size(96, 26);
+            this.textBox87.TabIndex = 82;
+            this.textBox87.Text = "0,00";
+            this.textBox87.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox87.Visible = false;
+            this.textBox87.Leave += new System.EventHandler(this.textBox87_Leave);
+            // 
+            // textBox88
+            // 
+            this.textBox88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox88.Enabled = false;
+            this.textBox88.Location = new System.Drawing.Point(888, 339);
+            this.textBox88.Name = "textBox88";
+            this.textBox88.Size = new System.Drawing.Size(96, 26);
+            this.textBox88.TabIndex = 81;
+            this.textBox88.Text = "0,00";
+            this.textBox88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox88.Visible = false;
+            this.textBox88.Leave += new System.EventHandler(this.textBox88_Leave);
+            // 
+            // textBox89
+            // 
+            this.textBox89.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox89.Enabled = false;
+            this.textBox89.Location = new System.Drawing.Point(792, 339);
+            this.textBox89.Name = "textBox89";
+            this.textBox89.Size = new System.Drawing.Size(96, 26);
+            this.textBox89.TabIndex = 80;
+            this.textBox89.Text = "0,00";
+            this.textBox89.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox89.Visible = false;
+            this.textBox89.Leave += new System.EventHandler(this.textBox89_Leave);
+            // 
+            // textBox90
+            // 
+            this.textBox90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox90.Enabled = false;
+            this.textBox90.Location = new System.Drawing.Point(696, 339);
+            this.textBox90.Name = "textBox90";
+            this.textBox90.Size = new System.Drawing.Size(96, 26);
+            this.textBox90.TabIndex = 79;
+            this.textBox90.Text = "0,00";
+            this.textBox90.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox90.Visible = false;
+            this.textBox90.Leave += new System.EventHandler(this.textBox90_Leave);
+            // 
+            // textBox91
+            // 
+            this.textBox91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox91.Enabled = false;
+            this.textBox91.Location = new System.Drawing.Point(492, 339);
+            this.textBox91.Name = "textBox91";
+            this.textBox91.Size = new System.Drawing.Size(96, 26);
+            this.textBox91.TabIndex = 78;
+            this.textBox91.Text = "0,00";
+            this.textBox91.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox91.Visible = false;
+            this.textBox91.Leave += new System.EventHandler(this.textBox91_Leave);
+            // 
+            // textBox92
+            // 
+            this.textBox92.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox92.Enabled = false;
+            this.textBox92.Location = new System.Drawing.Point(396, 339);
+            this.textBox92.Name = "textBox92";
+            this.textBox92.Size = new System.Drawing.Size(96, 26);
+            this.textBox92.TabIndex = 77;
+            this.textBox92.Text = "0,00";
+            this.textBox92.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox92.Visible = false;
+            this.textBox92.Leave += new System.EventHandler(this.textBox92_Leave);
+            // 
+            // textBox93
+            // 
+            this.textBox93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox93.Enabled = false;
+            this.textBox93.Location = new System.Drawing.Point(300, 339);
+            this.textBox93.Name = "textBox93";
+            this.textBox93.Size = new System.Drawing.Size(96, 26);
+            this.textBox93.TabIndex = 76;
+            this.textBox93.Text = "0,00";
+            this.textBox93.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox93.Visible = false;
+            this.textBox93.Leave += new System.EventHandler(this.textBox93_Leave);
+            // 
+            // textBox94
+            // 
+            this.textBox94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox94.Enabled = false;
+            this.textBox94.Location = new System.Drawing.Point(204, 339);
+            this.textBox94.Name = "textBox94";
+            this.textBox94.Size = new System.Drawing.Size(96, 26);
+            this.textBox94.TabIndex = 75;
+            this.textBox94.Text = "0,00";
+            this.textBox94.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox94.Visible = false;
+            this.textBox94.Leave += new System.EventHandler(this.textBox94_Leave);
+            // 
+            // textBox95
+            // 
+            this.textBox95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox95.Enabled = false;
+            this.textBox95.Location = new System.Drawing.Point(108, 339);
+            this.textBox95.Name = "textBox95";
+            this.textBox95.Size = new System.Drawing.Size(96, 26);
+            this.textBox95.TabIndex = 74;
+            this.textBox95.Text = "0,00";
+            this.textBox95.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox95.Visible = false;
+            this.textBox95.Leave += new System.EventHandler(this.textBox95_Leave);
+            // 
+            // textBox76
+            // 
+            this.textBox76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox76.Enabled = false;
+            this.textBox76.Location = new System.Drawing.Point(1080, 304);
+            this.textBox76.Name = "textBox76";
+            this.textBox76.Size = new System.Drawing.Size(96, 26);
+            this.textBox76.TabIndex = 73;
+            this.textBox76.Text = "0,00";
+            this.textBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox76.Visible = false;
+            this.textBox76.Leave += new System.EventHandler(this.textBox76_Leave);
+            // 
+            // textBox77
+            // 
+            this.textBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox77.Enabled = false;
+            this.textBox77.Location = new System.Drawing.Point(984, 304);
+            this.textBox77.Name = "textBox77";
+            this.textBox77.Size = new System.Drawing.Size(96, 26);
+            this.textBox77.TabIndex = 72;
+            this.textBox77.Text = "0,00";
+            this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox77.Visible = false;
+            this.textBox77.Leave += new System.EventHandler(this.textBox77_Leave);
+            // 
+            // textBox78
+            // 
+            this.textBox78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox78.Enabled = false;
+            this.textBox78.Location = new System.Drawing.Point(888, 304);
+            this.textBox78.Name = "textBox78";
+            this.textBox78.Size = new System.Drawing.Size(96, 26);
+            this.textBox78.TabIndex = 71;
+            this.textBox78.Text = "0,00";
+            this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox78.Visible = false;
+            this.textBox78.Leave += new System.EventHandler(this.textBox78_Leave);
+            // 
+            // textBox79
+            // 
+            this.textBox79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox79.Enabled = false;
+            this.textBox79.Location = new System.Drawing.Point(792, 304);
+            this.textBox79.Name = "textBox79";
+            this.textBox79.Size = new System.Drawing.Size(96, 26);
+            this.textBox79.TabIndex = 70;
+            this.textBox79.Text = "0,00";
+            this.textBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox79.Visible = false;
+            this.textBox79.Leave += new System.EventHandler(this.textBox79_Leave);
+            // 
+            // textBox80
+            // 
+            this.textBox80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox80.Enabled = false;
+            this.textBox80.Location = new System.Drawing.Point(696, 304);
+            this.textBox80.Name = "textBox80";
+            this.textBox80.Size = new System.Drawing.Size(96, 26);
+            this.textBox80.TabIndex = 69;
+            this.textBox80.Text = "0,00";
+            this.textBox80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox80.Visible = false;
+            this.textBox80.Leave += new System.EventHandler(this.textBox80_Leave);
+            // 
+            // textBox81
+            // 
+            this.textBox81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox81.Enabled = false;
+            this.textBox81.Location = new System.Drawing.Point(492, 304);
+            this.textBox81.Name = "textBox81";
+            this.textBox81.Size = new System.Drawing.Size(96, 26);
+            this.textBox81.TabIndex = 68;
+            this.textBox81.Text = "0,00";
+            this.textBox81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox81.Visible = false;
+            this.textBox81.Leave += new System.EventHandler(this.textBox81_Leave);
+            // 
+            // textBox82
+            // 
+            this.textBox82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox82.Enabled = false;
+            this.textBox82.Location = new System.Drawing.Point(396, 304);
+            this.textBox82.Name = "textBox82";
+            this.textBox82.Size = new System.Drawing.Size(96, 26);
+            this.textBox82.TabIndex = 67;
+            this.textBox82.Text = "0,00";
+            this.textBox82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox82.Visible = false;
+            this.textBox82.Leave += new System.EventHandler(this.textBox82_Leave);
+            // 
+            // textBox83
+            // 
+            this.textBox83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox83.Enabled = false;
+            this.textBox83.Location = new System.Drawing.Point(300, 304);
+            this.textBox83.Name = "textBox83";
+            this.textBox83.Size = new System.Drawing.Size(96, 26);
+            this.textBox83.TabIndex = 66;
+            this.textBox83.Text = "0,00";
+            this.textBox83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox83.Visible = false;
+            this.textBox83.Leave += new System.EventHandler(this.textBox83_Leave);
+            // 
+            // textBox84
+            // 
+            this.textBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox84.Enabled = false;
+            this.textBox84.Location = new System.Drawing.Point(204, 304);
+            this.textBox84.Name = "textBox84";
+            this.textBox84.Size = new System.Drawing.Size(96, 26);
+            this.textBox84.TabIndex = 65;
+            this.textBox84.Text = "0,00";
+            this.textBox84.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox84.Visible = false;
+            this.textBox84.Leave += new System.EventHandler(this.textBox84_Leave);
+            // 
+            // textBox85
+            // 
+            this.textBox85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox85.Enabled = false;
+            this.textBox85.Location = new System.Drawing.Point(108, 304);
+            this.textBox85.Name = "textBox85";
+            this.textBox85.Size = new System.Drawing.Size(96, 26);
+            this.textBox85.TabIndex = 64;
+            this.textBox85.Text = "0,00";
+            this.textBox85.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox85.Visible = false;
+            this.textBox85.Leave += new System.EventHandler(this.textBox85_Leave);
+            // 
+            // textBox66
+            // 
+            this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox66.Enabled = false;
+            this.textBox66.Location = new System.Drawing.Point(1080, 269);
+            this.textBox66.Name = "textBox66";
+            this.textBox66.Size = new System.Drawing.Size(96, 26);
+            this.textBox66.TabIndex = 63;
+            this.textBox66.Text = "0,00";
+            this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox66.Visible = false;
+            this.textBox66.Leave += new System.EventHandler(this.textBox66_Leave);
+            // 
+            // textBox67
+            // 
+            this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox67.Enabled = false;
+            this.textBox67.Location = new System.Drawing.Point(984, 269);
+            this.textBox67.Name = "textBox67";
+            this.textBox67.Size = new System.Drawing.Size(96, 26);
+            this.textBox67.TabIndex = 62;
+            this.textBox67.Text = "0,00";
+            this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox67.Visible = false;
+            this.textBox67.Leave += new System.EventHandler(this.textBox67_Leave);
+            // 
+            // textBox68
+            // 
+            this.textBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox68.Enabled = false;
+            this.textBox68.Location = new System.Drawing.Point(888, 269);
+            this.textBox68.Name = "textBox68";
+            this.textBox68.Size = new System.Drawing.Size(96, 26);
+            this.textBox68.TabIndex = 61;
+            this.textBox68.Text = "0,00";
+            this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox68.Visible = false;
+            this.textBox68.Leave += new System.EventHandler(this.textBox68_Leave);
+            // 
+            // textBox69
+            // 
+            this.textBox69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox69.Enabled = false;
+            this.textBox69.Location = new System.Drawing.Point(792, 269);
+            this.textBox69.Name = "textBox69";
+            this.textBox69.Size = new System.Drawing.Size(96, 26);
+            this.textBox69.TabIndex = 60;
+            this.textBox69.Text = "0,00";
+            this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox69.Visible = false;
+            this.textBox69.Leave += new System.EventHandler(this.textBox69_Leave);
+            // 
+            // textBox70
+            // 
+            this.textBox70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox70.Enabled = false;
+            this.textBox70.Location = new System.Drawing.Point(696, 269);
+            this.textBox70.Name = "textBox70";
+            this.textBox70.Size = new System.Drawing.Size(96, 26);
+            this.textBox70.TabIndex = 59;
+            this.textBox70.Text = "0,00";
+            this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox70.Visible = false;
+            this.textBox70.Leave += new System.EventHandler(this.textBox70_Leave);
+            // 
+            // textBox71
+            // 
+            this.textBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox71.Enabled = false;
+            this.textBox71.Location = new System.Drawing.Point(492, 269);
+            this.textBox71.Name = "textBox71";
+            this.textBox71.Size = new System.Drawing.Size(96, 26);
+            this.textBox71.TabIndex = 58;
+            this.textBox71.Text = "0,00";
+            this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox71.Visible = false;
+            this.textBox71.Leave += new System.EventHandler(this.textBox71_Leave);
+            // 
+            // textBox72
+            // 
+            this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox72.Enabled = false;
+            this.textBox72.Location = new System.Drawing.Point(396, 269);
+            this.textBox72.Name = "textBox72";
+            this.textBox72.Size = new System.Drawing.Size(96, 26);
+            this.textBox72.TabIndex = 57;
+            this.textBox72.Text = "0,00";
+            this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox72.Visible = false;
+            this.textBox72.Leave += new System.EventHandler(this.textBox72_Leave);
+            // 
+            // textBox73
+            // 
+            this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox73.Enabled = false;
+            this.textBox73.Location = new System.Drawing.Point(300, 269);
+            this.textBox73.Name = "textBox73";
+            this.textBox73.Size = new System.Drawing.Size(96, 26);
+            this.textBox73.TabIndex = 56;
+            this.textBox73.Text = "0,00";
+            this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox73.Visible = false;
+            this.textBox73.Leave += new System.EventHandler(this.textBox73_Leave);
+            // 
+            // textBox74
+            // 
+            this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox74.Enabled = false;
+            this.textBox74.Location = new System.Drawing.Point(204, 269);
+            this.textBox74.Name = "textBox74";
+            this.textBox74.Size = new System.Drawing.Size(96, 26);
+            this.textBox74.TabIndex = 55;
+            this.textBox74.Text = "0,00";
+            this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox74.Visible = false;
+            this.textBox74.Leave += new System.EventHandler(this.textBox74_Leave);
+            // 
+            // textBox75
+            // 
+            this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox75.Enabled = false;
+            this.textBox75.Location = new System.Drawing.Point(108, 269);
+            this.textBox75.Name = "textBox75";
+            this.textBox75.Size = new System.Drawing.Size(96, 26);
+            this.textBox75.TabIndex = 54;
+            this.textBox75.Text = "0,00";
+            this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox75.Visible = false;
+            this.textBox75.Leave += new System.EventHandler(this.textBox75_Leave);
+            // 
+            // textBox56
+            // 
+            this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox56.Enabled = false;
+            this.textBox56.Location = new System.Drawing.Point(1080, 234);
+            this.textBox56.Name = "textBox56";
+            this.textBox56.Size = new System.Drawing.Size(96, 26);
+            this.textBox56.TabIndex = 53;
+            this.textBox56.Text = "0,00";
+            this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox56.Visible = false;
+            this.textBox56.Leave += new System.EventHandler(this.textBox56_Leave);
+            // 
+            // textBox57
+            // 
+            this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox57.Enabled = false;
+            this.textBox57.Location = new System.Drawing.Point(984, 234);
+            this.textBox57.Name = "textBox57";
+            this.textBox57.Size = new System.Drawing.Size(96, 26);
+            this.textBox57.TabIndex = 52;
+            this.textBox57.Text = "0,00";
+            this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox57.Visible = false;
+            this.textBox57.Leave += new System.EventHandler(this.textBox57_Leave);
+            // 
+            // textBox58
+            // 
+            this.textBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox58.Enabled = false;
+            this.textBox58.Location = new System.Drawing.Point(888, 234);
+            this.textBox58.Name = "textBox58";
+            this.textBox58.Size = new System.Drawing.Size(96, 26);
+            this.textBox58.TabIndex = 51;
+            this.textBox58.Text = "0,00";
+            this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox58.Visible = false;
+            this.textBox58.Leave += new System.EventHandler(this.textBox58_Leave);
+            // 
+            // textBox59
+            // 
+            this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox59.Enabled = false;
+            this.textBox59.Location = new System.Drawing.Point(792, 234);
+            this.textBox59.Name = "textBox59";
+            this.textBox59.Size = new System.Drawing.Size(96, 26);
+            this.textBox59.TabIndex = 50;
+            this.textBox59.Text = "0,00";
+            this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox59.Visible = false;
+            this.textBox59.Leave += new System.EventHandler(this.textBox59_Leave);
+            // 
+            // textBox60
+            // 
+            this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox60.Enabled = false;
+            this.textBox60.Location = new System.Drawing.Point(696, 234);
+            this.textBox60.Name = "textBox60";
+            this.textBox60.Size = new System.Drawing.Size(96, 26);
+            this.textBox60.TabIndex = 49;
+            this.textBox60.Text = "0,00";
+            this.textBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox60.Visible = false;
+            this.textBox60.Leave += new System.EventHandler(this.textBox60_Leave);
+            // 
+            // textBox61
+            // 
+            this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox61.Enabled = false;
+            this.textBox61.Location = new System.Drawing.Point(492, 234);
+            this.textBox61.Name = "textBox61";
+            this.textBox61.Size = new System.Drawing.Size(96, 26);
+            this.textBox61.TabIndex = 48;
+            this.textBox61.Text = "0,00";
+            this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox61.Visible = false;
+            this.textBox61.Leave += new System.EventHandler(this.textBox61_Leave);
+            // 
+            // textBox62
+            // 
+            this.textBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox62.Enabled = false;
+            this.textBox62.Location = new System.Drawing.Point(396, 234);
+            this.textBox62.Name = "textBox62";
+            this.textBox62.Size = new System.Drawing.Size(96, 26);
+            this.textBox62.TabIndex = 47;
+            this.textBox62.Text = "0,00";
+            this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox62.Visible = false;
+            this.textBox62.Leave += new System.EventHandler(this.textBox62_Leave);
+            // 
+            // textBox63
+            // 
+            this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox63.Enabled = false;
+            this.textBox63.Location = new System.Drawing.Point(300, 234);
+            this.textBox63.Name = "textBox63";
+            this.textBox63.Size = new System.Drawing.Size(96, 26);
+            this.textBox63.TabIndex = 46;
+            this.textBox63.Text = "0,00";
+            this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox63.Visible = false;
+            this.textBox63.Leave += new System.EventHandler(this.textBox63_Leave);
+            // 
+            // textBox64
+            // 
+            this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox64.Enabled = false;
+            this.textBox64.Location = new System.Drawing.Point(204, 234);
+            this.textBox64.Name = "textBox64";
+            this.textBox64.Size = new System.Drawing.Size(96, 26);
+            this.textBox64.TabIndex = 45;
+            this.textBox64.Text = "0,00";
+            this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox64.Visible = false;
+            this.textBox64.Leave += new System.EventHandler(this.textBox64_Leave);
+            // 
+            // textBox65
+            // 
+            this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox65.Enabled = false;
+            this.textBox65.Location = new System.Drawing.Point(108, 234);
+            this.textBox65.Name = "textBox65";
+            this.textBox65.Size = new System.Drawing.Size(96, 26);
+            this.textBox65.TabIndex = 44;
+            this.textBox65.Text = "0,00";
+            this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox65.Visible = false;
+            this.textBox65.Leave += new System.EventHandler(this.textBox65_Leave);
+            // 
+            // textBox46
+            // 
+            this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox46.Enabled = false;
+            this.textBox46.Location = new System.Drawing.Point(1080, 199);
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(96, 26);
+            this.textBox46.TabIndex = 43;
+            this.textBox46.Text = "0,00";
+            this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox46.Visible = false;
+            this.textBox46.Leave += new System.EventHandler(this.textBox46_Leave);
+            // 
+            // textBox47
+            // 
+            this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox47.Enabled = false;
+            this.textBox47.Location = new System.Drawing.Point(984, 199);
+            this.textBox47.Name = "textBox47";
+            this.textBox47.Size = new System.Drawing.Size(96, 26);
+            this.textBox47.TabIndex = 42;
+            this.textBox47.Text = "0,00";
+            this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox47.Visible = false;
+            this.textBox47.Leave += new System.EventHandler(this.textBox47_Leave);
+            // 
+            // textBox48
+            // 
+            this.textBox48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox48.Enabled = false;
+            this.textBox48.Location = new System.Drawing.Point(888, 199);
+            this.textBox48.Name = "textBox48";
+            this.textBox48.Size = new System.Drawing.Size(96, 26);
+            this.textBox48.TabIndex = 41;
+            this.textBox48.Text = "0,00";
+            this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox48.Visible = false;
+            this.textBox48.Leave += new System.EventHandler(this.textBox48_Leave);
+            // 
+            // textBox49
+            // 
+            this.textBox49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox49.Enabled = false;
+            this.textBox49.Location = new System.Drawing.Point(792, 199);
+            this.textBox49.Name = "textBox49";
+            this.textBox49.Size = new System.Drawing.Size(96, 26);
+            this.textBox49.TabIndex = 40;
+            this.textBox49.Text = "0,00";
+            this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox49.Visible = false;
+            this.textBox49.Leave += new System.EventHandler(this.textBox49_Leave);
+            // 
+            // textBox50
+            // 
+            this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox50.Enabled = false;
+            this.textBox50.Location = new System.Drawing.Point(696, 199);
+            this.textBox50.Name = "textBox50";
+            this.textBox50.Size = new System.Drawing.Size(96, 26);
+            this.textBox50.TabIndex = 39;
+            this.textBox50.Text = "0,00";
+            this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox50.Visible = false;
+            this.textBox50.Leave += new System.EventHandler(this.textBox50_Leave);
+            // 
+            // textBox51
+            // 
+            this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox51.Enabled = false;
+            this.textBox51.Location = new System.Drawing.Point(492, 199);
+            this.textBox51.Name = "textBox51";
+            this.textBox51.Size = new System.Drawing.Size(96, 26);
+            this.textBox51.TabIndex = 38;
+            this.textBox51.Text = "0,00";
+            this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox51.Visible = false;
+            this.textBox51.Leave += new System.EventHandler(this.textBox51_Leave);
+            // 
+            // textBox52
+            // 
+            this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox52.Enabled = false;
+            this.textBox52.Location = new System.Drawing.Point(396, 199);
+            this.textBox52.Name = "textBox52";
+            this.textBox52.Size = new System.Drawing.Size(96, 26);
+            this.textBox52.TabIndex = 37;
+            this.textBox52.Text = "0,00";
+            this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox52.Visible = false;
+            this.textBox52.Leave += new System.EventHandler(this.textBox52_Leave);
+            // 
+            // textBox53
+            // 
+            this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox53.Enabled = false;
+            this.textBox53.Location = new System.Drawing.Point(300, 199);
+            this.textBox53.Name = "textBox53";
+            this.textBox53.Size = new System.Drawing.Size(96, 26);
+            this.textBox53.TabIndex = 36;
+            this.textBox53.Text = "0,00";
+            this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox53.Visible = false;
+            this.textBox53.Leave += new System.EventHandler(this.textBox53_Leave);
+            // 
+            // textBox54
+            // 
+            this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox54.Enabled = false;
+            this.textBox54.Location = new System.Drawing.Point(204, 199);
+            this.textBox54.Name = "textBox54";
+            this.textBox54.Size = new System.Drawing.Size(96, 26);
+            this.textBox54.TabIndex = 35;
+            this.textBox54.Text = "0,00";
+            this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox54.Visible = false;
+            this.textBox54.Leave += new System.EventHandler(this.textBox54_Leave);
+            // 
+            // textBox55
+            // 
+            this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox55.Enabled = false;
+            this.textBox55.Location = new System.Drawing.Point(108, 199);
+            this.textBox55.Name = "textBox55";
+            this.textBox55.Size = new System.Drawing.Size(96, 26);
+            this.textBox55.TabIndex = 34;
+            this.textBox55.Text = "0,00";
+            this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox55.Visible = false;
+            this.textBox55.Leave += new System.EventHandler(this.textBox55_Leave);
+            // 
+            // textBox36
+            // 
+            this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox36.Enabled = false;
+            this.textBox36.Location = new System.Drawing.Point(1080, 164);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(96, 26);
+            this.textBox36.TabIndex = 33;
+            this.textBox36.Text = "0,00";
+            this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox36.Leave += new System.EventHandler(this.textBox36_Leave);
+            // 
+            // textBox37
+            // 
+            this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox37.Enabled = false;
+            this.textBox37.Location = new System.Drawing.Point(984, 164);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(96, 26);
+            this.textBox37.TabIndex = 32;
+            this.textBox37.Text = "0,00";
+            this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox37.Leave += new System.EventHandler(this.textBox37_Leave);
+            // 
+            // textBox38
+            // 
+            this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox38.Enabled = false;
+            this.textBox38.Location = new System.Drawing.Point(888, 164);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(96, 26);
+            this.textBox38.TabIndex = 31;
+            this.textBox38.Text = "0,00";
+            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox38.Leave += new System.EventHandler(this.textBox38_Leave);
+            // 
+            // textBox39
+            // 
+            this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox39.Enabled = false;
+            this.textBox39.Location = new System.Drawing.Point(792, 164);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(96, 26);
+            this.textBox39.TabIndex = 30;
+            this.textBox39.Text = "0,00";
+            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox39.Leave += new System.EventHandler(this.textBox39_Leave);
+            // 
+            // textBox40
+            // 
+            this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox40.Enabled = false;
+            this.textBox40.Location = new System.Drawing.Point(696, 164);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(96, 26);
+            this.textBox40.TabIndex = 29;
+            this.textBox40.Text = "0,00";
+            this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox40.Leave += new System.EventHandler(this.textBox40_Leave);
+            // 
+            // textBox41
+            // 
+            this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox41.Enabled = false;
+            this.textBox41.Location = new System.Drawing.Point(492, 164);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(96, 26);
+            this.textBox41.TabIndex = 28;
+            this.textBox41.Text = "0,00";
+            this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox41.Leave += new System.EventHandler(this.textBox41_Leave);
+            // 
+            // textBox42
+            // 
+            this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox42.Enabled = false;
+            this.textBox42.Location = new System.Drawing.Point(396, 164);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(96, 26);
+            this.textBox42.TabIndex = 27;
+            this.textBox42.Text = "0,00";
+            this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox42.Leave += new System.EventHandler(this.textBox42_Leave);
+            // 
+            // textBox43
+            // 
+            this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox43.Enabled = false;
+            this.textBox43.Location = new System.Drawing.Point(300, 164);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(96, 26);
+            this.textBox43.TabIndex = 26;
+            this.textBox43.Text = "0,00";
+            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox43.Leave += new System.EventHandler(this.textBox43_Leave);
+            // 
+            // textBox44
+            // 
+            this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox44.Enabled = false;
+            this.textBox44.Location = new System.Drawing.Point(204, 164);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(96, 26);
+            this.textBox44.TabIndex = 25;
+            this.textBox44.Text = "0,00";
+            this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox44.Leave += new System.EventHandler(this.textBox44_Leave);
+            // 
+            // textBox45
+            // 
+            this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox45.Enabled = false;
+            this.textBox45.Location = new System.Drawing.Point(108, 164);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(96, 26);
+            this.textBox45.TabIndex = 24;
+            this.textBox45.Text = "0,00";
+            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox45.Leave += new System.EventHandler(this.textBox45_Leave);
+            // 
+            // textBox26
+            // 
+            this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox26.Enabled = false;
+            this.textBox26.Location = new System.Drawing.Point(1080, 129);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(96, 26);
+            this.textBox26.TabIndex = 23;
+            this.textBox26.Text = "0,00";
+            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox26.Leave += new System.EventHandler(this.textBox26_Leave);
+            // 
+            // textBox27
+            // 
+            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox27.Enabled = false;
+            this.textBox27.Location = new System.Drawing.Point(984, 129);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(96, 26);
+            this.textBox27.TabIndex = 22;
+            this.textBox27.Text = "0,00";
+            this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox27.Leave += new System.EventHandler(this.textBox27_Leave);
+            // 
+            // textBox28
+            // 
+            this.textBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox28.Enabled = false;
+            this.textBox28.Location = new System.Drawing.Point(888, 129);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(96, 26);
+            this.textBox28.TabIndex = 21;
+            this.textBox28.Text = "0,00";
+            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox28.Leave += new System.EventHandler(this.textBox28_Leave);
+            // 
+            // textBox29
+            // 
+            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox29.Enabled = false;
+            this.textBox29.Location = new System.Drawing.Point(792, 129);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(96, 26);
+            this.textBox29.TabIndex = 20;
+            this.textBox29.Text = "0,00";
+            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox29.Leave += new System.EventHandler(this.textBox29_Leave);
+            // 
+            // textBox30
+            // 
+            this.textBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox30.Enabled = false;
+            this.textBox30.Location = new System.Drawing.Point(696, 129);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(96, 26);
+            this.textBox30.TabIndex = 19;
+            this.textBox30.Text = "0,00";
+            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox30.Leave += new System.EventHandler(this.textBox30_Leave);
+            // 
+            // textBox31
+            // 
+            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox31.Enabled = false;
+            this.textBox31.Location = new System.Drawing.Point(492, 129);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(96, 26);
+            this.textBox31.TabIndex = 18;
+            this.textBox31.Text = "0,00";
+            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox31.Leave += new System.EventHandler(this.textBox31_Leave);
+            // 
+            // textBox32
+            // 
+            this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox32.Enabled = false;
+            this.textBox32.Location = new System.Drawing.Point(396, 129);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(96, 26);
+            this.textBox32.TabIndex = 17;
+            this.textBox32.Text = "0,00";
+            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox32.Leave += new System.EventHandler(this.textBox32_Leave);
+            // 
+            // textBox33
+            // 
+            this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox33.Enabled = false;
+            this.textBox33.Location = new System.Drawing.Point(300, 129);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(96, 26);
+            this.textBox33.TabIndex = 16;
+            this.textBox33.Text = "0,00";
+            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox33.Leave += new System.EventHandler(this.textBox33_Leave);
+            // 
+            // textBox34
+            // 
+            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox34.Enabled = false;
+            this.textBox34.Location = new System.Drawing.Point(204, 129);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(96, 26);
+            this.textBox34.TabIndex = 15;
+            this.textBox34.Text = "0,00";
+            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox34.Leave += new System.EventHandler(this.textBox34_Leave);
+            // 
+            // textBox35
+            // 
+            this.textBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox35.Enabled = false;
+            this.textBox35.Location = new System.Drawing.Point(108, 129);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(96, 26);
+            this.textBox35.TabIndex = 14;
+            this.textBox35.Text = "0,00";
+            this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox35.Leave += new System.EventHandler(this.textBox35_Leave);
+            // 
+            // textBox25
+            // 
+            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox25.Enabled = false;
+            this.textBox25.Location = new System.Drawing.Point(1080, 94);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(96, 26);
+            this.textBox25.TabIndex = 13;
+            this.textBox25.Text = "0,00";
+            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox25.Leave += new System.EventHandler(this.textBox25_Leave);
+            // 
+            // textBox24
+            // 
+            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox24.Enabled = false;
+            this.textBox24.Location = new System.Drawing.Point(984, 94);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(96, 26);
+            this.textBox24.TabIndex = 12;
+            this.textBox24.Text = "0,00";
+            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox24.Leave += new System.EventHandler(this.textBox24_Leave);
+            // 
+            // textBox23
+            // 
+            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox23.Enabled = false;
+            this.textBox23.Location = new System.Drawing.Point(888, 94);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(96, 26);
+            this.textBox23.TabIndex = 11;
+            this.textBox23.Text = "0,00";
+            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox23.Leave += new System.EventHandler(this.textBox23_Leave);
+            // 
+            // textBox22
+            // 
+            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox22.Enabled = false;
+            this.textBox22.Location = new System.Drawing.Point(792, 94);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(96, 26);
+            this.textBox22.TabIndex = 10;
+            this.textBox22.Text = "0,00";
+            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox22.Leave += new System.EventHandler(this.textBox22_Leave);
+            // 
+            // textBox21
+            // 
+            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox21.Enabled = false;
+            this.textBox21.Location = new System.Drawing.Point(696, 94);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(96, 26);
+            this.textBox21.TabIndex = 9;
+            this.textBox21.Text = "0,00";
+            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox21.Leave += new System.EventHandler(this.textBox21_Leave);
+            // 
+            // textBox20
+            // 
+            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox20.Enabled = false;
+            this.textBox20.Location = new System.Drawing.Point(492, 94);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(96, 26);
+            this.textBox20.TabIndex = 8;
+            this.textBox20.Text = "0,00";
+            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox20.Leave += new System.EventHandler(this.textBox20_Leave);
+            // 
+            // textBox19
+            // 
+            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox19.Enabled = false;
+            this.textBox19.Location = new System.Drawing.Point(396, 94);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(96, 26);
+            this.textBox19.TabIndex = 7;
+            this.textBox19.Text = "0,00";
+            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox19.Leave += new System.EventHandler(this.textBox19_Leave);
+            // 
+            // textBox18
+            // 
+            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox18.Enabled = false;
+            this.textBox18.Location = new System.Drawing.Point(300, 94);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(96, 26);
+            this.textBox18.TabIndex = 6;
+            this.textBox18.Text = "0,00";
+            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox18.Leave += new System.EventHandler(this.textBox18_Leave);
+            // 
+            // textBox17
+            // 
+            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox17.Enabled = false;
+            this.textBox17.Location = new System.Drawing.Point(204, 94);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(96, 26);
+            this.textBox17.TabIndex = 5;
+            this.textBox17.Text = "0,00";
+            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox17.Leave += new System.EventHandler(this.textBox17_Leave);
+            // 
+            // label29
+            // 
+            this.label29.Location = new System.Drawing.Point(300, 58);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(96, 34);
+            this.label29.TabIndex = 113;
+            this.label29.Text = "M3";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+            // oleDbConnection1
+            // 
+            this.oleDbConnection1.ConnectionString = resources.GetString("oleDbConnection1.ConnectionString");
+            // 
+            // oleDbSelectCommand6
+            // 
+            this.oleDbSelectCommand6.CommandText = resources.GetString("oleDbSelectCommand6.CommandText");
+            this.oleDbSelectCommand6.Connection = this.oleDbConnection1;
+            // 
+            // oleDbInsertCommand6
+            // 
+            this.oleDbInsertCommand6.CommandText = resources.GetString("oleDbInsertCommand6.CommandText");
+            this.oleDbInsertCommand6.Connection = this.oleDbConnection1;
+            this.oleDbInsertCommand6.Parameters.AddRange(new System.Data.OleDb.OleDbParameter[] {
+            new System.Data.OleDb.OleDbParameter("Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_1"),
+            new System.Data.OleDb.OleDbParameter("Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_2"),
+            new System.Data.OleDb.OleDbParameter("Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, "Batiment"),
+            new System.Data.OleDb.OleDbParameter("Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, "Borne Date Refus reforme"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_1"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_2"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_3"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_4"),
+            new System.Data.OleDb.OleDbParameter("code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, "code_GC"),
+            new System.Data.OleDb.OleDbParameter("Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, "Code_Postal"),
+            new System.Data.OleDb.OleDbParameter("Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_reglement"),
+            new System.Data.OleDb.OleDbParameter("Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_transport"),
+            new System.Data.OleDb.OleDbParameter("Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, "Coef_Controle"),
+            new System.Data.OleDb.OleDbParameter("Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, "Coef_DNR"),
+            new System.Data.OleDb.OleDbParameter("Coef_transport", System.Data.OleDb.OleDbType.Double, 0, "Coef_transport"),
+            new System.Data.OleDb.OleDbParameter("Commentaire", System.Data.OleDb.OleDbType.VarWChar, 0, "Commentaire"),
+            new System.Data.OleDb.OleDbParameter("Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, "Delai_garantie"),
+            new System.Data.OleDb.OleDbParameter("Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, "Forfait_Controle"),
+            new System.Data.OleDb.OleDbParameter("Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, "Forfait_DNR"),
+            new System.Data.OleDb.OleDbParameter("Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, "Forfait_transport"),
+            new System.Data.OleDb.OleDbParameter("Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, "Groupe"),
+            new System.Data.OleDb.OleDbParameter("Ident", System.Data.OleDb.OleDbType.Integer, 0, "Ident"),
+            new System.Data.OleDb.OleDbParameter("N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, "N起Cde_Ouverte"),
+            new System.Data.OleDb.OleDbParameter("N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, "N起Client_facture"),
+            new System.Data.OleDb.OleDbParameter("Nom", System.Data.OleDb.OleDbType.VarWChar, 30, "Nom"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_1"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_2"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_3"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_4"),
+            new System.Data.OleDb.OleDbParameter("Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, "Notre_Code_Fournisseur"),
+            new System.Data.OleDb.OleDbParameter("Pays", System.Data.OleDb.OleDbType.VarWChar, 255, "Pays"),
+            new System.Data.OleDb.OleDbParameter("Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, "Pourcentage_remise"),
+            new System.Data.OleDb.OleDbParameter("Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, "Seuil_reparation"),
+            new System.Data.OleDb.OleDbParameter("telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, "telecopie"),
+            new System.Data.OleDb.OleDbParameter("Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, "Telephone"),
+            new System.Data.OleDb.OleDbParameter("telex", System.Data.OleDb.OleDbType.VarWChar, 255, "telex"),
+            new System.Data.OleDb.OleDbParameter("Usine", System.Data.OleDb.OleDbType.VarWChar, 3, "Usine"),
+            new System.Data.OleDb.OleDbParameter("Ville", System.Data.OleDb.OleDbType.VarWChar, 255, "Ville")});
+            // 
+            // oleDbUpdateCommand6
+            // 
+            this.oleDbUpdateCommand6.CommandText = resources.GetString("oleDbUpdateCommand6.CommandText");
+            this.oleDbUpdateCommand6.Connection = this.oleDbConnection1;
+            this.oleDbUpdateCommand6.Parameters.AddRange(new System.Data.OleDb.OleDbParameter[] {
+            new System.Data.OleDb.OleDbParameter("Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_1"),
+            new System.Data.OleDb.OleDbParameter("Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, "Adresse_2"),
+            new System.Data.OleDb.OleDbParameter("Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, "Batiment"),
+            new System.Data.OleDb.OleDbParameter("Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, "Borne Date Refus reforme"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_1"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_2"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_3"),
+            new System.Data.OleDb.OleDbParameter("CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, "CA_Annee_4"),
+            new System.Data.OleDb.OleDbParameter("code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, "code_GC"),
+            new System.Data.OleDb.OleDbParameter("Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, "Code_Postal"),
+            new System.Data.OleDb.OleDbParameter("Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_reglement"),
+            new System.Data.OleDb.OleDbParameter("Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, "Code_transport"),
+            new System.Data.OleDb.OleDbParameter("Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, "Coef_Controle"),
+            new System.Data.OleDb.OleDbParameter("Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, "Coef_DNR"),
+            new System.Data.OleDb.OleDbParameter("Coef_transport", System.Data.OleDb.OleDbType.Double, 0, "Coef_transport"),
+            new System.Data.OleDb.OleDbParameter("Commentaire", System.Data.OleDb.OleDbType.VarWChar, 0, "Commentaire"),
+            new System.Data.OleDb.OleDbParameter("Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, "Delai_garantie"),
+            new System.Data.OleDb.OleDbParameter("Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, "Forfait_Controle"),
+            new System.Data.OleDb.OleDbParameter("Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, "Forfait_DNR"),
+            new System.Data.OleDb.OleDbParameter("Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, "Forfait_transport"),
+            new System.Data.OleDb.OleDbParameter("Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, "Groupe"),
+            new System.Data.OleDb.OleDbParameter("Ident", System.Data.OleDb.OleDbType.Integer, 0, "Ident"),
+            new System.Data.OleDb.OleDbParameter("N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, "N起Cde_Ouverte"),
+            new System.Data.OleDb.OleDbParameter("N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, "N起Client_facture"),
+            new System.Data.OleDb.OleDbParameter("Nom", System.Data.OleDb.OleDbType.VarWChar, 30, "Nom"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_1"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_2"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_3"),
+            new System.Data.OleDb.OleDbParameter("Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, "Nombre_rep_Annee_4"),
+            new System.Data.OleDb.OleDbParameter("Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, "Notre_Code_Fournisseur"),
+            new System.Data.OleDb.OleDbParameter("Pays", System.Data.OleDb.OleDbType.VarWChar, 255, "Pays"),
+            new System.Data.OleDb.OleDbParameter("Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, "Pourcentage_remise"),
+            new System.Data.OleDb.OleDbParameter("Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, "Seuil_reparation"),
+            new System.Data.OleDb.OleDbParameter("telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, "telecopie"),
+            new System.Data.OleDb.OleDbParameter("Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, "Telephone"),
+            new System.Data.OleDb.OleDbParameter("telex", System.Data.OleDb.OleDbType.VarWChar, 255, "telex"),
+            new System.Data.OleDb.OleDbParameter("Usine", System.Data.OleDb.OleDbType.VarWChar, 3, "Usine"),
+            new System.Data.OleDb.OleDbParameter("Ville", System.Data.OleDb.OleDbType.VarWChar, 255, "Ville"),
+            new System.Data.OleDb.OleDbParameter("Original_Ident", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Ident", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_11", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_21", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Batiment1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme1", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_11", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_21", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_31", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_41", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_Postal1", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_reglement1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_transport1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Delai_garantie1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Groupe1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nom", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nom", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nom1", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nom", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_11", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_21", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_31", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_41", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Client_facture1", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pays", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pays", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pays1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pays", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Telephone1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Usine", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Usine", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Usine1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Usine", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Ville", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Ville", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Ville1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Ville", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_code_GC1", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telecopie1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telex", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telex", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telex1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telex", System.Data.DataRowVersion.Original, null)});
+            // 
+            // oleDbDeleteCommand6
+            // 
+            this.oleDbDeleteCommand6.CommandText = resources.GetString("oleDbDeleteCommand6.CommandText");
+            this.oleDbDeleteCommand6.Connection = this.oleDbConnection1;
+            this.oleDbDeleteCommand6.Parameters.AddRange(new System.Data.OleDb.OleDbParameter[] {
+            new System.Data.OleDb.OleDbParameter("Original_Ident", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Ident", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_11", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_2", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Adresse_21", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Adresse_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Batiment", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Batiment1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Batiment", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Borne_Date_Refus_reforme1", System.Data.OleDb.OleDbType.DBDate, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Borne Date Refus reforme", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_11", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_2", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_21", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_3", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_31", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_4", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_CA_Annee_41", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "CA_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_Postal", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_Postal1", System.Data.OleDb.OleDbType.VarWChar, 5, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_Postal", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_reglement", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_reglement1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_reglement", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_transport", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Code_transport1", System.Data.OleDb.OleDbType.VarWChar, 8, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Code_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Coef_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Coef_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Delai_garantie", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Delai_garantie1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Delai_garantie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_Controle1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_Controle", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_DNR1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_DNR", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_transport", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Forfait_transport1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Forfait_transport", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Groupe", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Groupe1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Groupe", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nom", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nom", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nom1", System.Data.OleDb.OleDbType.VarWChar, 30, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nom", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_1", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_11", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_1", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_2", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_21", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_2", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_3", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_31", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_3", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_4", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Nombre_rep_Annee_41", System.Data.OleDb.OleDbType.SmallInt, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Nombre_rep_Annee_4", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Notre_Code_Fournisseur1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Notre_Code_Fournisseur", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Cde_Ouverte1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Cde_Ouverte", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Client_facture", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_N__Client_facture1", System.Data.OleDb.OleDbType.VarWChar, 11, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "N起Client_facture", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pays", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pays", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pays1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pays", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Pourcentage_remise1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Pourcentage_remise", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Seuil_reparation1", System.Data.OleDb.OleDbType.Double, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Seuil_reparation", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Telephone", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Telephone1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Telephone", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Usine", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Usine", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Usine1", System.Data.OleDb.OleDbType.VarWChar, 3, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Usine", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Ville", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Ville", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_Ville1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Ville", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_code_GC", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_code_GC1", System.Data.OleDb.OleDbType.VarWChar, 10, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "code_GC", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telecopie", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telecopie1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telecopie", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telex", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telex", System.Data.DataRowVersion.Original, null),
+            new System.Data.OleDb.OleDbParameter("Original_telex1", System.Data.OleDb.OleDbType.VarWChar, 255, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "telex", System.Data.DataRowVersion.Original, null)});
+            // 
+            // txDateDernierControle
+            // 
+            this.txDateDernierControle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.txDateDernierControle.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txDateDernierControle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.txDateDernierControle.Location = new System.Drawing.Point(1212, 935);
+            this.txDateDernierControle.Name = "txDateDernierControle";
+            this.txDateDernierControle.Size = new System.Drawing.Size(150, 19);
+            this.txDateDernierControle.TabIndex = 11;
+            this.txDateDernierControle.TabStop = false;
+            // 
+            // ControlesCAM
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(9, 19);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.ClientSize = new System.Drawing.Size(1378, 928);
+            this.ControlBox = false;
+            this.Controls.Add(this.txDateDernierControle);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox5);
+            this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "ControlesCAM";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Controles CAM";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 		#endregion
@@ -6679,10 +6612,10 @@ namespace Opindus
 						if(System.Convert.ToDecimal(textBox14.Text.Replace(".",","))>0)
 							oSheet.Cells[22,2] = textBox14.Text.Replace(".",",");
 
-                    oSheet.Cells[17, 11] = System.Convert.ToDecimal(textBox16.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[17, 11]).NumberFormat = "###,000";
-                    oSheet.Cells[17, 12] = System.Convert.ToDecimal(textBox17.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[17, 12]).NumberFormat = "###,000";
+                    oSheet.Cells[17, 11] = System.Convert.ToDecimal(textBox16.Text).ToString("F3", new CultureInfo("fr-FR", false));
+                    ((Range)oSheet.Cells[17, 11]).NumberFormat = "###.000";
+                    oSheet.Cells[17, 12] = System.Convert.ToDecimal(textBox17.Text).ToString("F3", new CultureInfo("fr-FR", false));
+                    ((Range)oSheet.Cells[17, 12]).NumberFormat = "###.000";
                     oSheet.Cells[17, 13] = System.Convert.ToDecimal(textBox18.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
                     ((Range)oSheet.Cells[17, 13]).NumberFormat = "###,000";
                     oSheet.Cells[17, 14] = System.Convert.ToDecimal(textBox19.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));

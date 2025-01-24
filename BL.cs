@@ -1801,8 +1801,12 @@ namespace Opindus
 				printDocument1.DefaultPageSettings.Margins.Bottom=50;
 				printDocument1.DefaultPageSettings.Margins.Left=50;
 				printDocument1.DefaultPageSettings.Margins.Right=50;
-				printDocument1.Print();	
-			}
+				//printDocument1.Print();
+
+                printPreviewDialog1.Document = printDocument1;
+
+                printPreviewDialog1.ShowDialog();
+            }
 			oleDbConnection1.Open();
 			Comm.CommandText="update t_bl_entete set Edite=true where [n° bl]="+textBox1.Text;
 			Comm.ExecuteNonQuery();
@@ -1821,6 +1825,10 @@ namespace Opindus
 				Ville="Fretin";
 			else
 				Ville="Rouen";
+
+            Image entete = Image.FromFile(@"C:\Program Files (x86)\Opindus\modeles\Logo_BL.png");
+
+            e.Graphics.DrawImage(entete, new Point() { X = 10, Y = 0 });
 
 			e.Graphics.DrawString(Ville+" le "+textBox2.Text, new Font("Arial", 8, FontStyle.Bold), Brushes.Black, e.MarginBounds.Left+350, ypos);
 			ypos+=40;

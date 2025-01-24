@@ -101,166 +101,174 @@ namespace Opindus
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(TransfertBL));
-			this.listView1 = new System.Windows.Forms.ListView();
-			this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-			this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-			this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-			this.oleDbConnection1 = new System.Data.OleDb.OleDbConnection();
-			this.listView2 = new System.Windows.Forms.ListView();
-			this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-			this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
-			this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
-			this.contextMenu1 = new System.Windows.Forms.ContextMenu();
-			this.listView3 = new System.Windows.Forms.ListView();
-			this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-			this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button5 = new System.Windows.Forms.Button();
-			this.SuspendLayout();
-			// 
-			// listView1
-			// 
-			this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-																						this.columnHeader1,
-																						this.columnHeader2,
-																						this.columnHeader3});
-			this.listView1.FullRowSelect = true;
-			this.listView1.GridLines = true;
-			this.listView1.Location = new System.Drawing.Point(16, 32);
-			this.listView1.Name = "listView1";
-			this.listView1.Size = new System.Drawing.Size(408, 216);
-			this.listView1.TabIndex = 0;
-			this.listView1.View = System.Windows.Forms.View.Details;
-			this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
-			// 
-			// columnHeader1
-			// 
-			this.columnHeader1.Text = "N° BL";
-			this.columnHeader1.Width = 70;
-			// 
-			// columnHeader2
-			// 
-			this.columnHeader2.Text = "Date";
-			this.columnHeader2.Width = 80;
-			// 
-			// columnHeader3
-			// 
-			this.columnHeader3.Text = "Client";
-			this.columnHeader3.Width = 230;
-			// 
-			// oleDbConnection1
-			// 
-			this.oleDbConnection1.ConnectionString = @"Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Registry Path=;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Database Password=;Data Source=""M:\Lyon\bd.mdb"";Password=;Jet OLEDB:Engine Type=5;Jet OLEDB:Global Bulk Transactions=1;Provider=""Microsoft.Jet.OLEDB.4.0"";Jet OLEDB:System database=;Jet OLEDB:SFP=False;Extended Properties=;Mode=Share Deny None;Jet OLEDB:New Database Password=;Jet OLEDB:Create System Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;User ID=Admin;Jet OLEDB:Encrypt Database=False";
-			// 
-			// listView2
-			// 
-			this.listView2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-																						this.columnHeader4,
-																						this.columnHeader5,
-																						this.columnHeader6});
-			this.listView2.ContextMenu = this.contextMenu1;
-			this.listView2.FullRowSelect = true;
-			this.listView2.GridLines = true;
-			this.listView2.Location = new System.Drawing.Point(16, 272);
-			this.listView2.Name = "listView2";
-			this.listView2.Size = new System.Drawing.Size(408, 144);
-			this.listView2.TabIndex = 2;
-			this.listView2.View = System.Windows.Forms.View.Details;
-			this.listView2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listView2_KeyDown);
-			// 
-			// columnHeader4
-			// 
-			this.columnHeader4.Text = "N° BL";
-			this.columnHeader4.Width = 70;
-			// 
-			// columnHeader5
-			// 
-			this.columnHeader5.Text = "Date";
-			this.columnHeader5.Width = 80;
-			// 
-			// columnHeader6
-			// 
-			this.columnHeader6.Text = "Client";
-			this.columnHeader6.Width = 230;
-			// 
-			// contextMenu1
-			// 
-			this.contextMenu1.Popup += new System.EventHandler(this.contextMenu1_Popup);
-			// 
-			// listView3
-			// 
-			this.listView3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.listView3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-																						this.columnHeader7,
-																						this.columnHeader8});
-			this.listView3.FullRowSelect = true;
-			this.listView3.GridLines = true;
-			this.listView3.Location = new System.Drawing.Point(440, 32);
-			this.listView3.Name = "listView3";
-			this.listView3.Size = new System.Drawing.Size(336, 384);
-			this.listView3.TabIndex = 3;
-			this.listView3.View = System.Windows.Forms.View.Details;
-			// 
-			// columnHeader7
-			// 
-			this.columnHeader7.Text = "N° BL";
-			this.columnHeader7.Width = 70;
-			// 
-			// columnHeader8
-			// 
-			this.columnHeader8.Text = "Client";
-			this.columnHeader8.Width = 230;
-			// 
-			// button2
-			// 
-			this.button2.BackColor = System.Drawing.Color.White;
-			this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.button2.ForeColor = System.Drawing.Color.Blue;
-			this.button2.Location = new System.Drawing.Point(440, 440);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(160, 23);
-			this.button2.TabIndex = 4;
-			this.button2.Text = "Lancer le transfert";
-			this.button2.Click += new System.EventHandler(this.button2_Click);
-			// 
-			// button5
-			// 
-			this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
-			this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.button5.ForeColor = System.Drawing.Color.Black;
-			this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-			this.button5.Location = new System.Drawing.Point(728, 424);
-			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(48, 48);
-			this.button5.TabIndex = 17;
-			this.button5.TabStop = false;
-			this.button5.Click += new System.EventHandler(this.button5_Click);
-			// 
-			// TransfertBL
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(6, 13);
-			this.BackColor = System.Drawing.Color.FromArgb(((System.Byte)(178)), ((System.Byte)(198)), ((System.Byte)(222)));
-			this.ClientSize = new System.Drawing.Size(792, 480);
-			this.ControlBox = false;
-			this.Controls.Add(this.button5);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.listView3);
-			this.Controls.Add(this.listView2);
-			this.Controls.Add(this.listView1);
-			this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-			this.Name = "TransfertBL";
-			this.ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Transfert BL vers gestion commerciale";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TransfertBL));
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.oleDbConnection1 = new System.Data.OleDb.OleDbConnection();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.contextMenu1 = new System.Windows.Forms.ContextMenu();
+            this.listView3 = new System.Windows.Forms.ListView();
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // listView1
+            // 
+            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.listView1.FullRowSelect = true;
+            this.listView1.GridLines = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(24, 47);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(612, 315);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "N° BL";
+            this.columnHeader1.Width = 70;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Date";
+            this.columnHeader2.Width = 80;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Client";
+            this.columnHeader3.Width = 230;
+            // 
+            // oleDbConnection1
+            // 
+            this.oleDbConnection1.ConnectionString = resources.GetString("oleDbConnection1.ConnectionString");
+            // 
+            // listView2
+            // 
+            this.listView2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6});
+            this.listView2.ContextMenu = this.contextMenu1;
+            this.listView2.FullRowSelect = true;
+            this.listView2.GridLines = true;
+            this.listView2.HideSelection = false;
+            this.listView2.Location = new System.Drawing.Point(24, 398);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(612, 210);
+            this.listView2.TabIndex = 2;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
+            this.listView2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listView2_KeyDown);
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "N° BL";
+            this.columnHeader4.Width = 70;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Date";
+            this.columnHeader5.Width = 80;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Client";
+            this.columnHeader6.Width = 230;
+            // 
+            // contextMenu1
+            // 
+            this.contextMenu1.Popup += new System.EventHandler(this.contextMenu1_Popup);
+            // 
+            // listView3
+            // 
+            this.listView3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listView3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader7,
+            this.columnHeader8});
+            this.listView3.FullRowSelect = true;
+            this.listView3.GridLines = true;
+            this.listView3.HideSelection = false;
+            this.listView3.Location = new System.Drawing.Point(660, 47);
+            this.listView3.Name = "listView3";
+            this.listView3.Size = new System.Drawing.Size(504, 561);
+            this.listView3.TabIndex = 3;
+            this.listView3.UseCompatibleStateImageBehavior = false;
+            this.listView3.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "N° BL";
+            this.columnHeader7.Width = 70;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Client";
+            this.columnHeader8.Width = 230;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Blue;
+            this.button2.Location = new System.Drawing.Point(660, 643);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(240, 34);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Lancer le transfert";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(1092, 620);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(72, 70);
+            this.button5.TabIndex = 17;
+            this.button5.TabStop = false;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // TransfertBL
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(9, 19);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.ClientSize = new System.Drawing.Size(1185, 711);
+            this.ControlBox = false;
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.listView3);
+            this.Controls.Add(this.listView2);
+            this.Controls.Add(this.listView1);
+            this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "TransfertBL";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Transfert BL vers gestion commerciale";
+            this.ResumeLayout(false);
 
 		}
 		#endregion
