@@ -8,6 +8,7 @@ using System.Data.OleDb;
 using System.IO;
 using System.Globalization;
 using Microsoft.Office.Interop.Excel;
+using System.Threading;
 
 namespace Opindus
 {
@@ -6535,7 +6536,10 @@ namespace Opindus
 			}
 			else
 			{
-				Comm.CommandText="SELECT T_clients.Nom, T_clients.Adresse_1, T_clients.Adresse_2, T_clients.Code_Postal, T_clients.Ville FROM T_clients WHERE T_clients.Ident="+idcli.Text+" GROUP BY T_clients.Nom, T_clients.Adresse_1, T_clients.Adresse_2, T_clients.Code_Postal, T_clients.Ville";
+                Thread.CurrentThread.CurrentCulture = new CultureInfo("fr-FR");
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("fr-FR");
+
+                Comm.CommandText="SELECT T_clients.Nom, T_clients.Adresse_1, T_clients.Adresse_2, T_clients.Code_Postal, T_clients.Ville FROM T_clients WHERE T_clients.Ident="+idcli.Text+" GROUP BY T_clients.Nom, T_clients.Adresse_1, T_clients.Adresse_2, T_clients.Code_Postal, T_clients.Ville";
 				DataAD.SelectCommand=Comm;
 				try
 				{
@@ -6612,66 +6616,66 @@ namespace Opindus
 						if(System.Convert.ToDecimal(textBox14.Text.Replace(".",","))>0)
 							oSheet.Cells[22,2] = textBox14.Text.Replace(".",",");
 
-                    oSheet.Cells[17, 11] = System.Convert.ToDecimal(textBox16.Text).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[17, 11]).NumberFormat = "###.000";
-                    oSheet.Cells[17, 12] = System.Convert.ToDecimal(textBox17.Text).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[17, 12]).NumberFormat = "###.000";
-                    oSheet.Cells[17, 13] = System.Convert.ToDecimal(textBox18.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[17, 13]).NumberFormat = "###,000";
-                    oSheet.Cells[17, 14] = System.Convert.ToDecimal(textBox19.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[17, 14]).NumberFormat = "###,000";
-                    oSheet.Cells[17, 15] = System.Convert.ToDecimal(textBox20.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[17, 15]).NumberFormat = "###,000";
-                    oSheet.Cells[18, 11] = System.Convert.ToDecimal(textBox21.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[18, 11]).NumberFormat = "###,000";
-                    oSheet.Cells[18, 12] = System.Convert.ToDecimal(textBox22.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[18, 12]).NumberFormat = "###,000";
-                    oSheet.Cells[18, 13] = System.Convert.ToDecimal(textBox23.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[18, 13]).NumberFormat = "###,000";
-                    oSheet.Cells[18, 14] = System.Convert.ToDecimal(textBox24.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[18, 14]).NumberFormat = "###,000";
-                    oSheet.Cells[18, 15] = System.Convert.ToDecimal(textBox25.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[18, 15]).NumberFormat = "###,000";
-                    oSheet.Cells[19, 11] = System.Convert.ToDecimal(textBox35.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[19, 11]).NumberFormat = "###,000";
-                    oSheet.Cells[19, 12] = System.Convert.ToDecimal(textBox34.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[19, 12]).NumberFormat = "###,000";
-                    oSheet.Cells[19, 13] = System.Convert.ToDecimal(textBox33.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[19, 13]).NumberFormat = "###,000";
-                    oSheet.Cells[19, 14] = System.Convert.ToDecimal(textBox32.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[19, 14]).NumberFormat = "###,000";
-                    oSheet.Cells[19, 15] = System.Convert.ToDecimal(textBox31.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[19, 15]).NumberFormat = "###,000";
-                    oSheet.Cells[20, 11] = System.Convert.ToDecimal(textBox30.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[20, 11]).NumberFormat = "###,000";
-                    oSheet.Cells[20, 12] = System.Convert.ToDecimal(textBox29.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[20, 12]).NumberFormat = "###,000";
-                    oSheet.Cells[20, 13] = System.Convert.ToDecimal(textBox28.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[20, 13]).NumberFormat = "###,000";
-                    oSheet.Cells[20, 14] = System.Convert.ToDecimal(textBox27.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[20, 14]).NumberFormat = "###,000";
-                    oSheet.Cells[20, 15] = System.Convert.ToDecimal(textBox26.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[20, 15]).NumberFormat = "###,000";
-                    oSheet.Cells[21, 11] = System.Convert.ToDecimal(textBox45.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[21, 11]).NumberFormat = "###,000";
-                    oSheet.Cells[21, 12] = System.Convert.ToDecimal(textBox44.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[21, 12]).NumberFormat = "###,000";
-                    oSheet.Cells[21, 13] = System.Convert.ToDecimal(textBox43.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[21, 13]).NumberFormat = "###,000";
-                    oSheet.Cells[21, 14] = System.Convert.ToDecimal(textBox42.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[21, 14]).NumberFormat = "###,000";
-                    oSheet.Cells[21, 15] = System.Convert.ToDecimal(textBox41.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[21, 15]).NumberFormat = "###,000";
-                    oSheet.Cells[22, 11] = System.Convert.ToDecimal(textBox40.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[22, 11]).NumberFormat = "###,000";
-                    oSheet.Cells[22, 12] = System.Convert.ToDecimal(textBox39.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[22, 12]).NumberFormat = "###,000";
-                    oSheet.Cells[22, 13] = System.Convert.ToDecimal(textBox38.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[22, 13]).NumberFormat = "###,000";
-                    oSheet.Cells[22, 14] = System.Convert.ToDecimal(textBox37.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[22, 14]).NumberFormat = "###,000";
-                    oSheet.Cells[22, 15] = System.Convert.ToDecimal(textBox36.Text.Replace(".", ",")).ToString("F3", new CultureInfo("fr-FR", false));
-                    ((Range)oSheet.Cells[22, 15]).NumberFormat = "###,000";
+                    oSheet.Cells[17, 11] = System.Convert.ToDecimal(textBox16.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[17, 11]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[17, 12] = System.Convert.ToDecimal(textBox17.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[17, 12]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[17, 13] = System.Convert.ToDecimal(textBox18.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[17, 13]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[17, 14] = System.Convert.ToDecimal(textBox19.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[17, 14]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[17, 15] = System.Convert.ToDecimal(textBox20.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[17, 15]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[18, 11] = System.Convert.ToDecimal(textBox21.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[18, 11]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[18, 12] = System.Convert.ToDecimal(textBox22.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[18, 12]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[18, 13] = System.Convert.ToDecimal(textBox23.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[18, 13]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[18, 14] = System.Convert.ToDecimal(textBox24.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[18, 14]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[18, 15] = System.Convert.ToDecimal(textBox25.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[18, 15]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[19, 11] = System.Convert.ToDecimal(textBox35.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[19, 11]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[19, 12] = System.Convert.ToDecimal(textBox34.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[19, 12]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[19, 13] = System.Convert.ToDecimal(textBox33.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[19, 13]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[19, 14] = System.Convert.ToDecimal(textBox32.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[19, 14]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[19, 15] = System.Convert.ToDecimal(textBox31.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[19, 15]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[20, 11] = System.Convert.ToDecimal(textBox30.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[20, 11]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[20, 12] = System.Convert.ToDecimal(textBox29.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[20, 12]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[20, 13] = System.Convert.ToDecimal(textBox28.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[20, 13]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[20, 14] = System.Convert.ToDecimal(textBox27.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[20, 14]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[20, 15] = System.Convert.ToDecimal(textBox26.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[20, 15]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[21, 11] = System.Convert.ToDecimal(textBox45.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[21, 11]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[21, 12] = System.Convert.ToDecimal(textBox44.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[21, 12]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[21, 13] = System.Convert.ToDecimal(textBox43.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[21, 13]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[21, 14] = System.Convert.ToDecimal(textBox42.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[21, 14]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[21, 15] = System.Convert.ToDecimal(textBox41.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[21, 15]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[22, 11] = System.Convert.ToDecimal(textBox40.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[22, 11]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[22, 12] = System.Convert.ToDecimal(textBox39.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[22, 12]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[22, 13] = System.Convert.ToDecimal(textBox38.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[22, 13]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[22, 14] = System.Convert.ToDecimal(textBox37.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[22, 14]).NumberFormat = "# ##0.00";
+                    oSheet.Cells[22, 15] = System.Convert.ToDecimal(textBox36.Text.Replace(".", ","));
+                    ((Range)oSheet.Cells[22, 15]).NumberFormat = "# ##0.00";
 
                     oXL.Workbooks[1].SaveAs(@"C:\Program Files (x86)\Opindus\excel\" + textBox1.Text.Replace("/", "-") + @"\controle_30.xls", Microsoft.Office.Interop.Excel.XlFileFormat.xlWorkbookNormal, "", "", false, false, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange, null, null, null, null, null); 
 					if(oXL != null)
